@@ -22,6 +22,8 @@ export interface ActivityEvent {
   /** An optional second line, such as the rule's text. */
   detail?: string;
   skillId?: string;
+  /** The member whose agent did this, on recall events. */
+  member?: string;
   /** Set on rule events, so a screen can show the rule's words. */
   ruleId?: string;
   at: string;
@@ -107,7 +109,7 @@ export function parseReceipt(raw: RawReceipt): ActivityEvent | null {
     if (verb.startsWith("RECALL")) {
       const count = Number(tags.get("rules"));
       const what = Number.isFinite(count) && count > 0 ? plural(count, "rule") : "rules";
-      return { ...base, ...who, kind: "recall", action: `recalled ${what} for ${target || "this space"}`, skillId: target || undefined };
+      return { ...base, ...who, kind: "recall", action: `recalled ${what} for ${target || "this space"}`, skillId: target || undefined, member: author || undefined };
     }
     if (verb === "LEARN_RULE") {
       return { ...base, ...who, kind: "rule", action: `taught a rule in ${target}`, skillId: target || undefined };

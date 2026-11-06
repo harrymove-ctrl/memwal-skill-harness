@@ -3,10 +3,12 @@ import { useMenu } from "./useMenu";
 
 export interface ShellSpace {
   name: string;
-  skillCount: number;
+  /** Undefined until someone has read this space. */
+  skillCount?: number;
 }
 
-export function skillCountLabel(count: number): string {
+export function skillCountLabel(count: number | undefined): string {
+  if (count === undefined) return "";
   const safe = Number.isFinite(count) ? Math.max(0, Math.floor(count)) : 0;
   return `${safe.toLocaleString("en-US")} ${safe === 1 ? "skill" : "skills"}`;
 }

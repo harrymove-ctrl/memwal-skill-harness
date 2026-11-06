@@ -132,9 +132,19 @@ export interface LastCheck {
   withRules: string;
   ruleText?: string;
   ruleAuthor?: string;
+  /** The plans were written by hand, not produced by a live model. The screen must say so. */
+  writtenExample?: boolean;
 }
 
-export function VerdictCard({ check, onTry }: { check: LastCheck | null; onTry?: () => void }) {
+export function VerdictCard({
+  check,
+  onTry,
+  title = "Last check",
+}: {
+  check: LastCheck | null;
+  onTry?: () => void;
+  title?: string;
+}) {
   if (!check) {
     return (
       <Card title="Last check" testId="verdict-empty">
@@ -147,7 +157,7 @@ export function VerdictCard({ check, onTry }: { check: LastCheck | null; onTry?:
   }
   return (
     <Card
-      title="Last check"
+      title={title}
       meta={check.task ? `${check.skillName}, ${check.task}` : check.skillName}
       testId="verdict"
     >
@@ -172,6 +182,9 @@ export function VerdictCard({ check, onTry }: { check: LastCheck | null; onTry?:
             <div>{check.ruleText}</div>
             {check.ruleAuthor && <div className="cc-meta">{plainHandle(check.ruleAuthor)}</div>}
           </div>
+        )}
+        {check.writtenExample && (
+          <div className="cc-meta" data-testid="verdict-written">Written example, not a live model</div>
         )}
       </div>
     </Card>

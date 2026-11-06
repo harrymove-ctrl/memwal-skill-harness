@@ -16,7 +16,7 @@ The plan for turning the harness into a product a team (and a judge) understands
 | [`concepts/`](concepts/) | Concept stills: `stills-dark/` is the chosen direction for every screen, `stills/` the light originals |
 | [`../brand/`](../brand/README.md) | The logo: the idea, every file, sizes, colors and rules |
 | [`audit/`](audit/) | Before screenshots and raw audit numbers |
-| [`qa/`](qa/) | After screenshots, flow videos and results for the shell and places, from `video/scripts/qa-shell.mjs` and `qa-places.mjs` |
+| [`qa/`](qa/) | After screenshots, flow videos and results for the real app, from `video/scripts/qa-app.mjs`, and for the shell and places, from `video/scripts/qa-shell.mjs` and `qa-places.mjs` |
 
 ## The decisions this plan needs from the owner
 

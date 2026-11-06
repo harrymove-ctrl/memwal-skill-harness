@@ -1,0 +1,781 @@
+{
+  "total": 155,
+  "failed": 0,
+  "results": [
+    {
+      "name": "try: starts on the skill with a real change",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "try: nothing is shown before Run",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "try: a double click reads rules once at a time",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "try: without the rule it approves",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "try: with the rule it closes",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "try: the rules card head does not overflow",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "try: names the rule that changed it",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "try: says the plans are written, not a live model",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "try: reports a labelled result for Home",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "try: turning the rule off really changes the result",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "try: both plans match when no rule applies",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "try: points to Skills when nothing changed",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "try: a skill without a written example lists its real rules",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "try: an off rule is left out",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "try: Run is disabled while running",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "try: changing skill mid run drops the old result",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "try: a failed run shows no verdict and offers Retry",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "team: owner sees one primary, Invite",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "team: the select's chevron does not tile over its text",
+      "ok": true,
+      "detail": "no-repeat"
+    },
+    {
+      "name": "team: Invite waits for an address",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "team: key member reads as verified via Tatum",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "team: no key reads as pending",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "team: full address stays in the tooltip",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "team: raw hash stays out of the row text",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "team: the on-chain owner has no role control",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "team: add clean says so",
+      "ok": true,
+      "detail": "Added. The Tatum address check found nothing. They need an agent key before their agent can recall."
+    },
+    {
+      "name": "team: added member appears",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "team: field clears after adding",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "team: add flagged says so",
+      "ok": true,
+      "detail": "Not added. The Tatum address check flagged this address."
+    },
+    {
+      "name": "team: a flagged address is not added",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "team: a flagged address keeps the field for correction",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "team: add invalid says so",
+      "ok": true,
+      "detail": "That is not a Sui address or a name we could find. Check it and try again."
+    },
+    {
+      "name": "team: add exists says so",
+      "ok": true,
+      "detail": "This address is already a member."
+    },
+    {
+      "name": "team: add unchecked says so",
+      "ok": true,
+      "detail": "Tatum could not check this address just now. Try again, or add it without a check.Add without a check"
+    },
+    {
+      "name": "team: an outage never adds by itself",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "team: adding without a check is a stated choice",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "team: shows Checking while it runs",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "team: a double click adds once",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "team: an owner can change a role",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "team: remove asks first",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "team: Keep cancels",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "team: Remove removes",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "team: invite link goes on the clipboard",
+      "ok": true,
+      "detail": "http://localhost:5188/join?ns=sample-space&invite=sample-token-1"
+    },
+    {
+      "name": "team: a refused change explains itself",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "team: viewer has no invite or member controls",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "team: viewer is told why",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "team: editor has no invite or member controls",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "team: editor is told why",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "team: signed out has no invite or member controls",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "team: signed out is told why",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "team: stranger has no invite or member controls",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "team: stranger is told why",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "team: signed out can sign in from here",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "team: nobody is shown verified when Tatum cannot answer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "agents: one primary, Copy setup",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "agents: waits for the first recall",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "agents: empty list reads plainly",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "agents: claude-code setup names this space",
+      "ok": true,
+      "detail": "claude mcp add memwal \\\n  -e MEMWAL_ACCOUNT_ID=0x4646464646464646464646464646464"
+    },
+    {
+      "name": "agents: claude-code setup never holds a key",
+      "ok": true,
+      "detail": "claude mcp add memwal \\\n  -e MEMWAL_ACCOUNT_ID=0x4646464646464646464646464646464"
+    },
+    {
+      "name": "agents: claude-code tile shows as selected",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "agents: claude-code instructions use the format Live reads",
+      "ok": true,
+      "detail": "After you recall team rules from \"sample-space\", save one memory with memwal_remember:\n[AGENT_LOG:RE"
+    },
+    {
+      "name": "agents: cursor setup names this space",
+      "ok": true,
+      "detail": "{\n  \"mcpServers\": {\n    \"memwal\": {\n      \"command\": \"npx\",\n      \"args\": [\n    "
+    },
+    {
+      "name": "agents: cursor setup never holds a key",
+      "ok": true,
+      "detail": "{\n  \"mcpServers\": {\n    \"memwal\": {\n      \"command\": \"npx\",\n      \"args\": [\n    "
+    },
+    {
+      "name": "agents: cursor tile shows as selected",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "agents: cursor instructions use the format Live reads",
+      "ok": true,
+      "detail": "After you recall team rules from \"sample-space\", save one memory with memwal_remember:\n[AGENT_LOG:RE"
+    },
+    {
+      "name": "agents: codex setup names this space",
+      "ok": true,
+      "detail": "[mcp_servers.memwal]\ncommand = \"npx\"\nargs = [\"-y\", \"@mysten-incubation/memwal-mc"
+    },
+    {
+      "name": "agents: codex setup never holds a key",
+      "ok": true,
+      "detail": "[mcp_servers.memwal]\ncommand = \"npx\"\nargs = [\"-y\", \"@mysten-incubation/memwal-mc"
+    },
+    {
+      "name": "agents: codex tile shows as selected",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "agents: codex instructions use the format Live reads",
+      "ok": true,
+      "detail": "After you recall team rules from \"sample-space\", save one memory with memwal_remember:\n[AGENT_LOG:RE"
+    },
+    {
+      "name": "agents: antigravity setup names this space",
+      "ok": true,
+      "detail": "{\n  \"mcpServers\": {\n    \"memwal\": {\n      \"command\": \"npx\",\n      \"args\": [\n    "
+    },
+    {
+      "name": "agents: antigravity setup never holds a key",
+      "ok": true,
+      "detail": "{\n  \"mcpServers\": {\n    \"memwal\": {\n      \"command\": \"npx\",\n      \"args\": [\n    "
+    },
+    {
+      "name": "agents: antigravity tile shows as selected",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "agents: antigravity instructions use the format Live reads",
+      "ok": true,
+      "detail": "After you recall team rules from \"sample-space\", save one memory with memwal_remember:\n[AGENT_LOG:RE"
+    },
+    {
+      "name": "agents: tatum-ai setup names this space",
+      "ok": true,
+      "detail": "{\n  \"openApiSpec\": \"http://localhost:5188/api/tatum-memwal/openapi.json\",\n  \"mcp"
+    },
+    {
+      "name": "agents: tatum-ai setup never holds a key",
+      "ok": true,
+      "detail": "{\n  \"openApiSpec\": \"http://localhost:5188/api/tatum-memwal/openapi.json\",\n  \"mcp"
+    },
+    {
+      "name": "agents: tatum-ai tile shows as selected",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "agents: tatum-ai instructions use the format Live reads",
+      "ok": true,
+      "detail": "After you recall team rules from \"sample-space\", save one memory with memwal_remember:\n[AGENT_LOG:RE"
+    },
+    {
+      "name": "agents: Copy setup copies the shown text",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "agents: connected status comes from the last recall",
+      "ok": true,
+      "detail": "Connected, last recall 1m ago from sample-qa"
+    },
+    {
+      "name": "agents: another agent still waits",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "agents: table lists connected agents with their member",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "agents: a failed check never says connected or waiting",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "proof: shows the mainnet count",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "proof: focus moves inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "proof: a placeholder is never offered as evidence",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "proof: real rule evidence is listed",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "proof: every id sits inside the panel, even beside a long label",
+      "ok": true,
+      "detail": "1224,1264,1264,1224,1224,1224,1224,1264,1264"
+    },
+    {
+      "name": "proof: every row can be copied",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "proof: Tab stays inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "proof: Escape closes and returns focus",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "proof: clicking outside closes",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "proof: an unread account is stated, not assumed",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "proof: failure offers Retry",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "state: place=team&state=loading shows skeleton",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "state: place=agents&state=loading shows skeleton",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "state: place=team&state=empty shows state-empty",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "state: place=team&state=error shows state-error",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "state: place=team&state=offline shows state-offline",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "state: place=agents&state=offline shows state-offline",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "state: place=try&state=offline shows state-offline",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "state: place=agents&state=error shows state-error",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "state: place=try&state=error shows state-error",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "state: place=team&state=readonly shows team-readonly",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "landing: one primary, Try the demo",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "landing: wallet choices stay hidden until Sign in",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "landing: the example is labelled as written",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signin: without a wallet it says what to do",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signin: never offers a typed email",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signin: Escape closes",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "app: / shows the landing page when signed out",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "app: dark is the default",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "app: landing has no overflow",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "app: the demo opens with no wallet",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "app: the signed out note is shown",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "app: a verdict within 30 seconds, without a wallet",
+      "ok": true,
+      "detail": "1.0s"
+    },
+    {
+      "name": "app: /graph lands on /skills",
+      "ok": true,
+      "detail": "http://localhost:5188/skills"
+    },
+    {
+      "name": "app: /eval lands on /try",
+      "ok": true,
+      "detail": "http://localhost:5188/try"
+    },
+    {
+      "name": "app: /cad lands on /agents",
+      "ok": true,
+      "detail": "http://localhost:5188/agents"
+    },
+    {
+      "name": "app: /home has no overflow",
+      "ok": true,
+      "detail": "0,0"
+    },
+    {
+      "name": "app: /skills has no overflow",
+      "ok": true,
+      "detail": "0,0"
+    },
+    {
+      "name": "app: /try has no overflow",
+      "ok": true,
+      "detail": "0,0"
+    },
+    {
+      "name": "app: /team has no overflow",
+      "ok": true,
+      "detail": "0,0"
+    },
+    {
+      "name": "app: /agents has no overflow",
+      "ok": true,
+      "detail": "0,0"
+    },
+    {
+      "name": "app: /home at 390px has no overflow",
+      "ok": true,
+      "detail": "0,0"
+    },
+    {
+      "name": "app: /skills at 390px has no overflow",
+      "ok": true,
+      "detail": "0,0"
+    },
+    {
+      "name": "app: /try at 390px has no overflow",
+      "ok": true,
+      "detail": "0,0"
+    },
+    {
+      "name": "app: /team at 390px has no overflow",
+      "ok": true,
+      "detail": "0,0"
+    },
+    {
+      "name": "app: /agents at 390px has no overflow",
+      "ok": true,
+      "detail": "0,0"
+    },
+    {
+      "name": "app: Home with a long last check has no overflow",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "app: Home says the last check is a written example",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "app: Team reads the real account through Tatum",
+      "ok": true,
+      "detail": "Members3 membersHharrymove-ctrl0x649e…4be1Pending: no key on the account yetOwnerMmysten-dev0x8a25…e124Owns the account, verified via Tatum Sui RPCOwnerTteammat"
+    },
+    {
+      "name": "app: the space holds at least 10 mainnet memories",
+      "ok": true,
+      "detail": "93"
+    },
+    {
+      "name": "app: Proof reads the real account",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "app: no key material in the page",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "app: /bento still opens the older app",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signin: the installed wallet is offered",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signin: a real signature opens a session and lands on Home",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signin: the session cookie is HttpOnly and SameSite Strict",
+      "ok": true,
+      "detail": "{\"httpOnly\":true,\"sameSite\":\"Strict\"}"
+    },
+    {
+      "name": "signin: scripts cannot read the session",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signin: the server knows the signer",
+      "ok": true,
+      "detail": "0xe26ec7ccf11c5dbcc0f91fdfcf8555c95d18ddd42dff5a6332f54daae07e67ee"
+    },
+    {
+      "name": "signin: a non member is told so and gets no controls",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signin: a signed in non member cannot write",
+      "ok": true,
+      "detail": "{\"rule\":403,\"member\":403,\"acl\":403,\"remember\":401}"
+    },
+    {
+      "name": "refused without a session: rule",
+      "ok": true,
+      "detail": "401"
+    },
+    {
+      "name": "refused without a session: spoofed",
+      "ok": true,
+      "detail": "401"
+    },
+    {
+      "name": "refused without a session: state",
+      "ok": true,
+      "detail": "401"
+    },
+    {
+      "name": "refused without a session: bake",
+      "ok": true,
+      "detail": "401"
+    },
+    {
+      "name": "refused without a session: skillPut",
+      "ok": true,
+      "detail": "401"
+    },
+    {
+      "name": "refused without a session: skillDelete",
+      "ok": true,
+      "detail": "401"
+    },
+    {
+      "name": "refused without a session: member",
+      "ok": true,
+      "detail": "401"
+    },
+    {
+      "name": "refused without a session: acl",
+      "ok": true,
+      "detail": "401"
+    },
+    {
+      "name": "refused without a session: remember",
+      "ok": true,
+      "detail": "401"
+    },
+    {
+      "name": "refused without a session: collection",
+      "ok": true,
+      "detail": "401"
+    },
+    {
+      "name": "refused: asking for access registers nobody",
+      "ok": true,
+      "detail": "{\"ok\":true,\"allowed\":false,\"namespace\":\"qa-refusal-check\",\"error\":\"Wallet or delegate key is not in the SEAL allowlist.\""
+    },
+    {
+      "name": "refused: the agent tool cannot write without the key",
+      "ok": true,
+      "detail": "{\"jsonrpc\":\"2.0\",\"id\":1,\"result\":{\"content\":[{\"type\":\"text\",\"text\":\"This tool writes to the space. Send the bridge key as x-api-key.\"}],\"isError\":true}}"
+    },
+    {
+      "name": "app: no console or page errors",
+      "ok": true,
+      "detail": ""
+    }
+  ]
+}

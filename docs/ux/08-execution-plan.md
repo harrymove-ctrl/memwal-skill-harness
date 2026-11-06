@@ -2,17 +2,18 @@
 
 Who does what, in order, until submission on Tuesday 10 November 2026 at 17:00 UTC. `07-build-plan.md` holds the detail for each step; this file is the running order.
 
-## Where things stand (checked 4 Nov, 12:05)
+## Where things stand (checked 6 Nov)
 
 | Item | State |
 | :--- | :--- |
-| Git repository | Not created |
-| `src/shell/` | Built and verified on its preview; waiting for Antigravity to wire it (step 3) |
-| `src/parts/`, `src/places/`, `src/hooks/` | Home, Live and Skills built and verified on their preview; waiting for wiring. Try it, Team, Agents and Landing not started |
-| Agent recall logging | Missing, so Live cannot appear on real data; see `07-build-plan.md` |
-| `src/App.tsx` | 2,544 lines, unchanged since 3 Nov 16:03 |
-| Dark theme as default | Tokens are in; the live app stays light until step 3 adds one line to `src/main.tsx` |
-| Tatum Sui RPC | Not integrated; the gateway protocol is still unconfirmed |
+| Git repository | Private at `harrymove-ctrl/memwal-skill-harness`. The logo PR and this work's PR are open and not merged |
+| App shell and every place | Built and running in the real app through `src/CommandCenter.tsx` on the feature branch. Not deployed |
+| `src/App.tsx` | Not edited, and now serves only `/bento` and `?legacy=1`. See `handoff-antigravity.md` |
+| Write access | Closed: signed sessions and real roles. See `07-build-plan.md` |
+| Tatum Sui RPC | Integrated over native gRPC for members, address checks, sign in and Proof |
+| Agent recall logging | Built on the server and in the Agents place. The `memwal-skill-hub` skill text is still to be added by you |
+| Before deploying | Set `MEMWAL_SESSION_SECRET` and `MEMWAL_BRIDGE_API_KEY`. Give the bridge key to Tatum AI Builder, or it can no longer write |
+| Real writes | Never exercised on mainnet by any test. Try one rule and one member after deploying |
 | Public repo and blog post | Not started |
 
 ## Running order
