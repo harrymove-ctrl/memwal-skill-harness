@@ -1,0 +1,7371 @@
+{
+  "total": 1473,
+  "failed": 0,
+  "results": [
+    {
+      "name": "home new dark 1280x800: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "home new dark 1280x800: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home new dark 1280x800: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home new dark 1280x800: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home new dark 1280x800: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "home new dark 1280x800: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home new dark 1280x800: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "home new dark 1280x800: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home new light 1280x800: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "home new light 1280x800: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home new light 1280x800: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home new light 1280x800: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home new light 1280x800: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "home new light 1280x800: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home new light 1280x800: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "home new light 1280x800: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home progress dark 1280x800: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "home progress dark 1280x800: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home progress dark 1280x800: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home progress dark 1280x800: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home progress dark 1280x800: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "home progress dark 1280x800: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home progress dark 1280x800: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "home progress dark 1280x800: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home progress light 1280x800: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "home progress light 1280x800: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home progress light 1280x800: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home progress light 1280x800: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home progress light 1280x800: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "home progress light 1280x800: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home progress light 1280x800: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "home progress light 1280x800: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home with check dark 1280x800: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "home with check dark 1280x800: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home with check dark 1280x800: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home with check dark 1280x800: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home with check dark 1280x800: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "home with check dark 1280x800: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home with check dark 1280x800: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "home with check dark 1280x800: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home with check light 1280x800: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "home with check light 1280x800: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home with check light 1280x800: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home with check light 1280x800: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home with check light 1280x800: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "home with check light 1280x800: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home with check light 1280x800: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "home with check light 1280x800: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home viewer dark 1280x800: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "home viewer dark 1280x800: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home viewer dark 1280x800: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home viewer dark 1280x800: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home viewer dark 1280x800: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "home viewer dark 1280x800: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home viewer dark 1280x800: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "home viewer dark 1280x800: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home viewer light 1280x800: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "home viewer light 1280x800: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home viewer light 1280x800: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home viewer light 1280x800: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home viewer light 1280x800: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "home viewer light 1280x800: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home viewer light 1280x800: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "home viewer light 1280x800: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home activity failed dark 1280x800: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "home activity failed dark 1280x800: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home activity failed dark 1280x800: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home activity failed dark 1280x800: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home activity failed dark 1280x800: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "home activity failed dark 1280x800: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home activity failed dark 1280x800: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "home activity failed dark 1280x800: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home activity failed light 1280x800: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "home activity failed light 1280x800: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home activity failed light 1280x800: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home activity failed light 1280x800: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home activity failed light 1280x800: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "home activity failed light 1280x800: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home activity failed light 1280x800: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "home activity failed light 1280x800: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home rules failed dark 1280x800: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "home rules failed dark 1280x800: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home rules failed dark 1280x800: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home rules failed dark 1280x800: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home rules failed dark 1280x800: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "home rules failed dark 1280x800: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home rules failed dark 1280x800: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "home rules failed dark 1280x800: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home rules failed light 1280x800: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "home rules failed light 1280x800: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home rules failed light 1280x800: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home rules failed light 1280x800: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home rules failed light 1280x800: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "home rules failed light 1280x800: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home rules failed light 1280x800: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "home rules failed light 1280x800: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "live dark 1280x800: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "live dark 1280x800: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "live dark 1280x800: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "live dark 1280x800: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "live dark 1280x800: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16,40"
+    },
+    {
+      "name": "live dark 1280x800: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "live dark 1280x800: at most one primary",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "live dark 1280x800: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "live light 1280x800: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "live light 1280x800: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "live light 1280x800: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "live light 1280x800: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "live light 1280x800: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16,40"
+    },
+    {
+      "name": "live light 1280x800: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "live light 1280x800: at most one primary",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "live light 1280x800: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "live quiet dark 1280x800: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "live quiet dark 1280x800: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "live quiet dark 1280x800: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "live quiet dark 1280x800: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "live quiet dark 1280x800: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16,40"
+    },
+    {
+      "name": "live quiet dark 1280x800: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "live quiet dark 1280x800: at most one primary",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "live quiet dark 1280x800: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "live quiet light 1280x800: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "live quiet light 1280x800: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "live quiet light 1280x800: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "live quiet light 1280x800: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "live quiet light 1280x800: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16,40"
+    },
+    {
+      "name": "live quiet light 1280x800: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "live quiet light 1280x800: at most one primary",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "live quiet light 1280x800: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills library dark 1280x800: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills library dark 1280x800: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills library dark 1280x800: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills library dark 1280x800: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills library dark 1280x800: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "skills library dark 1280x800: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills library dark 1280x800: at most one primary",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "skills library dark 1280x800: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills library light 1280x800: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills library light 1280x800: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills library light 1280x800: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills library light 1280x800: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills library light 1280x800: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "skills library light 1280x800: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills library light 1280x800: at most one primary",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "skills library light 1280x800: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills selected dark 1280x800: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills selected dark 1280x800: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills selected dark 1280x800: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills selected dark 1280x800: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills selected dark 1280x800: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "skills selected dark 1280x800: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills selected dark 1280x800: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "skills selected dark 1280x800: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills selected light 1280x800: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills selected light 1280x800: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills selected light 1280x800: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills selected light 1280x800: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills selected light 1280x800: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "skills selected light 1280x800: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills selected light 1280x800: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "skills selected light 1280x800: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills viewer dark 1280x800: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills viewer dark 1280x800: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills viewer dark 1280x800: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills viewer dark 1280x800: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills viewer dark 1280x800: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "skills viewer dark 1280x800: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills viewer dark 1280x800: at most one primary",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "skills viewer dark 1280x800: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills viewer light 1280x800: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills viewer light 1280x800: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills viewer light 1280x800: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills viewer light 1280x800: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills viewer light 1280x800: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "skills viewer light 1280x800: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills viewer light 1280x800: at most one primary",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "skills viewer light 1280x800: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills empty dark 1280x800: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills empty dark 1280x800: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills empty dark 1280x800: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills empty dark 1280x800: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills empty dark 1280x800: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "skills empty dark 1280x800: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills empty dark 1280x800: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "skills empty dark 1280x800: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills empty light 1280x800: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills empty light 1280x800: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills empty light 1280x800: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills empty light 1280x800: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills empty light 1280x800: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "skills empty light 1280x800: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills empty light 1280x800: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "skills empty light 1280x800: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills empty viewer dark 1280x800: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills empty viewer dark 1280x800: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills empty viewer dark 1280x800: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills empty viewer dark 1280x800: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills empty viewer dark 1280x800: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "skills empty viewer dark 1280x800: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills empty viewer dark 1280x800: at most one primary",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "skills empty viewer dark 1280x800: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills empty viewer light 1280x800: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills empty viewer light 1280x800: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills empty viewer light 1280x800: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills empty viewer light 1280x800: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills empty viewer light 1280x800: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "skills empty viewer light 1280x800: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills empty viewer light 1280x800: at most one primary",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "skills empty viewer light 1280x800: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills long dark 1280x800: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills long dark 1280x800: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills long dark 1280x800: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills long dark 1280x800: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills long dark 1280x800: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "skills long dark 1280x800: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills long dark 1280x800: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "skills long dark 1280x800: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills long light 1280x800: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills long light 1280x800: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills long light 1280x800: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills long light 1280x800: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills long light 1280x800: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "skills long light 1280x800: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills long light 1280x800: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "skills long light 1280x800: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills failed dark 1280x800: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills failed dark 1280x800: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills failed dark 1280x800: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills failed dark 1280x800: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills failed dark 1280x800: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "skills failed dark 1280x800: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills failed dark 1280x800: at most one primary",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "skills failed dark 1280x800: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills failed light 1280x800: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills failed light 1280x800: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills failed light 1280x800: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills failed light 1280x800: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills failed light 1280x800: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "skills failed light 1280x800: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills failed light 1280x800: at most one primary",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "skills failed light 1280x800: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills rules failed dark 1280x800: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills rules failed dark 1280x800: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills rules failed dark 1280x800: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills rules failed dark 1280x800: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills rules failed dark 1280x800: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "skills rules failed dark 1280x800: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills rules failed dark 1280x800: at most one primary",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "skills rules failed dark 1280x800: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills rules failed light 1280x800: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills rules failed light 1280x800: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills rules failed light 1280x800: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills rules failed light 1280x800: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills rules failed light 1280x800: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "skills rules failed light 1280x800: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills rules failed light 1280x800: at most one primary",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "skills rules failed light 1280x800: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills no rules dark 1280x800: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills no rules dark 1280x800: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills no rules dark 1280x800: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills no rules dark 1280x800: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills no rules dark 1280x800: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "skills no rules dark 1280x800: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills no rules dark 1280x800: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "skills no rules dark 1280x800: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills no rules light 1280x800: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills no rules light 1280x800: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills no rules light 1280x800: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills no rules light 1280x800: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills no rules light 1280x800: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "skills no rules light 1280x800: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills no rules light 1280x800: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "skills no rules light 1280x800: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home new dark 1024x768: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "home new dark 1024x768: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home new dark 1024x768: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home new dark 1024x768: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home new dark 1024x768: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "home new dark 1024x768: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home new dark 1024x768: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "home new dark 1024x768: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home new light 1024x768: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "home new light 1024x768: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home new light 1024x768: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home new light 1024x768: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home new light 1024x768: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "home new light 1024x768: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home new light 1024x768: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "home new light 1024x768: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home progress dark 1024x768: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "home progress dark 1024x768: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home progress dark 1024x768: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home progress dark 1024x768: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home progress dark 1024x768: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "home progress dark 1024x768: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home progress dark 1024x768: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "home progress dark 1024x768: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home progress light 1024x768: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "home progress light 1024x768: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home progress light 1024x768: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home progress light 1024x768: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home progress light 1024x768: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "home progress light 1024x768: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home progress light 1024x768: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "home progress light 1024x768: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home with check dark 1024x768: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "home with check dark 1024x768: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home with check dark 1024x768: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home with check dark 1024x768: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home with check dark 1024x768: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "home with check dark 1024x768: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home with check dark 1024x768: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "home with check dark 1024x768: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home with check light 1024x768: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "home with check light 1024x768: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home with check light 1024x768: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home with check light 1024x768: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home with check light 1024x768: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "home with check light 1024x768: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home with check light 1024x768: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "home with check light 1024x768: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home viewer dark 1024x768: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "home viewer dark 1024x768: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home viewer dark 1024x768: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home viewer dark 1024x768: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home viewer dark 1024x768: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "home viewer dark 1024x768: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home viewer dark 1024x768: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "home viewer dark 1024x768: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home viewer light 1024x768: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "home viewer light 1024x768: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home viewer light 1024x768: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home viewer light 1024x768: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home viewer light 1024x768: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "home viewer light 1024x768: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home viewer light 1024x768: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "home viewer light 1024x768: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home activity failed dark 1024x768: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "home activity failed dark 1024x768: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home activity failed dark 1024x768: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home activity failed dark 1024x768: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home activity failed dark 1024x768: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "home activity failed dark 1024x768: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home activity failed dark 1024x768: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "home activity failed dark 1024x768: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home activity failed light 1024x768: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "home activity failed light 1024x768: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home activity failed light 1024x768: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home activity failed light 1024x768: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home activity failed light 1024x768: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "home activity failed light 1024x768: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home activity failed light 1024x768: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "home activity failed light 1024x768: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home rules failed dark 1024x768: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "home rules failed dark 1024x768: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home rules failed dark 1024x768: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home rules failed dark 1024x768: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home rules failed dark 1024x768: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "home rules failed dark 1024x768: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home rules failed dark 1024x768: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "home rules failed dark 1024x768: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home rules failed light 1024x768: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "home rules failed light 1024x768: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home rules failed light 1024x768: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home rules failed light 1024x768: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home rules failed light 1024x768: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "home rules failed light 1024x768: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home rules failed light 1024x768: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "home rules failed light 1024x768: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "live dark 1024x768: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "live dark 1024x768: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "live dark 1024x768: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "live dark 1024x768: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "live dark 1024x768: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16,40"
+    },
+    {
+      "name": "live dark 1024x768: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "live dark 1024x768: at most one primary",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "live dark 1024x768: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "live light 1024x768: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "live light 1024x768: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "live light 1024x768: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "live light 1024x768: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "live light 1024x768: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16,40"
+    },
+    {
+      "name": "live light 1024x768: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "live light 1024x768: at most one primary",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "live light 1024x768: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "live quiet dark 1024x768: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "live quiet dark 1024x768: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "live quiet dark 1024x768: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "live quiet dark 1024x768: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "live quiet dark 1024x768: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16,40"
+    },
+    {
+      "name": "live quiet dark 1024x768: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "live quiet dark 1024x768: at most one primary",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "live quiet dark 1024x768: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "live quiet light 1024x768: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "live quiet light 1024x768: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "live quiet light 1024x768: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "live quiet light 1024x768: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "live quiet light 1024x768: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16,40"
+    },
+    {
+      "name": "live quiet light 1024x768: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "live quiet light 1024x768: at most one primary",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "live quiet light 1024x768: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills library dark 1024x768: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills library dark 1024x768: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills library dark 1024x768: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills library dark 1024x768: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills library dark 1024x768: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "skills library dark 1024x768: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills library dark 1024x768: at most one primary",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "skills library dark 1024x768: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills library light 1024x768: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills library light 1024x768: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills library light 1024x768: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills library light 1024x768: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills library light 1024x768: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "skills library light 1024x768: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills library light 1024x768: at most one primary",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "skills library light 1024x768: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills selected dark 1024x768: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills selected dark 1024x768: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills selected dark 1024x768: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills selected dark 1024x768: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills selected dark 1024x768: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "skills selected dark 1024x768: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills selected dark 1024x768: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "skills selected dark 1024x768: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills selected light 1024x768: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills selected light 1024x768: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills selected light 1024x768: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills selected light 1024x768: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills selected light 1024x768: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "skills selected light 1024x768: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills selected light 1024x768: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "skills selected light 1024x768: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills viewer dark 1024x768: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills viewer dark 1024x768: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills viewer dark 1024x768: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills viewer dark 1024x768: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills viewer dark 1024x768: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "skills viewer dark 1024x768: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills viewer dark 1024x768: at most one primary",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "skills viewer dark 1024x768: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills viewer light 1024x768: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills viewer light 1024x768: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills viewer light 1024x768: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills viewer light 1024x768: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills viewer light 1024x768: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "skills viewer light 1024x768: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills viewer light 1024x768: at most one primary",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "skills viewer light 1024x768: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills empty dark 1024x768: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills empty dark 1024x768: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills empty dark 1024x768: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills empty dark 1024x768: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills empty dark 1024x768: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "skills empty dark 1024x768: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills empty dark 1024x768: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "skills empty dark 1024x768: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills empty light 1024x768: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills empty light 1024x768: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills empty light 1024x768: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills empty light 1024x768: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills empty light 1024x768: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "skills empty light 1024x768: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills empty light 1024x768: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "skills empty light 1024x768: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills empty viewer dark 1024x768: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills empty viewer dark 1024x768: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills empty viewer dark 1024x768: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills empty viewer dark 1024x768: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills empty viewer dark 1024x768: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "skills empty viewer dark 1024x768: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills empty viewer dark 1024x768: at most one primary",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "skills empty viewer dark 1024x768: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills empty viewer light 1024x768: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills empty viewer light 1024x768: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills empty viewer light 1024x768: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills empty viewer light 1024x768: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills empty viewer light 1024x768: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "skills empty viewer light 1024x768: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills empty viewer light 1024x768: at most one primary",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "skills empty viewer light 1024x768: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills long dark 1024x768: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills long dark 1024x768: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills long dark 1024x768: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills long dark 1024x768: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills long dark 1024x768: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "skills long dark 1024x768: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills long dark 1024x768: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "skills long dark 1024x768: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills long light 1024x768: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills long light 1024x768: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills long light 1024x768: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills long light 1024x768: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills long light 1024x768: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "skills long light 1024x768: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills long light 1024x768: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "skills long light 1024x768: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills failed dark 1024x768: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills failed dark 1024x768: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills failed dark 1024x768: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills failed dark 1024x768: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills failed dark 1024x768: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "skills failed dark 1024x768: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills failed dark 1024x768: at most one primary",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "skills failed dark 1024x768: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills failed light 1024x768: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills failed light 1024x768: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills failed light 1024x768: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills failed light 1024x768: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills failed light 1024x768: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "skills failed light 1024x768: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills failed light 1024x768: at most one primary",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "skills failed light 1024x768: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills rules failed dark 1024x768: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills rules failed dark 1024x768: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills rules failed dark 1024x768: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills rules failed dark 1024x768: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills rules failed dark 1024x768: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "skills rules failed dark 1024x768: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills rules failed dark 1024x768: at most one primary",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "skills rules failed dark 1024x768: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills rules failed light 1024x768: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills rules failed light 1024x768: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills rules failed light 1024x768: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills rules failed light 1024x768: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills rules failed light 1024x768: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "skills rules failed light 1024x768: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills rules failed light 1024x768: at most one primary",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "skills rules failed light 1024x768: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills no rules dark 1024x768: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills no rules dark 1024x768: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills no rules dark 1024x768: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills no rules dark 1024x768: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills no rules dark 1024x768: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "skills no rules dark 1024x768: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills no rules dark 1024x768: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "skills no rules dark 1024x768: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills no rules light 1024x768: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills no rules light 1024x768: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills no rules light 1024x768: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills no rules light 1024x768: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills no rules light 1024x768: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "skills no rules light 1024x768: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills no rules light 1024x768: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "skills no rules light 1024x768: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home new dark 768x1024: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "home new dark 768x1024: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home new dark 768x1024: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home new dark 768x1024: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home new dark 768x1024: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "home new dark 768x1024: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home new dark 768x1024: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "home new dark 768x1024: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home new light 768x1024: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "home new light 768x1024: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home new light 768x1024: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home new light 768x1024: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home new light 768x1024: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "home new light 768x1024: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home new light 768x1024: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "home new light 768x1024: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home progress dark 768x1024: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "home progress dark 768x1024: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home progress dark 768x1024: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home progress dark 768x1024: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home progress dark 768x1024: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "home progress dark 768x1024: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home progress dark 768x1024: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "home progress dark 768x1024: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home progress light 768x1024: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "home progress light 768x1024: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home progress light 768x1024: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home progress light 768x1024: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home progress light 768x1024: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "home progress light 768x1024: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home progress light 768x1024: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "home progress light 768x1024: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home with check dark 768x1024: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "home with check dark 768x1024: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home with check dark 768x1024: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home with check dark 768x1024: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home with check dark 768x1024: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "home with check dark 768x1024: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home with check dark 768x1024: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "home with check dark 768x1024: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home with check light 768x1024: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "home with check light 768x1024: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home with check light 768x1024: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home with check light 768x1024: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home with check light 768x1024: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "home with check light 768x1024: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home with check light 768x1024: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "home with check light 768x1024: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home viewer dark 768x1024: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "home viewer dark 768x1024: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home viewer dark 768x1024: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home viewer dark 768x1024: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home viewer dark 768x1024: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "home viewer dark 768x1024: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home viewer dark 768x1024: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "home viewer dark 768x1024: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home viewer light 768x1024: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "home viewer light 768x1024: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home viewer light 768x1024: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home viewer light 768x1024: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home viewer light 768x1024: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "home viewer light 768x1024: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home viewer light 768x1024: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "home viewer light 768x1024: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home activity failed dark 768x1024: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "home activity failed dark 768x1024: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home activity failed dark 768x1024: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home activity failed dark 768x1024: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home activity failed dark 768x1024: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "home activity failed dark 768x1024: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home activity failed dark 768x1024: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "home activity failed dark 768x1024: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home activity failed light 768x1024: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "home activity failed light 768x1024: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home activity failed light 768x1024: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home activity failed light 768x1024: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home activity failed light 768x1024: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "home activity failed light 768x1024: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home activity failed light 768x1024: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "home activity failed light 768x1024: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home rules failed dark 768x1024: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "home rules failed dark 768x1024: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home rules failed dark 768x1024: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home rules failed dark 768x1024: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home rules failed dark 768x1024: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "home rules failed dark 768x1024: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home rules failed dark 768x1024: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "home rules failed dark 768x1024: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home rules failed light 768x1024: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "home rules failed light 768x1024: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home rules failed light 768x1024: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home rules failed light 768x1024: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home rules failed light 768x1024: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "home rules failed light 768x1024: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home rules failed light 768x1024: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "home rules failed light 768x1024: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "live dark 768x1024: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "live dark 768x1024: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "live dark 768x1024: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "live dark 768x1024: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "live dark 768x1024: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16,40"
+    },
+    {
+      "name": "live dark 768x1024: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "live dark 768x1024: at most one primary",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "live dark 768x1024: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "live light 768x1024: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "live light 768x1024: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "live light 768x1024: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "live light 768x1024: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "live light 768x1024: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16,40"
+    },
+    {
+      "name": "live light 768x1024: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "live light 768x1024: at most one primary",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "live light 768x1024: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "live quiet dark 768x1024: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "live quiet dark 768x1024: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "live quiet dark 768x1024: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "live quiet dark 768x1024: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "live quiet dark 768x1024: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16,40"
+    },
+    {
+      "name": "live quiet dark 768x1024: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "live quiet dark 768x1024: at most one primary",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "live quiet dark 768x1024: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "live quiet light 768x1024: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "live quiet light 768x1024: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "live quiet light 768x1024: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "live quiet light 768x1024: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "live quiet light 768x1024: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16,40"
+    },
+    {
+      "name": "live quiet light 768x1024: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "live quiet light 768x1024: at most one primary",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "live quiet light 768x1024: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills library dark 768x1024: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills library dark 768x1024: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills library dark 768x1024: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills library dark 768x1024: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills library dark 768x1024: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "skills library dark 768x1024: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills library dark 768x1024: at most one primary",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "skills library dark 768x1024: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills library light 768x1024: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills library light 768x1024: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills library light 768x1024: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills library light 768x1024: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills library light 768x1024: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "skills library light 768x1024: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills library light 768x1024: at most one primary",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "skills library light 768x1024: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills selected dark 768x1024: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills selected dark 768x1024: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills selected dark 768x1024: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills selected dark 768x1024: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills selected dark 768x1024: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "skills selected dark 768x1024: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills selected dark 768x1024: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "skills selected dark 768x1024: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills selected light 768x1024: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills selected light 768x1024: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills selected light 768x1024: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills selected light 768x1024: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills selected light 768x1024: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "skills selected light 768x1024: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills selected light 768x1024: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "skills selected light 768x1024: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills viewer dark 768x1024: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills viewer dark 768x1024: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills viewer dark 768x1024: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills viewer dark 768x1024: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills viewer dark 768x1024: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "skills viewer dark 768x1024: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills viewer dark 768x1024: at most one primary",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "skills viewer dark 768x1024: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills viewer light 768x1024: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills viewer light 768x1024: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills viewer light 768x1024: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills viewer light 768x1024: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills viewer light 768x1024: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "skills viewer light 768x1024: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills viewer light 768x1024: at most one primary",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "skills viewer light 768x1024: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills empty dark 768x1024: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills empty dark 768x1024: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills empty dark 768x1024: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills empty dark 768x1024: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills empty dark 768x1024: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "skills empty dark 768x1024: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills empty dark 768x1024: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "skills empty dark 768x1024: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills empty light 768x1024: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills empty light 768x1024: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills empty light 768x1024: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills empty light 768x1024: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills empty light 768x1024: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "skills empty light 768x1024: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills empty light 768x1024: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "skills empty light 768x1024: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills empty viewer dark 768x1024: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills empty viewer dark 768x1024: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills empty viewer dark 768x1024: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills empty viewer dark 768x1024: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills empty viewer dark 768x1024: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "skills empty viewer dark 768x1024: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills empty viewer dark 768x1024: at most one primary",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "skills empty viewer dark 768x1024: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills empty viewer light 768x1024: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills empty viewer light 768x1024: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills empty viewer light 768x1024: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills empty viewer light 768x1024: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills empty viewer light 768x1024: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "skills empty viewer light 768x1024: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills empty viewer light 768x1024: at most one primary",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "skills empty viewer light 768x1024: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills long dark 768x1024: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills long dark 768x1024: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills long dark 768x1024: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills long dark 768x1024: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills long dark 768x1024: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "skills long dark 768x1024: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills long dark 768x1024: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "skills long dark 768x1024: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills long light 768x1024: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills long light 768x1024: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills long light 768x1024: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills long light 768x1024: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills long light 768x1024: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "skills long light 768x1024: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills long light 768x1024: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "skills long light 768x1024: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills failed dark 768x1024: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills failed dark 768x1024: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills failed dark 768x1024: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills failed dark 768x1024: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills failed dark 768x1024: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "skills failed dark 768x1024: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills failed dark 768x1024: at most one primary",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "skills failed dark 768x1024: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills failed light 768x1024: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills failed light 768x1024: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills failed light 768x1024: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills failed light 768x1024: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills failed light 768x1024: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "skills failed light 768x1024: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills failed light 768x1024: at most one primary",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "skills failed light 768x1024: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills rules failed dark 768x1024: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills rules failed dark 768x1024: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills rules failed dark 768x1024: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills rules failed dark 768x1024: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills rules failed dark 768x1024: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "skills rules failed dark 768x1024: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills rules failed dark 768x1024: at most one primary",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "skills rules failed dark 768x1024: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills rules failed light 768x1024: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills rules failed light 768x1024: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills rules failed light 768x1024: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills rules failed light 768x1024: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills rules failed light 768x1024: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "skills rules failed light 768x1024: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills rules failed light 768x1024: at most one primary",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "skills rules failed light 768x1024: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills no rules dark 768x1024: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills no rules dark 768x1024: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills no rules dark 768x1024: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills no rules dark 768x1024: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills no rules dark 768x1024: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "skills no rules dark 768x1024: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills no rules dark 768x1024: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "skills no rules dark 768x1024: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills no rules light 768x1024: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills no rules light 768x1024: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills no rules light 768x1024: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills no rules light 768x1024: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills no rules light 768x1024: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "skills no rules light 768x1024: controls at least 32px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills no rules light 768x1024: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "skills no rules light 768x1024: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home new dark 390x844: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "home new dark 390x844: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home new dark 390x844: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home new dark 390x844: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home new dark 390x844: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "home new dark 390x844: controls at least 44px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home new dark 390x844: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "home new dark 390x844: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home new light 390x844: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "home new light 390x844: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home new light 390x844: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home new light 390x844: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home new light 390x844: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "home new light 390x844: controls at least 44px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home new light 390x844: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "home new light 390x844: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home progress dark 390x844: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "home progress dark 390x844: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home progress dark 390x844: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home progress dark 390x844: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home progress dark 390x844: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "home progress dark 390x844: controls at least 44px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home progress dark 390x844: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "home progress dark 390x844: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home progress light 390x844: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "home progress light 390x844: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home progress light 390x844: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home progress light 390x844: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home progress light 390x844: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "home progress light 390x844: controls at least 44px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home progress light 390x844: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "home progress light 390x844: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home with check dark 390x844: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "home with check dark 390x844: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home with check dark 390x844: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home with check dark 390x844: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home with check dark 390x844: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "home with check dark 390x844: controls at least 44px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home with check dark 390x844: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "home with check dark 390x844: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home with check light 390x844: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "home with check light 390x844: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home with check light 390x844: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home with check light 390x844: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home with check light 390x844: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "home with check light 390x844: controls at least 44px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home with check light 390x844: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "home with check light 390x844: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home viewer dark 390x844: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "home viewer dark 390x844: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home viewer dark 390x844: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home viewer dark 390x844: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home viewer dark 390x844: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "home viewer dark 390x844: controls at least 44px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home viewer dark 390x844: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "home viewer dark 390x844: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home viewer light 390x844: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "home viewer light 390x844: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home viewer light 390x844: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home viewer light 390x844: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home viewer light 390x844: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "home viewer light 390x844: controls at least 44px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home viewer light 390x844: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "home viewer light 390x844: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home activity failed dark 390x844: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "home activity failed dark 390x844: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home activity failed dark 390x844: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home activity failed dark 390x844: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home activity failed dark 390x844: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "home activity failed dark 390x844: controls at least 44px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home activity failed dark 390x844: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "home activity failed dark 390x844: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home activity failed light 390x844: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "home activity failed light 390x844: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home activity failed light 390x844: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home activity failed light 390x844: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home activity failed light 390x844: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "home activity failed light 390x844: controls at least 44px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home activity failed light 390x844: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "home activity failed light 390x844: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home rules failed dark 390x844: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "home rules failed dark 390x844: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home rules failed dark 390x844: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home rules failed dark 390x844: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home rules failed dark 390x844: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "home rules failed dark 390x844: controls at least 44px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home rules failed dark 390x844: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "home rules failed dark 390x844: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home rules failed light 390x844: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "home rules failed light 390x844: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home rules failed light 390x844: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home rules failed light 390x844: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home rules failed light 390x844: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "home rules failed light 390x844: controls at least 44px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home rules failed light 390x844: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "home rules failed light 390x844: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "live dark 390x844: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "live dark 390x844: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "live dark 390x844: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "live dark 390x844: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "live dark 390x844: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12,40"
+    },
+    {
+      "name": "live dark 390x844: controls at least 44px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "live dark 390x844: at most one primary",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "live dark 390x844: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "live light 390x844: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "live light 390x844: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "live light 390x844: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "live light 390x844: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "live light 390x844: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12,40"
+    },
+    {
+      "name": "live light 390x844: controls at least 44px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "live light 390x844: at most one primary",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "live light 390x844: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "live quiet dark 390x844: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "live quiet dark 390x844: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "live quiet dark 390x844: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "live quiet dark 390x844: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "live quiet dark 390x844: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12,40"
+    },
+    {
+      "name": "live quiet dark 390x844: controls at least 44px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "live quiet dark 390x844: at most one primary",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "live quiet dark 390x844: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "live quiet light 390x844: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "live quiet light 390x844: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "live quiet light 390x844: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "live quiet light 390x844: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "live quiet light 390x844: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12,40"
+    },
+    {
+      "name": "live quiet light 390x844: controls at least 44px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "live quiet light 390x844: at most one primary",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "live quiet light 390x844: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills library dark 390x844: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills library dark 390x844: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills library dark 390x844: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills library dark 390x844: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills library dark 390x844: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "skills library dark 390x844: controls at least 44px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills library dark 390x844: at most one primary",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "skills library dark 390x844: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills library light 390x844: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills library light 390x844: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills library light 390x844: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills library light 390x844: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills library light 390x844: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "skills library light 390x844: controls at least 44px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills library light 390x844: at most one primary",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "skills library light 390x844: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills selected dark 390x844: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills selected dark 390x844: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills selected dark 390x844: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills selected dark 390x844: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills selected dark 390x844: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "skills selected dark 390x844: controls at least 44px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills selected dark 390x844: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "skills selected dark 390x844: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills selected light 390x844: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills selected light 390x844: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills selected light 390x844: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills selected light 390x844: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills selected light 390x844: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "skills selected light 390x844: controls at least 44px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills selected light 390x844: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "skills selected light 390x844: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills viewer dark 390x844: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills viewer dark 390x844: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills viewer dark 390x844: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills viewer dark 390x844: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills viewer dark 390x844: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "skills viewer dark 390x844: controls at least 44px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills viewer dark 390x844: at most one primary",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "skills viewer dark 390x844: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills viewer light 390x844: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills viewer light 390x844: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills viewer light 390x844: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills viewer light 390x844: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills viewer light 390x844: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "skills viewer light 390x844: controls at least 44px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills viewer light 390x844: at most one primary",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "skills viewer light 390x844: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills empty dark 390x844: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills empty dark 390x844: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills empty dark 390x844: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills empty dark 390x844: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills empty dark 390x844: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "skills empty dark 390x844: controls at least 44px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills empty dark 390x844: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "skills empty dark 390x844: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills empty light 390x844: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills empty light 390x844: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills empty light 390x844: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills empty light 390x844: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills empty light 390x844: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "skills empty light 390x844: controls at least 44px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills empty light 390x844: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "skills empty light 390x844: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills empty viewer dark 390x844: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills empty viewer dark 390x844: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills empty viewer dark 390x844: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills empty viewer dark 390x844: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills empty viewer dark 390x844: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "skills empty viewer dark 390x844: controls at least 44px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills empty viewer dark 390x844: at most one primary",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "skills empty viewer dark 390x844: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills empty viewer light 390x844: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills empty viewer light 390x844: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills empty viewer light 390x844: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills empty viewer light 390x844: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills empty viewer light 390x844: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "skills empty viewer light 390x844: controls at least 44px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills empty viewer light 390x844: at most one primary",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "skills empty viewer light 390x844: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills long dark 390x844: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills long dark 390x844: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills long dark 390x844: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills long dark 390x844: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills long dark 390x844: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "skills long dark 390x844: controls at least 44px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills long dark 390x844: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "skills long dark 390x844: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills long light 390x844: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills long light 390x844: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills long light 390x844: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills long light 390x844: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills long light 390x844: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "skills long light 390x844: controls at least 44px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills long light 390x844: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "skills long light 390x844: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills failed dark 390x844: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills failed dark 390x844: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills failed dark 390x844: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills failed dark 390x844: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills failed dark 390x844: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "skills failed dark 390x844: controls at least 44px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills failed dark 390x844: at most one primary",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "skills failed dark 390x844: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills failed light 390x844: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills failed light 390x844: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills failed light 390x844: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills failed light 390x844: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills failed light 390x844: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "skills failed light 390x844: controls at least 44px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills failed light 390x844: at most one primary",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "skills failed light 390x844: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills rules failed dark 390x844: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills rules failed dark 390x844: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills rules failed dark 390x844: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills rules failed dark 390x844: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills rules failed dark 390x844: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "skills rules failed dark 390x844: controls at least 44px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills rules failed dark 390x844: at most one primary",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "skills rules failed dark 390x844: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills rules failed light 390x844: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills rules failed light 390x844: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills rules failed light 390x844: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills rules failed light 390x844: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills rules failed light 390x844: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "skills rules failed light 390x844: controls at least 44px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills rules failed light 390x844: at most one primary",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "skills rules failed light 390x844: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills no rules dark 390x844: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills no rules dark 390x844: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills no rules dark 390x844: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills no rules dark 390x844: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills no rules dark 390x844: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "skills no rules dark 390x844: controls at least 44px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills no rules dark 390x844: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "skills no rules dark 390x844: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills no rules light 390x844: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills no rules light 390x844: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills no rules light 390x844: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills no rules light 390x844: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills no rules light 390x844: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "skills no rules light 390x844: controls at least 44px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills no rules light 390x844: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "skills no rules light 390x844: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home new dark 320x568: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "home new dark 320x568: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home new dark 320x568: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home new dark 320x568: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home new dark 320x568: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "home new dark 320x568: controls at least 44px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home new dark 320x568: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "home new dark 320x568: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home new light 320x568: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "home new light 320x568: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home new light 320x568: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home new light 320x568: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home new light 320x568: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "home new light 320x568: controls at least 44px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home new light 320x568: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "home new light 320x568: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home progress dark 320x568: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "home progress dark 320x568: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home progress dark 320x568: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home progress dark 320x568: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home progress dark 320x568: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "home progress dark 320x568: controls at least 44px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home progress dark 320x568: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "home progress dark 320x568: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home progress light 320x568: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "home progress light 320x568: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home progress light 320x568: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home progress light 320x568: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home progress light 320x568: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "home progress light 320x568: controls at least 44px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home progress light 320x568: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "home progress light 320x568: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home with check dark 320x568: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "home with check dark 320x568: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home with check dark 320x568: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home with check dark 320x568: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home with check dark 320x568: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "home with check dark 320x568: controls at least 44px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home with check dark 320x568: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "home with check dark 320x568: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home with check light 320x568: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "home with check light 320x568: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home with check light 320x568: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home with check light 320x568: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home with check light 320x568: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "home with check light 320x568: controls at least 44px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home with check light 320x568: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "home with check light 320x568: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home viewer dark 320x568: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "home viewer dark 320x568: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home viewer dark 320x568: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home viewer dark 320x568: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home viewer dark 320x568: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "home viewer dark 320x568: controls at least 44px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home viewer dark 320x568: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "home viewer dark 320x568: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home viewer light 320x568: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "home viewer light 320x568: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home viewer light 320x568: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home viewer light 320x568: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home viewer light 320x568: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "home viewer light 320x568: controls at least 44px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home viewer light 320x568: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "home viewer light 320x568: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home activity failed dark 320x568: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "home activity failed dark 320x568: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home activity failed dark 320x568: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home activity failed dark 320x568: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home activity failed dark 320x568: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "home activity failed dark 320x568: controls at least 44px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home activity failed dark 320x568: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "home activity failed dark 320x568: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home activity failed light 320x568: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "home activity failed light 320x568: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home activity failed light 320x568: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home activity failed light 320x568: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home activity failed light 320x568: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "home activity failed light 320x568: controls at least 44px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home activity failed light 320x568: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "home activity failed light 320x568: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home rules failed dark 320x568: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "home rules failed dark 320x568: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home rules failed dark 320x568: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home rules failed dark 320x568: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home rules failed dark 320x568: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "home rules failed dark 320x568: controls at least 44px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home rules failed dark 320x568: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "home rules failed dark 320x568: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home rules failed light 320x568: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "home rules failed light 320x568: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home rules failed light 320x568: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home rules failed light 320x568: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home rules failed light 320x568: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "home rules failed light 320x568: controls at least 44px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "home rules failed light 320x568: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "home rules failed light 320x568: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "live dark 320x568: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "live dark 320x568: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "live dark 320x568: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "live dark 320x568: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "live dark 320x568: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12,40"
+    },
+    {
+      "name": "live dark 320x568: controls at least 44px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "live dark 320x568: at most one primary",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "live dark 320x568: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "live light 320x568: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "live light 320x568: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "live light 320x568: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "live light 320x568: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "live light 320x568: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12,40"
+    },
+    {
+      "name": "live light 320x568: controls at least 44px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "live light 320x568: at most one primary",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "live light 320x568: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "live quiet dark 320x568: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "live quiet dark 320x568: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "live quiet dark 320x568: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "live quiet dark 320x568: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "live quiet dark 320x568: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12,40"
+    },
+    {
+      "name": "live quiet dark 320x568: controls at least 44px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "live quiet dark 320x568: at most one primary",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "live quiet dark 320x568: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "live quiet light 320x568: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "live quiet light 320x568: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "live quiet light 320x568: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "live quiet light 320x568: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "live quiet light 320x568: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12,40"
+    },
+    {
+      "name": "live quiet light 320x568: controls at least 44px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "live quiet light 320x568: at most one primary",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "live quiet light 320x568: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills library dark 320x568: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills library dark 320x568: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills library dark 320x568: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills library dark 320x568: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills library dark 320x568: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "skills library dark 320x568: controls at least 44px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills library dark 320x568: at most one primary",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "skills library dark 320x568: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills library light 320x568: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills library light 320x568: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills library light 320x568: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills library light 320x568: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills library light 320x568: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "skills library light 320x568: controls at least 44px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills library light 320x568: at most one primary",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "skills library light 320x568: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills selected dark 320x568: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills selected dark 320x568: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills selected dark 320x568: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills selected dark 320x568: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills selected dark 320x568: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "skills selected dark 320x568: controls at least 44px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills selected dark 320x568: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "skills selected dark 320x568: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills selected light 320x568: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills selected light 320x568: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills selected light 320x568: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills selected light 320x568: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills selected light 320x568: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "skills selected light 320x568: controls at least 44px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills selected light 320x568: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "skills selected light 320x568: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills viewer dark 320x568: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills viewer dark 320x568: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills viewer dark 320x568: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills viewer dark 320x568: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills viewer dark 320x568: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "skills viewer dark 320x568: controls at least 44px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills viewer dark 320x568: at most one primary",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "skills viewer dark 320x568: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills viewer light 320x568: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills viewer light 320x568: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills viewer light 320x568: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills viewer light 320x568: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills viewer light 320x568: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "skills viewer light 320x568: controls at least 44px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills viewer light 320x568: at most one primary",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "skills viewer light 320x568: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills empty dark 320x568: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills empty dark 320x568: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills empty dark 320x568: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills empty dark 320x568: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills empty dark 320x568: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "skills empty dark 320x568: controls at least 44px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills empty dark 320x568: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "skills empty dark 320x568: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills empty light 320x568: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills empty light 320x568: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills empty light 320x568: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills empty light 320x568: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills empty light 320x568: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "skills empty light 320x568: controls at least 44px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills empty light 320x568: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "skills empty light 320x568: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills empty viewer dark 320x568: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills empty viewer dark 320x568: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills empty viewer dark 320x568: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills empty viewer dark 320x568: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills empty viewer dark 320x568: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "skills empty viewer dark 320x568: controls at least 44px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills empty viewer dark 320x568: at most one primary",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "skills empty viewer dark 320x568: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills empty viewer light 320x568: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills empty viewer light 320x568: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills empty viewer light 320x568: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills empty viewer light 320x568: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills empty viewer light 320x568: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "skills empty viewer light 320x568: controls at least 44px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills empty viewer light 320x568: at most one primary",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "skills empty viewer light 320x568: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills long dark 320x568: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills long dark 320x568: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills long dark 320x568: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills long dark 320x568: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills long dark 320x568: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "skills long dark 320x568: controls at least 44px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills long dark 320x568: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "skills long dark 320x568: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills long light 320x568: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills long light 320x568: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills long light 320x568: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills long light 320x568: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills long light 320x568: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "skills long light 320x568: controls at least 44px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills long light 320x568: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "skills long light 320x568: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills failed dark 320x568: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills failed dark 320x568: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills failed dark 320x568: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills failed dark 320x568: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills failed dark 320x568: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "skills failed dark 320x568: controls at least 44px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills failed dark 320x568: at most one primary",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "skills failed dark 320x568: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills failed light 320x568: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills failed light 320x568: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills failed light 320x568: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills failed light 320x568: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills failed light 320x568: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "skills failed light 320x568: controls at least 44px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills failed light 320x568: at most one primary",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "skills failed light 320x568: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills rules failed dark 320x568: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills rules failed dark 320x568: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills rules failed dark 320x568: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills rules failed dark 320x568: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills rules failed dark 320x568: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "skills rules failed dark 320x568: controls at least 44px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills rules failed dark 320x568: at most one primary",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "skills rules failed dark 320x568: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills rules failed light 320x568: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills rules failed light 320x568: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills rules failed light 320x568: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills rules failed light 320x568: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills rules failed light 320x568: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "skills rules failed light 320x568: controls at least 44px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills rules failed light 320x568: at most one primary",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "skills rules failed light 320x568: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills no rules dark 320x568: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills no rules dark 320x568: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills no rules dark 320x568: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills no rules dark 320x568: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills no rules dark 320x568: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "skills no rules dark 320x568: controls at least 44px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills no rules dark 320x568: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "skills no rules dark 320x568: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills no rules light 320x568: no overflow",
+      "ok": true,
+      "detail": "doc 0, main 0"
+    },
+    {
+      "name": "skills no rules light 320x568: nothing overflows inside",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills no rules light 320x568: contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills no rules light 320x568: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skills no rules light 320x568: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "skills no rules light 320x568: controls at least 44px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "skills no rules light 320x568: at most one primary",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "skills no rules light 320x568: plain vocabulary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "no console or page errors",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "new space: one step of five",
+      "ok": true,
+      "detail": "Getting started1 of 5 doneCreate the space (done)sample-spaceImport skillsImportAdd the first ruleAdd ruleInvite a teammateInviteConnect your agentConnect"
+    },
+    {
+      "name": "new space: the next step is the primary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "new space: empty activity reads plainly",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "new space: no sample verdict is invented",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "checklist buttons call their handler",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "progress: primary moves to the next unchecked step",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "progress: other activity never ticks the agent step",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "progress: rule step ticks from real rules",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "progress: Live stays hidden before activation",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "activity shows actor and action",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "activity failure offers Retry",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "activity failure never claims the agent connected",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "rules failure never claims a rule exists",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "viewer: no owner buttons",
+      "ok": true,
+      "detail": "Getting started1 of 5 doneCreate the space (done)sample-spaceImport skillsNeeds an owner or editorAdd the first ruleNeeds an owner or editorInvite a teammateNeeds an owner or editorConnect your agentConnect"
+    },
+    {
+      "name": "viewer: can still connect their agent",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "loading: rows hold skeletons",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "loading: nothing is ticked early",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "live: counts only today's real recalls",
+      "ok": true,
+      "detail": "7"
+    },
+    {
+      "name": "live: one pill for the active agent",
+      "ok": true,
+      "detail": "1 agent active"
+    },
+    {
+      "name": "live: each agent has one status line",
+      "ok": true,
+      "detail": "Claude CodeRecalling sample-qa | CursorIdle, last recall 12m ago | CodexOffline, last recall 2d ago"
+    },
+    {
+      "name": "live: twelve hourly bars",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "live: the tallest bar fills the plot",
+      "ok": true,
+      "detail": "96"
+    },
+    {
+      "name": "live: hovering a bar names its value",
+      "ok": true,
+      "detail": "\"2 recalls, this hour\""
+    },
+    {
+      "name": "live: the last bar's tooltip stays on screen",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "live: a table carries the same numbers",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "live: stream is newest first",
+      "ok": true,
+      "detail": "Claude Code recalled 2 rules for sample-qaProof1m"
+    },
+    {
+      "name": "live: real rows link to proof",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "live: the checklist reopens",
+      "ok": true,
+      "detail": "Getting started5 of 5 doneCreate the space (done)sample-spaceImport skills (done)3 skillsAdd the first rule (done)3 rulesInvite a teammate (done)3 membersConnect your agent (done)3 agents"
+    },
+    {
+      "name": "live: back from the checklist",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "quiet: nothing pretends to be active",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "quiet: zero today reads as zero",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "library groups by category",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "nothing selected asks for a pick",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "selecting opens the skill",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "the current skill is marked",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "rule count sits in the library",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "search filters the library",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "no match reads plainly",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "clear search restores the list",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "rules card counts what is on",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "only the unsynced rule says so",
+      "ok": true,
+      "detail": "Saved here, not on Walrus yet"
+    },
+    {
+      "name": "switch starts on",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "switch moves at once",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "rapid clicks send one request",
+      "ok": true,
+      "detail": "POST:/api/ns/sample-space/rules/r1/state"
+    },
+    {
+      "name": "switch stays where the one request put it",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "the on count follows",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "failed switch goes back",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "failed switch says so on its row",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "add is disabled with no text",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "spaces do not count as text",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "double Enter adds once",
+      "ok": true,
+      "detail": "POST:/api/ns/sample-space/rules"
+    },
+    {
+      "name": "the field clears after adding",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "a failed add keeps the text",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "menu speaks plainly",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Escape closes the row menu",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Escape cancels an edit",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "saving an edit updates the row",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "delete asks first",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Keep leaves the rule",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Delete removes the rule",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Add to SKILL.md calls the right route",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "viewer: no switches",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "viewer: no rule menus",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "viewer: no add field",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "viewer: no Edit",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "viewer: still sees on and off",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "history lists revisions",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Used by says so when nobody has recalled",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "save is disabled until something changes",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "save is disabled for an empty skill",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "the preview follows the draft",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "a reload finds the draft",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "resume restores the text",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "discard asks when there are changes",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "discard removes the draft",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "save is disabled while saving",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "double click saves once",
+      "ok": true,
+      "detail": "PUT:/api/ns/sample-space/skills/sample-review,skills-changed"
+    },
+    {
+      "name": "saved names the new revision",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "the meta line shows the new revision",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "App is told to refresh",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "the document shows the saved text",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "no draft remains after saving",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "failure keeps the draft",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "failure offers Retry",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "conflict names who saved",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "conflict keeps the draft",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Save mine on top lands after theirs",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Take theirs shows their revision",
+      "ok": true,
+      "detail": "Workflows, saved 2h ago by teammate-qa, revision 5"
+    },
+    {
+      "name": "Take theirs clears the draft",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "offline keeps the draft and says so",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "the draft saves when the connection returns",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skill delete asks first",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skill delete removes it",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "a failed delete says so and keeps the skill",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "only an owner can delete a skill",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "blocked storage still edits and saves",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "mobile: the library comes first",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "mobile: the skill replaces the library",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "mobile: back returns to the library",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "mobile: the editor shows one pane",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "mobile: the tab swaps panes",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "real home: renders with real rules",
+      "ok": true,
+      "detail": "Getting started3 of 5 doneCreate the space (done)memwal-team-skillsImport skills (done)19 skillsAdd the first rule (done)10 rulesInvite a teammateInviteConnect your agentConnectLast checkSee a rule ch"
+    },
+    {
+      "name": "real home: no tracker ids reach the screen",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "real home: end to end test rules stay hidden",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "real home: raw memory headers never show",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "real home: real activity shows",
+      "ok": true,
+      "detail": "8"
+    },
+    {
+      "name": "real skills: all skills listed",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "real skills: the document renders",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "real skills: real SKILL.md meets contrast",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "real skills: real SKILL.md does not overflow",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "real skills: the preview refuses to write",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "real skills: a refused write rolls back",
+      "ok": true,
+      "detail": ""
+    }
+  ]
+}

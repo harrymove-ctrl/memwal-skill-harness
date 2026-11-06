@@ -1,0 +1,46 @@
+/*
+ * Dark command center tokens, from docs/ux/05-design-system.md.
+ * Dark is the product default; light is the fallback. Both follow the `dark`
+ * class on <html>, which src/App.tsx already toggles. Names carry a cc prefix so
+ * they never collide with the older --ink, --paper and --accent tokens in
+ * src/index.css while both designs live side by side.
+ */
+:root {
+  --cc-bg: #f7f7f4;
+  --cc-surface: #ffffff;
+  --cc-surface-2: #f1f2ee;
+  --cc-raised: #ffffff;
+  --cc-line: rgba(20, 20, 19, 0.08);
+  --cc-ink: #141413;
+  --cc-ink-2: #52525b;
+  --cc-ink-3: #6b6b74;
+  --cc-accent: #047857;
+  --cc-on-accent: #ffffff;
+  --cc-accent-soft: rgba(4, 120, 87, 0.1);
+  --cc-warn: #a84e07;
+  --cc-danger: #dc2626;
+  --cc-shadow-float: 0 8px 24px -8px rgba(20, 20, 19, 0.18);
+
+  --cc-radius-sm: 8px;
+  --cc-radius-md: 12px;
+  --cc-radius-lg: 16px;
+  --cc-font-sans: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --cc-font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+.dark {
+  --cc-bg: #0b0f0e;
+  --cc-surface: #121816;
+  --cc-surface-2: #18201e;
+  --cc-raised: #1d2624;
+  --cc-line: rgba(255, 255, 255, 0.09);
+  --cc-ink: #f4f6f5;
+  --cc-ink-2: #a7b0ad;
+  --cc-ink-3: #8f9996;
+  --cc-accent: #34d399;
+  --cc-on-accent: #04140d;
+  --cc-accent-soft: rgba(52, 211, 153, 0.14);
+  --cc-warn: #f59e0b;
+  --cc-danger: #f87171;
+  --cc-shadow-float: 0 12px 32px -8px rgba(0, 0, 0, 0.6);
+}

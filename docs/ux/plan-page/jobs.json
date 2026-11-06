@@ -1,0 +1,418 @@
+[
+ {
+  "id": "A1",
+  "area": "First visit and sign in",
+  "job": "See what the product does and why it matters, before signing in",
+  "role": "Visitor",
+  "status": "Missing",
+  "pri": "P0"
+ },
+ {
+  "id": "A2",
+  "area": "First visit and sign in",
+  "job": "Watch or step through a 30 second before and after example",
+  "role": "Visitor",
+  "status": "Partial (the comparison exists after sign in)",
+  "pri": "P0"
+ },
+ {
+  "id": "A3",
+  "area": "First visit and sign in",
+  "job": "Explore a demo space read only, without a wallet",
+  "role": "Visitor",
+  "status": "Partial (\"Preview (read only)\" exists, buried in a card)",
+  "pri": "P0"
+ },
+ {
+  "id": "A4",
+  "area": "First visit and sign in",
+  "job": "Sign in with Google",
+  "role": "Owner, Editor",
+  "status": "Simulated (the dev server mints its own signed token)",
+  "pri": "P1"
+ },
+ {
+  "id": "A5",
+  "area": "First visit and sign in",
+  "job": "Sign in with a Sui wallet",
+  "role": "Owner, Editor",
+  "status": "Built",
+  "pri": "P0"
+ },
+ {
+  "id": "A6",
+  "area": "First visit and sign in",
+  "job": "Use an existing delegate key (advanced)",
+  "role": "Owner, Editor",
+  "status": "Built",
+  "pri": "P1"
+ },
+ {
+  "id": "A7",
+  "area": "First visit and sign in",
+  "job": "See who I am signed in as, and sign out",
+  "role": "All signed in",
+  "status": "Works",
+  "pri": "P0"
+ },
+ {
+  "id": "B1",
+  "area": "Space",
+  "job": "See the space at a glance: skills, rules, members, connected agents, last change",
+  "role": "All",
+  "status": "Missing",
+  "pri": "P0"
+ },
+ {
+  "id": "B2",
+  "area": "Space",
+  "job": "Follow a getting started checklist until the first agent recall",
+  "role": "Owner",
+  "status": "Missing",
+  "pri": "P0"
+ },
+ {
+  "id": "B3",
+  "area": "Space",
+  "job": "Create a new space from a template (QA, Review, Release, Frontend)",
+  "role": "Owner",
+  "status": "Partial (onboarding block, local only)",
+  "pri": "P1"
+ },
+ {
+  "id": "B4",
+  "area": "Space",
+  "job": "Switch between spaces",
+  "role": "All",
+  "status": "Works",
+  "pri": "P0"
+ },
+ {
+  "id": "B5",
+  "area": "Space",
+  "job": "Open the proof drawer: Console bucket, Walrus blobs, Sui objects, mainnet memory count",
+  "role": "All",
+  "status": "Partial (a hash chip in the header)",
+  "pri": "P0"
+ },
+ {
+  "id": "B6",
+  "area": "Space",
+  "job": "Rename or archive a space",
+  "role": "Owner",
+  "status": "Missing",
+  "pri": "P2"
+ },
+ {
+  "id": "C1",
+  "area": "Skills",
+  "job": "Browse, search and filter skills by category",
+  "role": "All",
+  "status": "Works",
+  "pri": "P0"
+ },
+ {
+  "id": "C2",
+  "area": "Skills",
+  "job": "Read a skill with its active rules shown on top",
+  "role": "All",
+  "status": "Works",
+  "pri": "P0"
+ },
+ {
+  "id": "C3",
+  "area": "Skills",
+  "job": "Edit a SKILL.md with a live preview and save it as a new revision in the Console bucket",
+  "role": "Owner, Editor",
+  "status": "Built (Console gateway)",
+  "pri": "P0"
+ },
+ {
+  "id": "C4",
+  "area": "Skills",
+  "job": "See the revision history of a skill, who saved each one, and a diff",
+  "role": "All",
+  "status": "Partial (revision number and a Diff button)",
+  "pri": "P1"
+ },
+ {
+  "id": "C5",
+  "area": "Skills",
+  "job": "Get a clear conflict message when someone saved first, and merge",
+  "role": "Owner, Editor",
+  "status": "Built (API returns a conflict)",
+  "pri": "P1"
+ },
+ {
+  "id": "C6",
+  "area": "Skills",
+  "job": "Create a skill from a template",
+  "role": "Owner, Editor",
+  "status": "Partial",
+  "pri": "P1"
+ },
+ {
+  "id": "C7",
+  "area": "Skills",
+  "job": "Import SKILL.md files or a folder by drag and drop",
+  "role": "Owner, Editor",
+  "status": "Missing",
+  "pri": "P1"
+ },
+ {
+  "id": "C8",
+  "area": "Skills",
+  "job": "Delete a skill",
+  "role": "Owner",
+  "status": "Built (API only)",
+  "pri": "P2"
+ },
+ {
+  "id": "C9",
+  "area": "Skills",
+  "job": "Copy or download a skill, compiled with its active rules",
+  "role": "All",
+  "status": "Works",
+  "pri": "P0"
+ },
+ {
+  "id": "C10",
+  "area": "Skills",
+  "job": "See which agents used this skill recently",
+  "role": "All",
+  "status": "Missing",
+  "pri": "P1"
+ },
+ {
+  "id": "C11",
+  "area": "Skills",
+  "job": "Keep personal skills out of the team library",
+  "role": "Owner",
+  "status": "Missing",
+  "pri": "P1"
+ },
+ {
+  "id": "D1",
+  "area": "Rules",
+  "job": "Add a rule to a skill in one line",
+  "role": "Owner, Editor",
+  "status": "Works",
+  "pri": "P0"
+ },
+ {
+  "id": "D2",
+  "area": "Rules",
+  "job": "Edit a rule; the newer revision replaces the old one everywhere",
+  "role": "Owner, Editor",
+  "status": "Built (event log)",
+  "pri": "P0"
+ },
+ {
+  "id": "D3",
+  "area": "Rules",
+  "job": "Turn a rule off or on, and have that stick after reload and for every agent",
+  "role": "Owner, Editor",
+  "status": "Built (event log); UI persistence needs a check",
+  "pri": "P0"
+ },
+ {
+  "id": "D4",
+  "area": "Rules",
+  "job": "Delete a rule so it never comes back",
+  "role": "Owner, Editor",
+  "status": "Built (event log)",
+  "pri": "P0"
+ },
+ {
+  "id": "D5",
+  "area": "Rules",
+  "job": "See who wrote a rule, when, and its proof on Walrus",
+  "role": "All",
+  "status": "Partial",
+  "pri": "P0"
+ },
+ {
+  "id": "D6",
+  "area": "Rules",
+  "job": "Move a rule into the SKILL.md text for good (\"Bake\")",
+  "role": "Owner, Editor",
+  "status": "Built",
+  "pri": "P1"
+ },
+ {
+  "id": "D7",
+  "area": "Rules",
+  "job": "Review rules an agent proposed before they go live",
+  "role": "Owner",
+  "status": "Missing",
+  "pri": "P2"
+ },
+ {
+  "id": "E1",
+  "area": "Try it",
+  "job": "Pick a skill and a task, then run it with and without the space's rules",
+  "role": "All",
+  "status": "Works (preset scenario)",
+  "pri": "P0"
+ },
+ {
+  "id": "E2",
+  "area": "Try it",
+  "job": "See which rules changed the outcome, with the verdict for each side",
+  "role": "All",
+  "status": "Works",
+  "pri": "P0"
+ },
+ {
+  "id": "E3",
+  "area": "Try it",
+  "job": "Write my own task instead of the preset",
+  "role": "All",
+  "status": "Partial (\"Custom\" tab)",
+  "pri": "P1"
+ },
+ {
+  "id": "E4",
+  "area": "Try it",
+  "job": "Copy the exact prompt an agent would receive",
+  "role": "All",
+  "status": "Works",
+  "pri": "P1"
+ },
+ {
+  "id": "F1",
+  "area": "Team",
+  "job": "Invite a teammate with a link",
+  "role": "Owner",
+  "status": "Works",
+  "pri": "P0"
+ },
+ {
+  "id": "F2",
+  "area": "Team",
+  "job": "Add a teammate by Sui address or SuiNS name, with a role",
+  "role": "Owner",
+  "status": "Works",
+  "pri": "P0"
+ },
+ {
+  "id": "F3",
+  "area": "Team",
+  "job": "Change a member's role, or remove them",
+  "role": "Owner",
+  "status": "Partial (remove only)",
+  "pri": "P1"
+ },
+ {
+  "id": "F4",
+  "area": "Team",
+  "job": "See each member verified on Sui: their delegate key is on the account, read through the Tatum Sui RPC",
+  "role": "All",
+  "status": "Missing",
+  "pri": "P0"
+ },
+ {
+  "id": "F5",
+  "area": "Team",
+  "job": "See a risk check on an address before adding it (Tatum address security)",
+  "role": "Owner",
+  "status": "Built (server proxy)",
+  "pri": "P0"
+ },
+ {
+  "id": "F6",
+  "area": "Team",
+  "job": "Stop anyone from joining a space just by asking (no auto registration)",
+  "role": "Owner",
+  "status": "Simulated (the server adds any address)",
+  "pri": "P0"
+ },
+ {
+  "id": "G1",
+  "area": "Connect agents",
+  "job": "Pick my coding agent and copy a one line setup",
+  "role": "All signed in",
+  "status": "Works",
+  "pri": "P0"
+ },
+ {
+  "id": "G2",
+  "area": "Connect agents",
+  "job": "See that my agent is connected: last recall and from which skill",
+  "role": "All signed in",
+  "status": "Missing",
+  "pri": "P0"
+ },
+ {
+  "id": "G3",
+  "area": "Connect agents",
+  "job": "See every agent connected to the space and when each was last seen",
+  "role": "Owner",
+  "status": "Missing",
+  "pri": "P1"
+ },
+ {
+  "id": "G4",
+  "area": "Connect agents",
+  "job": "Disconnect an agent or revoke its key",
+  "role": "Owner",
+  "status": "Missing",
+  "pri": "P2"
+ },
+ {
+  "id": "H1",
+  "area": "Activity and proof",
+  "job": "Read a feed of what changed: rules taught, skills edited, members added, agents recalling",
+  "role": "All",
+  "status": "Built (a panel exists, not in the main navigation)",
+  "pri": "P0"
+ },
+ {
+  "id": "H2",
+  "area": "Activity and proof",
+  "job": "Filter the feed by member, agent or skill",
+  "role": "All",
+  "status": "Missing",
+  "pri": "P1"
+ },
+ {
+  "id": "H3",
+  "area": "Activity and proof",
+  "job": "Open any item's proof: Walrus blob, Console file, Sui transaction",
+  "role": "All",
+  "status": "Partial",
+  "pri": "P0"
+ },
+ {
+  "id": "H4",
+  "area": "Activity and proof",
+  "job": "See the mainnet memory count for the space (the hackathon asks for at least 10)",
+  "role": "All",
+  "status": "Partial (a count in the status API)",
+  "pri": "P0"
+ },
+ {
+  "id": "I1",
+  "area": "Settings",
+  "job": "Switch light and dark theme",
+  "role": "All",
+  "status": "Works",
+  "pri": "P1"
+ },
+ {
+  "id": "I2",
+  "area": "Settings",
+  "job": "See which network the space runs on (mainnet or dev)",
+  "role": "All",
+  "status": "Partial",
+  "pri": "P1"
+ },
+ {
+  "id": "I3",
+  "area": "Settings",
+  "job": "Manage keys: see which delegate keys exist and revoke one",
+  "role": "Owner",
+  "status": "Missing (done by script today)",
+  "pri": "P2"
+ }
+]

@@ -1,0 +1,37 @@
+# Path → Linear MCP routing
+# First matching org wins. Patterns are case-insensitive substrings of the absolute path
+# (or of a bare project name the user mentioned).
+
+default_mcp_server: null
+
+orgs:
+  - id: mysten
+    label: Mysten Labs
+    mcp_server: linear-mysten
+    # MemWal / Mysten work
+    path_patterns:
+      - /Documents/2026 vault/DEV_PROJECTS/active/memwal
+      - /Documents/dev/MemWal
+      - /orca/workspaces/MemWal
+      - /antigravity/worktrees/MemWal
+      - /Volumes/Dev/workspaces/MemWal
+      - /githubRepo/memwal
+      - /memwal/
+      - /MemWal/
+    name_patterns:
+      - memwal
+      - MemWal
+
+  - id: commandoss
+    label: CommandOSS Labs
+    mcp_server: linear-commandoss
+    # Personal / CommandOSS projects
+    path_patterns:
+      - /Documents/dev/Prydea
+      - /Prydea/
+      - /prydea/
+    name_patterns:
+      - prydea
+      - Prydea
+      - CommandOSS
+      - commandoss

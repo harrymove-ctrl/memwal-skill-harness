@@ -1,0 +1,4836 @@
+{
+  "total": 966,
+  "failed": 0,
+  "results": [
+    {
+      "name": "normal dark 1280x800: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "normal dark 1280x800: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "normal dark 1280x800: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "normal dark 1280x800: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "normal dark 1280x800: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "normal dark 1280x800: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "normal dark 1280x800: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "normal dark 1280x800: controls at least 32px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "normal dark 1280x800: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "normal dark 1280x800: sidebar fills height",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "normal light 1280x800: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "normal light 1280x800: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "normal light 1280x800: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "normal light 1280x800: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "normal light 1280x800: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "normal light 1280x800: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "normal light 1280x800: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "normal light 1280x800: controls at least 32px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "normal light 1280x800: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "normal light 1280x800: sidebar fills height",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "long dark 1280x800: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "long dark 1280x800: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "long dark 1280x800: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "long dark 1280x800: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "long dark 1280x800: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "long dark 1280x800: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "long dark 1280x800: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "long dark 1280x800: controls at least 32px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "long dark 1280x800: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "long dark 1280x800: sidebar fills height",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "long light 1280x800: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "long light 1280x800: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "long light 1280x800: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "long light 1280x800: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "long light 1280x800: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "long light 1280x800: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "long light 1280x800: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "long light 1280x800: controls at least 32px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "long light 1280x800: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "long light 1280x800: sidebar fills height",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "viewer dark 1280x800: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "viewer dark 1280x800: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "viewer dark 1280x800: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "viewer dark 1280x800: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "viewer dark 1280x800: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "viewer dark 1280x800: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "viewer dark 1280x800: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "viewer dark 1280x800: controls at least 32px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "viewer dark 1280x800: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "viewer dark 1280x800: sidebar fills height",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "viewer light 1280x800: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "viewer light 1280x800: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "viewer light 1280x800: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "viewer light 1280x800: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "viewer light 1280x800: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "viewer light 1280x800: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "viewer light 1280x800: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "viewer light 1280x800: controls at least 32px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "viewer light 1280x800: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "viewer light 1280x800: sidebar fills height",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedout dark 1280x800: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "signedout dark 1280x800: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "signedout dark 1280x800: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedout dark 1280x800: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "signedout dark 1280x800: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedout dark 1280x800: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "signedout dark 1280x800: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "signedout dark 1280x800: controls at least 32px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "signedout dark 1280x800: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedout dark 1280x800: sidebar fills height",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedout light 1280x800: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "signedout light 1280x800: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "signedout light 1280x800: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedout light 1280x800: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "signedout light 1280x800: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedout light 1280x800: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "signedout light 1280x800: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "signedout light 1280x800: controls at least 32px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "signedout light 1280x800: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedout light 1280x800: sidebar fills height",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedoutnosignin dark 1280x800: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "signedoutnosignin dark 1280x800: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "signedoutnosignin dark 1280x800: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedoutnosignin dark 1280x800: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "signedoutnosignin dark 1280x800: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedoutnosignin dark 1280x800: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "signedoutnosignin dark 1280x800: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "signedoutnosignin dark 1280x800: controls at least 32px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "signedoutnosignin dark 1280x800: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedoutnosignin dark 1280x800: sidebar fills height",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedoutnosignin light 1280x800: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "signedoutnosignin light 1280x800: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "signedoutnosignin light 1280x800: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedoutnosignin light 1280x800: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "signedoutnosignin light 1280x800: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedoutnosignin light 1280x800: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "signedoutnosignin light 1280x800: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "signedoutnosignin light 1280x800: controls at least 32px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "signedoutnosignin light 1280x800: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedoutnosignin light 1280x800: sidebar fills height",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "nospace dark 1280x800: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "nospace dark 1280x800: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "nospace dark 1280x800: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "nospace dark 1280x800: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "nospace dark 1280x800: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "nospace dark 1280x800: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "nospace dark 1280x800: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "nospace dark 1280x800: controls at least 32px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "nospace dark 1280x800: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "nospace dark 1280x800: sidebar fills height",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "nospace light 1280x800: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "nospace light 1280x800: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "nospace light 1280x800: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "nospace light 1280x800: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "nospace light 1280x800: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "nospace light 1280x800: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "nospace light 1280x800: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "nospace light 1280x800: controls at least 32px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "nospace light 1280x800: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "nospace light 1280x800: sidebar fills height",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "tall dark 1280x800: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "tall dark 1280x800: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "tall dark 1280x800: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "tall dark 1280x800: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "tall dark 1280x800: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "tall dark 1280x800: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "tall dark 1280x800: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "tall dark 1280x800: controls at least 32px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "tall dark 1280x800: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "tall dark 1280x800: sidebar fills height",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "tall light 1280x800: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "tall light 1280x800: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "tall light 1280x800: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "tall light 1280x800: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "tall light 1280x800: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "tall light 1280x800: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "tall light 1280x800: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "tall light 1280x800: controls at least 32px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "tall light 1280x800: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "tall light 1280x800: sidebar fills height",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "normal dark 1280x400: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "normal dark 1280x400: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "normal dark 1280x400: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "normal dark 1280x400: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "normal dark 1280x400: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "normal dark 1280x400: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "normal dark 1280x400: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "normal dark 1280x400: controls at least 32px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "normal dark 1280x400: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "normal dark 1280x400: sidebar fills height",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "normal light 1280x400: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "normal light 1280x400: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "normal light 1280x400: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "normal light 1280x400: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "normal light 1280x400: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "normal light 1280x400: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "normal light 1280x400: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "normal light 1280x400: controls at least 32px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "normal light 1280x400: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "normal light 1280x400: sidebar fills height",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "long dark 1280x400: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "long dark 1280x400: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "long dark 1280x400: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "long dark 1280x400: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "long dark 1280x400: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "long dark 1280x400: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "long dark 1280x400: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "long dark 1280x400: controls at least 32px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "long dark 1280x400: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "long dark 1280x400: sidebar fills height",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "long light 1280x400: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "long light 1280x400: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "long light 1280x400: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "long light 1280x400: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "long light 1280x400: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "long light 1280x400: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "long light 1280x400: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "long light 1280x400: controls at least 32px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "long light 1280x400: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "long light 1280x400: sidebar fills height",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "viewer dark 1280x400: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "viewer dark 1280x400: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "viewer dark 1280x400: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "viewer dark 1280x400: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "viewer dark 1280x400: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "viewer dark 1280x400: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "viewer dark 1280x400: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "viewer dark 1280x400: controls at least 32px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "viewer dark 1280x400: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "viewer dark 1280x400: sidebar fills height",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "viewer light 1280x400: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "viewer light 1280x400: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "viewer light 1280x400: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "viewer light 1280x400: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "viewer light 1280x400: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "viewer light 1280x400: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "viewer light 1280x400: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "viewer light 1280x400: controls at least 32px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "viewer light 1280x400: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "viewer light 1280x400: sidebar fills height",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedout dark 1280x400: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "signedout dark 1280x400: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "signedout dark 1280x400: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedout dark 1280x400: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "signedout dark 1280x400: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedout dark 1280x400: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "signedout dark 1280x400: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "signedout dark 1280x400: controls at least 32px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "signedout dark 1280x400: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedout dark 1280x400: sidebar fills height",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedout light 1280x400: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "signedout light 1280x400: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "signedout light 1280x400: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedout light 1280x400: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "signedout light 1280x400: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedout light 1280x400: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "signedout light 1280x400: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "signedout light 1280x400: controls at least 32px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "signedout light 1280x400: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedout light 1280x400: sidebar fills height",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedoutnosignin dark 1280x400: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "signedoutnosignin dark 1280x400: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "signedoutnosignin dark 1280x400: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedoutnosignin dark 1280x400: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "signedoutnosignin dark 1280x400: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedoutnosignin dark 1280x400: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "signedoutnosignin dark 1280x400: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "signedoutnosignin dark 1280x400: controls at least 32px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "signedoutnosignin dark 1280x400: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedoutnosignin dark 1280x400: sidebar fills height",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedoutnosignin light 1280x400: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "signedoutnosignin light 1280x400: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "signedoutnosignin light 1280x400: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedoutnosignin light 1280x400: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "signedoutnosignin light 1280x400: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedoutnosignin light 1280x400: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "signedoutnosignin light 1280x400: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "signedoutnosignin light 1280x400: controls at least 32px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "signedoutnosignin light 1280x400: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedoutnosignin light 1280x400: sidebar fills height",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "nospace dark 1280x400: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "nospace dark 1280x400: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "nospace dark 1280x400: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "nospace dark 1280x400: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "nospace dark 1280x400: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "nospace dark 1280x400: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "nospace dark 1280x400: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "nospace dark 1280x400: controls at least 32px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "nospace dark 1280x400: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "nospace dark 1280x400: sidebar fills height",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "nospace light 1280x400: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "nospace light 1280x400: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "nospace light 1280x400: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "nospace light 1280x400: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "nospace light 1280x400: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "nospace light 1280x400: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "nospace light 1280x400: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "nospace light 1280x400: controls at least 32px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "nospace light 1280x400: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "nospace light 1280x400: sidebar fills height",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "tall dark 1280x400: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "tall dark 1280x400: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "tall dark 1280x400: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "tall dark 1280x400: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "tall dark 1280x400: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "tall dark 1280x400: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "tall dark 1280x400: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "tall dark 1280x400: controls at least 32px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "tall dark 1280x400: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "tall dark 1280x400: sidebar fills height",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "tall light 1280x400: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "tall light 1280x400: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "tall light 1280x400: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "tall light 1280x400: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "tall light 1280x400: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "tall light 1280x400: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "tall light 1280x400: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "tall light 1280x400: controls at least 32px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "tall light 1280x400: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "tall light 1280x400: sidebar fills height",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "normal dark 768x1024: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "normal dark 768x1024: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "normal dark 768x1024: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "normal dark 768x1024: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "normal dark 768x1024: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "normal dark 768x1024: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "normal dark 768x1024: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "normal dark 768x1024: controls at least 32px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "normal dark 768x1024: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "normal dark 768x1024: sidebar fills height",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "normal light 768x1024: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "normal light 768x1024: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "normal light 768x1024: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "normal light 768x1024: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "normal light 768x1024: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "normal light 768x1024: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "normal light 768x1024: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "normal light 768x1024: controls at least 32px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "normal light 768x1024: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "normal light 768x1024: sidebar fills height",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "long dark 768x1024: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "long dark 768x1024: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "long dark 768x1024: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "long dark 768x1024: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "long dark 768x1024: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "long dark 768x1024: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "long dark 768x1024: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "long dark 768x1024: controls at least 32px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "long dark 768x1024: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "long dark 768x1024: sidebar fills height",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "long light 768x1024: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "long light 768x1024: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "long light 768x1024: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "long light 768x1024: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "long light 768x1024: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "long light 768x1024: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "long light 768x1024: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "long light 768x1024: controls at least 32px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "long light 768x1024: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "long light 768x1024: sidebar fills height",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "viewer dark 768x1024: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "viewer dark 768x1024: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "viewer dark 768x1024: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "viewer dark 768x1024: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "viewer dark 768x1024: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "viewer dark 768x1024: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "viewer dark 768x1024: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "viewer dark 768x1024: controls at least 32px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "viewer dark 768x1024: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "viewer dark 768x1024: sidebar fills height",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "viewer light 768x1024: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "viewer light 768x1024: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "viewer light 768x1024: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "viewer light 768x1024: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "viewer light 768x1024: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "viewer light 768x1024: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "viewer light 768x1024: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "viewer light 768x1024: controls at least 32px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "viewer light 768x1024: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "viewer light 768x1024: sidebar fills height",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedout dark 768x1024: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "signedout dark 768x1024: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "signedout dark 768x1024: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedout dark 768x1024: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "signedout dark 768x1024: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedout dark 768x1024: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "signedout dark 768x1024: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "signedout dark 768x1024: controls at least 32px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "signedout dark 768x1024: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedout dark 768x1024: sidebar fills height",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedout light 768x1024: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "signedout light 768x1024: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "signedout light 768x1024: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedout light 768x1024: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "signedout light 768x1024: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedout light 768x1024: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "signedout light 768x1024: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "signedout light 768x1024: controls at least 32px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "signedout light 768x1024: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedout light 768x1024: sidebar fills height",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedoutnosignin dark 768x1024: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "signedoutnosignin dark 768x1024: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "signedoutnosignin dark 768x1024: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedoutnosignin dark 768x1024: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "signedoutnosignin dark 768x1024: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedoutnosignin dark 768x1024: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "signedoutnosignin dark 768x1024: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "signedoutnosignin dark 768x1024: controls at least 32px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "signedoutnosignin dark 768x1024: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedoutnosignin dark 768x1024: sidebar fills height",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedoutnosignin light 768x1024: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "signedoutnosignin light 768x1024: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "signedoutnosignin light 768x1024: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedoutnosignin light 768x1024: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "signedoutnosignin light 768x1024: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedoutnosignin light 768x1024: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "signedoutnosignin light 768x1024: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "signedoutnosignin light 768x1024: controls at least 32px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "signedoutnosignin light 768x1024: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedoutnosignin light 768x1024: sidebar fills height",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "nospace dark 768x1024: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "nospace dark 768x1024: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "nospace dark 768x1024: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "nospace dark 768x1024: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "nospace dark 768x1024: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "nospace dark 768x1024: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "nospace dark 768x1024: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "nospace dark 768x1024: controls at least 32px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "nospace dark 768x1024: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "nospace dark 768x1024: sidebar fills height",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "nospace light 768x1024: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "nospace light 768x1024: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "nospace light 768x1024: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "nospace light 768x1024: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "nospace light 768x1024: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "nospace light 768x1024: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "nospace light 768x1024: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "nospace light 768x1024: controls at least 32px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "nospace light 768x1024: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "nospace light 768x1024: sidebar fills height",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "tall dark 768x1024: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "tall dark 768x1024: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "tall dark 768x1024: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "tall dark 768x1024: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "tall dark 768x1024: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "tall dark 768x1024: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "tall dark 768x1024: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "tall dark 768x1024: controls at least 32px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "tall dark 768x1024: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "tall dark 768x1024: sidebar fills height",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "tall light 768x1024: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "tall light 768x1024: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "tall light 768x1024: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "tall light 768x1024: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "tall light 768x1024: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "tall light 768x1024: at most 4 sizes",
+      "ok": true,
+      "detail": "14,12,16"
+    },
+    {
+      "name": "tall light 768x1024: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "tall light 768x1024: controls at least 32px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "tall light 768x1024: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "tall light 768x1024: sidebar fills height",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "normal dark 767x1024: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "normal dark 767x1024: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "normal dark 767x1024: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "normal dark 767x1024: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "normal dark 767x1024: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "normal dark 767x1024: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "normal dark 767x1024: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "normal dark 767x1024: controls at least 44px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "normal dark 767x1024: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "normal dark 767x1024: main clears the bottom bar",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "normal dark 767x1024: bottom bar on screen",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "normal light 767x1024: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "normal light 767x1024: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "normal light 767x1024: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "normal light 767x1024: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "normal light 767x1024: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "normal light 767x1024: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "normal light 767x1024: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "normal light 767x1024: controls at least 44px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "normal light 767x1024: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "normal light 767x1024: main clears the bottom bar",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "normal light 767x1024: bottom bar on screen",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "long dark 767x1024: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "long dark 767x1024: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "long dark 767x1024: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "long dark 767x1024: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "long dark 767x1024: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "long dark 767x1024: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "long dark 767x1024: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "long dark 767x1024: controls at least 44px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "long dark 767x1024: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "long dark 767x1024: main clears the bottom bar",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "long dark 767x1024: bottom bar on screen",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "long light 767x1024: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "long light 767x1024: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "long light 767x1024: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "long light 767x1024: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "long light 767x1024: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "long light 767x1024: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "long light 767x1024: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "long light 767x1024: controls at least 44px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "long light 767x1024: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "long light 767x1024: main clears the bottom bar",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "long light 767x1024: bottom bar on screen",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "viewer dark 767x1024: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "viewer dark 767x1024: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "viewer dark 767x1024: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "viewer dark 767x1024: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "viewer dark 767x1024: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "viewer dark 767x1024: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "viewer dark 767x1024: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "viewer dark 767x1024: controls at least 44px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "viewer dark 767x1024: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "viewer dark 767x1024: main clears the bottom bar",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "viewer dark 767x1024: bottom bar on screen",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "viewer light 767x1024: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "viewer light 767x1024: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "viewer light 767x1024: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "viewer light 767x1024: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "viewer light 767x1024: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "viewer light 767x1024: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "viewer light 767x1024: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "viewer light 767x1024: controls at least 44px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "viewer light 767x1024: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "viewer light 767x1024: main clears the bottom bar",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "viewer light 767x1024: bottom bar on screen",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedout dark 767x1024: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "signedout dark 767x1024: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "signedout dark 767x1024: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedout dark 767x1024: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "signedout dark 767x1024: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedout dark 767x1024: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "signedout dark 767x1024: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "signedout dark 767x1024: controls at least 44px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "signedout dark 767x1024: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedout dark 767x1024: main clears the bottom bar",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedout dark 767x1024: bottom bar on screen",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedout light 767x1024: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "signedout light 767x1024: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "signedout light 767x1024: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedout light 767x1024: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "signedout light 767x1024: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedout light 767x1024: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "signedout light 767x1024: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "signedout light 767x1024: controls at least 44px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "signedout light 767x1024: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedout light 767x1024: main clears the bottom bar",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedout light 767x1024: bottom bar on screen",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedoutnosignin dark 767x1024: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "signedoutnosignin dark 767x1024: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "signedoutnosignin dark 767x1024: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedoutnosignin dark 767x1024: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "signedoutnosignin dark 767x1024: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedoutnosignin dark 767x1024: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "signedoutnosignin dark 767x1024: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "signedoutnosignin dark 767x1024: controls at least 44px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "signedoutnosignin dark 767x1024: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedoutnosignin dark 767x1024: main clears the bottom bar",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedoutnosignin dark 767x1024: bottom bar on screen",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedoutnosignin light 767x1024: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "signedoutnosignin light 767x1024: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "signedoutnosignin light 767x1024: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedoutnosignin light 767x1024: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "signedoutnosignin light 767x1024: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedoutnosignin light 767x1024: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "signedoutnosignin light 767x1024: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "signedoutnosignin light 767x1024: controls at least 44px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "signedoutnosignin light 767x1024: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedoutnosignin light 767x1024: main clears the bottom bar",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedoutnosignin light 767x1024: bottom bar on screen",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "nospace dark 767x1024: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "nospace dark 767x1024: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "nospace dark 767x1024: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "nospace dark 767x1024: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "nospace dark 767x1024: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "nospace dark 767x1024: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "nospace dark 767x1024: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "nospace dark 767x1024: controls at least 44px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "nospace dark 767x1024: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "nospace dark 767x1024: main clears the bottom bar",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "nospace dark 767x1024: bottom bar on screen",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "nospace light 767x1024: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "nospace light 767x1024: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "nospace light 767x1024: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "nospace light 767x1024: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "nospace light 767x1024: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "nospace light 767x1024: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "nospace light 767x1024: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "nospace light 767x1024: controls at least 44px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "nospace light 767x1024: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "nospace light 767x1024: main clears the bottom bar",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "nospace light 767x1024: bottom bar on screen",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "tall dark 767x1024: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "tall dark 767x1024: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "tall dark 767x1024: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "tall dark 767x1024: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "tall dark 767x1024: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "tall dark 767x1024: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "tall dark 767x1024: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "tall dark 767x1024: controls at least 44px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "tall dark 767x1024: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "tall dark 767x1024: main clears the bottom bar",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "tall dark 767x1024: bottom bar on screen",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "tall light 767x1024: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "tall light 767x1024: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "tall light 767x1024: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "tall light 767x1024: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "tall light 767x1024: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "tall light 767x1024: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "tall light 767x1024: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "tall light 767x1024: controls at least 44px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "tall light 767x1024: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "tall light 767x1024: main clears the bottom bar",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "tall light 767x1024: bottom bar on screen",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "normal dark 390x844: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "normal dark 390x844: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "normal dark 390x844: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "normal dark 390x844: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "normal dark 390x844: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "normal dark 390x844: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "normal dark 390x844: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "normal dark 390x844: controls at least 44px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "normal dark 390x844: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "normal dark 390x844: main clears the bottom bar",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "normal dark 390x844: bottom bar on screen",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "normal light 390x844: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "normal light 390x844: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "normal light 390x844: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "normal light 390x844: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "normal light 390x844: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "normal light 390x844: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "normal light 390x844: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "normal light 390x844: controls at least 44px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "normal light 390x844: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "normal light 390x844: main clears the bottom bar",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "normal light 390x844: bottom bar on screen",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "long dark 390x844: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "long dark 390x844: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "long dark 390x844: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "long dark 390x844: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "long dark 390x844: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "long dark 390x844: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "long dark 390x844: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "long dark 390x844: controls at least 44px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "long dark 390x844: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "long dark 390x844: main clears the bottom bar",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "long dark 390x844: bottom bar on screen",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "long light 390x844: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "long light 390x844: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "long light 390x844: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "long light 390x844: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "long light 390x844: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "long light 390x844: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "long light 390x844: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "long light 390x844: controls at least 44px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "long light 390x844: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "long light 390x844: main clears the bottom bar",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "long light 390x844: bottom bar on screen",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "viewer dark 390x844: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "viewer dark 390x844: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "viewer dark 390x844: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "viewer dark 390x844: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "viewer dark 390x844: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "viewer dark 390x844: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "viewer dark 390x844: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "viewer dark 390x844: controls at least 44px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "viewer dark 390x844: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "viewer dark 390x844: main clears the bottom bar",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "viewer dark 390x844: bottom bar on screen",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "viewer light 390x844: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "viewer light 390x844: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "viewer light 390x844: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "viewer light 390x844: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "viewer light 390x844: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "viewer light 390x844: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "viewer light 390x844: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "viewer light 390x844: controls at least 44px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "viewer light 390x844: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "viewer light 390x844: main clears the bottom bar",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "viewer light 390x844: bottom bar on screen",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedout dark 390x844: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "signedout dark 390x844: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "signedout dark 390x844: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedout dark 390x844: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "signedout dark 390x844: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedout dark 390x844: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "signedout dark 390x844: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "signedout dark 390x844: controls at least 44px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "signedout dark 390x844: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedout dark 390x844: main clears the bottom bar",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedout dark 390x844: bottom bar on screen",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedout light 390x844: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "signedout light 390x844: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "signedout light 390x844: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedout light 390x844: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "signedout light 390x844: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedout light 390x844: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "signedout light 390x844: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "signedout light 390x844: controls at least 44px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "signedout light 390x844: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedout light 390x844: main clears the bottom bar",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedout light 390x844: bottom bar on screen",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedoutnosignin dark 390x844: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "signedoutnosignin dark 390x844: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "signedoutnosignin dark 390x844: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedoutnosignin dark 390x844: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "signedoutnosignin dark 390x844: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedoutnosignin dark 390x844: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "signedoutnosignin dark 390x844: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "signedoutnosignin dark 390x844: controls at least 44px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "signedoutnosignin dark 390x844: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedoutnosignin dark 390x844: main clears the bottom bar",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedoutnosignin dark 390x844: bottom bar on screen",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedoutnosignin light 390x844: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "signedoutnosignin light 390x844: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "signedoutnosignin light 390x844: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedoutnosignin light 390x844: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "signedoutnosignin light 390x844: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedoutnosignin light 390x844: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "signedoutnosignin light 390x844: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "signedoutnosignin light 390x844: controls at least 44px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "signedoutnosignin light 390x844: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedoutnosignin light 390x844: main clears the bottom bar",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedoutnosignin light 390x844: bottom bar on screen",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "nospace dark 390x844: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "nospace dark 390x844: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "nospace dark 390x844: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "nospace dark 390x844: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "nospace dark 390x844: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "nospace dark 390x844: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "nospace dark 390x844: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "nospace dark 390x844: controls at least 44px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "nospace dark 390x844: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "nospace dark 390x844: main clears the bottom bar",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "nospace dark 390x844: bottom bar on screen",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "nospace light 390x844: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "nospace light 390x844: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "nospace light 390x844: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "nospace light 390x844: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "nospace light 390x844: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "nospace light 390x844: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "nospace light 390x844: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "nospace light 390x844: controls at least 44px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "nospace light 390x844: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "nospace light 390x844: main clears the bottom bar",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "nospace light 390x844: bottom bar on screen",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "tall dark 390x844: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "tall dark 390x844: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "tall dark 390x844: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "tall dark 390x844: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "tall dark 390x844: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "tall dark 390x844: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "tall dark 390x844: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "tall dark 390x844: controls at least 44px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "tall dark 390x844: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "tall dark 390x844: main clears the bottom bar",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "tall dark 390x844: bottom bar on screen",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "tall light 390x844: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "tall light 390x844: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "tall light 390x844: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "tall light 390x844: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "tall light 390x844: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "tall light 390x844: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "tall light 390x844: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "tall light 390x844: controls at least 44px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "tall light 390x844: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "tall light 390x844: main clears the bottom bar",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "tall light 390x844: bottom bar on screen",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "normal dark 320x568: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "normal dark 320x568: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "normal dark 320x568: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "normal dark 320x568: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "normal dark 320x568: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "normal dark 320x568: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "normal dark 320x568: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "normal dark 320x568: controls at least 44px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "normal dark 320x568: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "normal dark 320x568: main clears the bottom bar",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "normal dark 320x568: bottom bar on screen",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "normal light 320x568: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "normal light 320x568: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "normal light 320x568: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "normal light 320x568: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "normal light 320x568: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "normal light 320x568: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "normal light 320x568: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "normal light 320x568: controls at least 44px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "normal light 320x568: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "normal light 320x568: main clears the bottom bar",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "normal light 320x568: bottom bar on screen",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "long dark 320x568: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "long dark 320x568: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "long dark 320x568: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "long dark 320x568: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "long dark 320x568: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "long dark 320x568: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "long dark 320x568: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "long dark 320x568: controls at least 44px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "long dark 320x568: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "long dark 320x568: main clears the bottom bar",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "long dark 320x568: bottom bar on screen",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "long light 320x568: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "long light 320x568: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "long light 320x568: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "long light 320x568: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "long light 320x568: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "long light 320x568: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "long light 320x568: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "long light 320x568: controls at least 44px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "long light 320x568: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "long light 320x568: main clears the bottom bar",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "long light 320x568: bottom bar on screen",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "viewer dark 320x568: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "viewer dark 320x568: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "viewer dark 320x568: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "viewer dark 320x568: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "viewer dark 320x568: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "viewer dark 320x568: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "viewer dark 320x568: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "viewer dark 320x568: controls at least 44px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "viewer dark 320x568: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "viewer dark 320x568: main clears the bottom bar",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "viewer dark 320x568: bottom bar on screen",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "viewer light 320x568: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "viewer light 320x568: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "viewer light 320x568: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "viewer light 320x568: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "viewer light 320x568: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "viewer light 320x568: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "viewer light 320x568: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "viewer light 320x568: controls at least 44px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "viewer light 320x568: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "viewer light 320x568: main clears the bottom bar",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "viewer light 320x568: bottom bar on screen",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedout dark 320x568: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "signedout dark 320x568: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "signedout dark 320x568: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedout dark 320x568: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "signedout dark 320x568: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedout dark 320x568: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "signedout dark 320x568: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "signedout dark 320x568: controls at least 44px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "signedout dark 320x568: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedout dark 320x568: main clears the bottom bar",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedout dark 320x568: bottom bar on screen",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedout light 320x568: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "signedout light 320x568: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "signedout light 320x568: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedout light 320x568: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "signedout light 320x568: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedout light 320x568: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "signedout light 320x568: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "signedout light 320x568: controls at least 44px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "signedout light 320x568: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedout light 320x568: main clears the bottom bar",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedout light 320x568: bottom bar on screen",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedoutnosignin dark 320x568: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "signedoutnosignin dark 320x568: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "signedoutnosignin dark 320x568: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedoutnosignin dark 320x568: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "signedoutnosignin dark 320x568: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedoutnosignin dark 320x568: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "signedoutnosignin dark 320x568: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "signedoutnosignin dark 320x568: controls at least 44px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "signedoutnosignin dark 320x568: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedoutnosignin dark 320x568: main clears the bottom bar",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedoutnosignin dark 320x568: bottom bar on screen",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedoutnosignin light 320x568: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "signedoutnosignin light 320x568: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "signedoutnosignin light 320x568: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedoutnosignin light 320x568: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "signedoutnosignin light 320x568: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedoutnosignin light 320x568: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "signedoutnosignin light 320x568: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "signedoutnosignin light 320x568: controls at least 44px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "signedoutnosignin light 320x568: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedoutnosignin light 320x568: main clears the bottom bar",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signedoutnosignin light 320x568: bottom bar on screen",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "nospace dark 320x568: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "nospace dark 320x568: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "nospace dark 320x568: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "nospace dark 320x568: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "nospace dark 320x568: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "nospace dark 320x568: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "nospace dark 320x568: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "nospace dark 320x568: controls at least 44px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "nospace dark 320x568: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "nospace dark 320x568: main clears the bottom bar",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "nospace dark 320x568: bottom bar on screen",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "nospace light 320x568: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "nospace light 320x568: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "nospace light 320x568: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "nospace light 320x568: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "nospace light 320x568: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "nospace light 320x568: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "nospace light 320x568: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "nospace light 320x568: controls at least 44px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "nospace light 320x568: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "nospace light 320x568: main clears the bottom bar",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "nospace light 320x568: bottom bar on screen",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "tall dark 320x568: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "tall dark 320x568: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "tall dark 320x568: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "tall dark 320x568: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "tall dark 320x568: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "tall dark 320x568: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "tall dark 320x568: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "tall dark 320x568: controls at least 44px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "tall dark 320x568: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "tall dark 320x568: main clears the bottom bar",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "tall dark 320x568: bottom bar on screen",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "tall light 320x568: no page overflow",
+      "ok": true,
+      "detail": "doc 0, body 0"
+    },
+    {
+      "name": "tall light 320x568: no overflow inside main",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "tall light 320x568: right chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "tall light 320x568: text contrast at least 4.5",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "tall light 320x568: type on scale",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "tall light 320x568: at most 4 sizes",
+      "ok": true,
+      "detail": "16,12"
+    },
+    {
+      "name": "tall light 320x568: Inter for UI, mono for ids",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "tall light 320x568: controls at least 44px tall",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "tall light 320x568: place labels not clipped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "tall light 320x568: main clears the bottom bar",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "tall light 320x568: bottom bar on screen",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "no console or page errors across the matrix",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "dark tokens match 05-design-system.md",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "light tokens match 05-design-system.md",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "long menu shell-space-trigger 1280x800: on screen",
+      "ok": true,
+      "detail": "{\"left\":12,\"right\":292,\"top\":110,\"bottom\":470,\"width\":280,\"height\":360}"
+    },
+    {
+      "name": "long menu shell-space-trigger 1280x800: no page overflow",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "long menu shell-account-trigger 1280x800: on screen",
+      "ok": true,
+      "detail": "{\"left\":12,\"right\":292,\"top\":641,\"bottom\":740,\"width\":280,\"height\":99}"
+    },
+    {
+      "name": "long menu shell-account-trigger 1280x800: no page overflow",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "long menu shell-space-trigger 1280x400: on screen",
+      "ok": true,
+      "detail": "{\"left\":12,\"right\":292,\"top\":110,\"bottom\":350,\"width\":280,\"height\":240}"
+    },
+    {
+      "name": "long menu shell-space-trigger 1280x400: no page overflow",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "long menu shell-account-trigger 1280x400: on screen",
+      "ok": true,
+      "detail": "{\"left\":12,\"right\":292,\"top\":241,\"bottom\":340,\"width\":280,\"height\":99}"
+    },
+    {
+      "name": "long menu shell-account-trigger 1280x400: no page overflow",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "long menu shell-space-trigger 768x1024: on screen",
+      "ok": true,
+      "detail": "{\"left\":12,\"right\":292,\"top\":110,\"bottom\":470,\"width\":280,\"height\":360}"
+    },
+    {
+      "name": "long menu shell-space-trigger 768x1024: no page overflow",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "long menu shell-account-trigger 768x1024: on screen",
+      "ok": true,
+      "detail": "{\"left\":12,\"right\":292,\"top\":865,\"bottom\":964,\"width\":280,\"height\":99}"
+    },
+    {
+      "name": "long menu shell-account-trigger 768x1024: no page overflow",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "long menu shell-space-trigger 390x844: on screen",
+      "ok": true,
+      "detail": "{\"left\":8,\"right\":382,\"top\":64,\"bottom\":424,\"width\":374,\"height\":360}"
+    },
+    {
+      "name": "long menu shell-space-trigger 390x844: no page overflow",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "long menu shell-account-trigger 390x844: on screen",
+      "ok": true,
+      "detail": "{\"left\":8,\"right\":382,\"top\":64,\"bottom\":179,\"width\":374,\"height\":115}"
+    },
+    {
+      "name": "long menu shell-account-trigger 390x844: no page overflow",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "long menu shell-space-trigger 320x568: on screen",
+      "ok": true,
+      "detail": "{\"left\":8,\"right\":312,\"top\":64,\"bottom\":404.796875,\"width\":304,\"height\":340.796875}"
+    },
+    {
+      "name": "long menu shell-space-trigger 320x568: no page overflow",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "long menu shell-account-trigger 320x568: on screen",
+      "ok": true,
+      "detail": "{\"left\":8,\"right\":312,\"top\":64,\"bottom\":179,\"width\":304,\"height\":115}"
+    },
+    {
+      "name": "long menu shell-account-trigger 320x568: no page overflow",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "nav selects skills",
+      "ok": true,
+      "detail": "shell-place-skills"
+    },
+    {
+      "name": "nav selects try",
+      "ok": true,
+      "detail": "shell-place-try"
+    },
+    {
+      "name": "nav selects team",
+      "ok": true,
+      "detail": "shell-place-team"
+    },
+    {
+      "name": "nav selects agents",
+      "ok": true,
+      "detail": "shell-place-agents"
+    },
+    {
+      "name": "nav selects home",
+      "ok": true,
+      "detail": "shell-place-home"
+    },
+    {
+      "name": "nav fires once per click",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "clicking the current place does nothing",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "double click on a place navigates once",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "modifier click opens a tab and leaves the app alone",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "place links have real hrefs",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "tab order follows the layout",
+      "ok": true,
+      "detail": "A > shell-space-trigger > shell-place-home > shell-place-skills > shell-place-try > shell-place-team > shell-place-agents > shell-account-trigger > shell-theme-toggle > BUTTON"
+    },
+    {
+      "name": "focus ring is 2px with a 2px offset",
+      "ok": true,
+      "detail": "{\"style\":\"solid\",\"width\":\"2px\",\"offset\":\"2px\"}"
+    },
+    {
+      "name": "skip link moves focus to main",
+      "ok": true,
+      "detail": "shell-main"
+    },
+    {
+      "name": "menu focuses the selected space",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "arrow and Enter switch the space",
+      "ok": true,
+      "detail": "switch:sample-space"
+    },
+    {
+      "name": "focus returns after choosing",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "the trigger shows the new space",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "one skill reads singular",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "End reaches New space",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "arrows wrap around",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Escape closes and returns focus",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "ArrowDown opens the menu",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Tab closes the menu",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "choosing the current space does nothing",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "double click on the trigger ends closed",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "outside click closes",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "opening one menu closes the other",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "resize closes the menu",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "sign out fires",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signed out row shows",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "read only member has no New space",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "no space state reads plainly",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "no space still offers New space",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "sign in fires",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "a page outside the five selects nothing",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "a wallet address is shortened",
+      "ok": true,
+      "detail": "0x0x463e…eb1dEditor"
+    },
+    {
+      "name": "the full address is in the tooltip",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skill count caps in the nav",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "tall content scrolls inside main only",
+      "ok": true,
+      "detail": "{\"main\":800,\"doc\":0}"
+    },
+    {
+      "name": "short window keeps the account row on screen",
+      "ok": true,
+      "detail": "{\"x\":187,\"y\":250,\"width\":32,\"height\":32}"
+    },
+    {
+      "name": "short window: nav scrolls to the last place",
+      "ok": true,
+      "detail": "{\"scrollable\":true}"
+    },
+    {
+      "name": "dark is the default with nothing stored",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "the toggle switches to light",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "light survives a reload",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "double toggle lands back on light",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "?theme= overrides storage",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "blocked storage still renders and toggles",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "bottom bar selects skills",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "bottom bar selects try",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "bottom bar selects team",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "bottom bar selects agents",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "bottom bar selects home",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "mobile menu items are at least 44px",
+      "ok": true,
+      "detail": "52"
+    },
+    {
+      "name": "mobile space switch works",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "mobile sign out works",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "signed out mobile bar stays clean",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "the live app still renders with its old tokens",
+      "ok": true,
+      "detail": "paper #f8f8f7"
+    },
+    {
+      "name": "real app with the main.tsx line: nothing stored",
+      "ok": true,
+      "detail": "dark=true"
+    },
+    {
+      "name": "real app with the main.tsx line: stored light",
+      "ok": true,
+      "detail": "dark=false"
+    },
+    {
+      "name": "real app with the main.tsx line: stored dark",
+      "ok": true,
+      "detail": "dark=true"
+    },
+    {
+      "name": "real app with the main.tsx line: ?theme=light over stored dark",
+      "ok": true,
+      "detail": "dark=false"
+    }
+  ]
+}

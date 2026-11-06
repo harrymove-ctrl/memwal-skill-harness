@@ -1,0 +1,35 @@
+{
+  "name": "memwal-skills-director-video",
+  "private": true,
+  "version": "1.0.0",
+  "description": "MemWal Skills x Tatum Total Recall 42s 1080p Promotional Launch Video built with Remotion, official snapcn components, OriginKit CloudSky, and ChromaCurrent",
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts MemWalSkillsPromo out/memwal-skills-promo.mp4",
+    "audio:gen": "node scripts/generate-audio.mjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.448",
+    "@remotion/cli": "4.0.448",
+    "@remotion/google-fonts": "4.0.448",
+    "@remotion/paths": "4.0.448",
+    "@remotion/player": "4.0.448",
+    "@remotion/renderer": "4.0.448",
+    "@remotion/transitions": "4.0.448",
+    "class-variance-authority": "^0.7.1",
+    "culori": "^4.0.2",
+    "lucide-react": "^0.511.0",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "remotion": "4.0.448"
+  },
+  "devDependencies": {
+    "@types/culori": "^4.0.1",
+    "@types/node": "^22.14.0",
+    "@types/react": "19.1.2",
+    "@types/react-dom": "19.1.2",
+    "typescript": "~5.8.3"
+  }
+}

@@ -1,0 +1,10 @@
+[package]
+name = "memwal_namespace_guard"
+edition = "2024.beta"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/mainnet" }
+memwal = { local = "../../../../Users/harryphan/.gemini/antigravity/worktrees/MemWal/walrus_agent_skills_ui/services/contract" }
+
+[addresses]
+memwal_namespace_guard = "0x0"

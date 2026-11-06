@@ -1,0 +1,36 @@
+{
+  "name": "walrus-memory-promo-video",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Walrus Memory (memwal-skill-harness) 1080p Promotional Launch Video \u2014 Built with Remotion, snapcn, OriginKit CloudSky, and ChromaCurrent",
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts WalrusPromo out/walrus-memory-promo-real.mp4",
+    "audio:gen": "node scripts/generate-audio.mjs && node scripts/generate-score.mjs",
+    "typecheck": "tsc --noEmit",
+    "qa:stills": "./scripts/qa-run.sh",
+    "render:motion-v2": "remotion render src/index.ts WalrusPromoMotionV2 out/walrus-memory-promo-v2.mp4",
+    "record:take": "node scripts/record-take.mjs"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.448",
+    "@remotion/google-fonts": "4.0.448",
+    "@remotion/paths": "4.0.448",
+    "@remotion/transitions": "4.0.448",
+    "class-variance-authority": "^0.7.1",
+    "culori": "^4.0.2",
+    "lucide-react": "^0.511.0",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "remotion": "4.0.448"
+  },
+  "devDependencies": {
+    "@types/culori": "^4.0.1",
+    "@types/node": "^22.14.0",
+    "@types/react": "19.1.2",
+    "@types/react-dom": "19.1.2",
+    "playwright": "1.64.1",
+    "typescript": "~5.8.3"
+  }
+}

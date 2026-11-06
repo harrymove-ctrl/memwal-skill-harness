@@ -1,0 +1,18 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+.DS_Store
+*.tsbuildinfo
+.tmp/
+
+# Generated media and render caches (large; rebuild with the video scripts)
+out/
+.render-tmp/
+*.mp4
+*.webm
+*.wav
+*.mov
+video/out/
+video-director/out/
