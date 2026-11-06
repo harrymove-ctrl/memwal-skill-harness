@@ -1,0 +1,19 @@
+/*
+ * The logo's geometry, on a 64 unit grid and mirrored on x = 32. An open book
+ * doubles as a walrus's whiskers; the two tusks are what the team stores: skills
+ * and rules. The React component and video/scripts/build-brand.mjs both read this.
+ */
+
+/** Above 24px. */
+export const MARK_PATHS = [
+  "M3.5 15.2C12 7.5 25 7 32 14.5c7-7.5 20-7 28.5.7 1 .9 1.5 2 1.5 3.3v10.7c0 1.6-1.9 2.4-3 1.3-8.4-7.9-20.8-8.2-27-1-6.200-7.200-18.600-6.900-27 1-1.100 1.100-3 .300-3-1.300V18.500c0-1.300.500-2.400 1.500-3.300Z",
+  "M9.500 34.800c4.600-2.700 10-3.400 15.500-2.400 1.400 10.200-1.200 20.700-6.700 29.600-5.900-8.300-9.200-17.700-8.800-27.200Z",
+  "M54.500 34.800c-4.600-2.700-10-3.400-15.500-2.400-1.400 10.200 1.200 20.700 6.700 29.600 5.900-8.300 9.200-17.700 8.800-27.200Z",
+] as const;
+
+/** At 24px and under: simpler corners, wider gaps and heavier tusks that survive 16px. */
+export const MARK_SMALL_PATHS = [
+  "M2 16C12 6 25 6 32 14c7-8 20-8 30 2v15c-10-9-23-9-30-1-7-8-20-8-30 1V16Z",
+  "M8 36c5-2 11-2.600 18-2 1 10-1.500 20-7 29-7-8-11-17-11-27Z",
+  "M56 36c-5-2-11-2.600-18-2-1 10 1.500 20 7 29 7-8 11-17 11-27Z",
+] as const;

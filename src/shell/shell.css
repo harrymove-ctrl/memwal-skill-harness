@@ -73,6 +73,11 @@
   font-weight: 600;
 }
 
+.cc-brand__mark {
+  flex: none;
+  color: var(--cc-accent);
+}
+
 .cc-nav {
   display: flex;
   flex: 1 1 auto;
@@ -447,6 +452,10 @@
     padding: 8px 16px;
     border-bottom: 1px solid var(--cc-line);
     background: var(--cc-bg);
+  }
+
+  .cc-topbar .cc-brand__mark {
+    margin-right: 8px;
   }
 
   .cc-topbar .cc-menu-anchor {

@@ -496,7 +496,9 @@ function checkScreen(label, m, width) {
   await page.goto(`${PREVIEW}?api=real&place=skills&skill=memwal-review&theme=dark`, { timeout: 120000 });
   await page.waitForSelector('[data-testid="skill-document"]', { timeout: 120000 });
   await page.waitForFunction(() => !document.querySelector('[data-testid="rules-card"] [data-testid="skeleton"]'), null, { timeout: 60000 });
-  check("real skills: all skills listed", (await page.locator('[data-testid^="skill-item-"]:visible').count()) === 19);
+  const realSkills = (await (await page.request.get(`${ORIGIN}/api/ns/memwal-team-skills/skills`)).json()).skills.length;
+  const listedSkills = await page.locator('[data-testid^="skill-item-"]:visible').count();
+  check("real skills: all skills listed", listedSkills === realSkills && realSkills > 0, `${listedSkills} of ${realSkills}`);
   check("real skills: the document renders", (await id(page, "skill-document").textContent()).length > 200);
   const m = await page.evaluate(measure);
   const weak = m.contrast.filter((c) => c.ratio < 4.5);

@@ -1,3 +1,8 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="public/brand/lockup-full-on-dark.svg">
+  <img src="public/brand/lockup-full-on-light.svg" alt="MemWal Skill Harness" height="56">
+</picture>
+
 # MemWal Skill Harness — Namespace Skill Graph & Memory Trajectory Eval
 
 Built for **Walrus × Tatum: Total Recall ("Smart Agents for Real Life")**.

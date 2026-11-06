@@ -14,6 +14,7 @@ The plan for turning the harness into a product a team (and a judge) understands
 | [`08-execution-plan.md`](08-execution-plan.md) | Who does what each day until submission, what to cut first, and a prompt to paste into Antigravity |
 | [`handoff-antigravity.md`](handoff-antigravity.md) | The contract with Antigravity, which owns `src/App.tsx`: what Claude ships, what Antigravity wires |
 | [`concepts/`](concepts/) | Concept stills: `stills-dark/` is the chosen direction for every screen, `stills/` the light originals |
+| [`../brand/`](../brand/README.md) | The logo: the idea, every file, sizes, colors and rules |
 | [`audit/`](audit/) | Before screenshots and raw audit numbers |
 | [`qa/`](qa/) | After screenshots, flow videos and results for the shell and places, from `video/scripts/qa-shell.mjs` and `qa-places.mjs` |
 

@@ -1,0 +1,466 @@
+{
+  "total": 92,
+  "failed": 0,
+  "results": [
+    {
+      "name": "every documented file exists",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "app-icon-dark.svg: no live text or font dependency",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "app-icon-dark.svg: has an accessible name",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "app-icon-dark.svg: under 40 KB",
+      "ok": true,
+      "detail": "802"
+    },
+    {
+      "name": "app-icon.svg: no live text or font dependency",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "app-icon.svg: has an accessible name",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "app-icon.svg: under 40 KB",
+      "ok": true,
+      "detail": "802"
+    },
+    {
+      "name": "favicon.svg: no live text or font dependency",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "favicon.svg: has an accessible name",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "favicon.svg: under 40 KB",
+      "ok": true,
+      "detail": "551"
+    },
+    {
+      "name": "lockup-full-on-dark.svg: no live text or font dependency",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "lockup-full-on-dark.svg: has an accessible name",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "lockup-full-on-dark.svg: under 40 KB",
+      "ok": true,
+      "detail": "9983"
+    },
+    {
+      "name": "lockup-full-on-light.svg: no live text or font dependency",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "lockup-full-on-light.svg: has an accessible name",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "lockup-full-on-light.svg: under 40 KB",
+      "ok": true,
+      "detail": "9983"
+    },
+    {
+      "name": "lockup-on-dark.svg: no live text or font dependency",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "lockup-on-dark.svg: has an accessible name",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "lockup-on-dark.svg: under 40 KB",
+      "ok": true,
+      "detail": "6182"
+    },
+    {
+      "name": "lockup-on-light.svg: no live text or font dependency",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "lockup-on-light.svg: has an accessible name",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "lockup-on-light.svg: under 40 KB",
+      "ok": true,
+      "detail": "6182"
+    },
+    {
+      "name": "mark-deep.svg: no live text or font dependency",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "mark-deep.svg: has an accessible name",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "mark-deep.svg: under 40 KB",
+      "ok": true,
+      "detail": "688"
+    },
+    {
+      "name": "mark-emerald.svg: no live text or font dependency",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "mark-emerald.svg: has an accessible name",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "mark-emerald.svg: under 40 KB",
+      "ok": true,
+      "detail": "688"
+    },
+    {
+      "name": "mark-ink.svg: no live text or font dependency",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "mark-ink.svg: has an accessible name",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "mark-ink.svg: under 40 KB",
+      "ok": true,
+      "detail": "688"
+    },
+    {
+      "name": "mark-small-deep.svg: no live text or font dependency",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "mark-small-deep.svg: has an accessible name",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "mark-small-deep.svg: under 40 KB",
+      "ok": true,
+      "detail": "420"
+    },
+    {
+      "name": "mark-small-emerald.svg: no live text or font dependency",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "mark-small-emerald.svg: has an accessible name",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "mark-small-emerald.svg: under 40 KB",
+      "ok": true,
+      "detail": "420"
+    },
+    {
+      "name": "mark-white.svg: no live text or font dependency",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "mark-white.svg: has an accessible name",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "mark-white.svg: under 40 KB",
+      "ok": true,
+      "detail": "688"
+    },
+    {
+      "name": "og-image.svg: no live text or font dependency",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "og-image.svg: has an accessible name",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "og-image.svg: under 40 KB",
+      "ok": true,
+      "detail": "33449"
+    },
+    {
+      "name": "favicon-16.png: is 16x16",
+      "ok": true,
+      "detail": "16x16"
+    },
+    {
+      "name": "favicon-32.png: is 32x32",
+      "ok": true,
+      "detail": "32x32"
+    },
+    {
+      "name": "apple-touch-icon.png: is 180x180",
+      "ok": true,
+      "detail": "180x180"
+    },
+    {
+      "name": "icon-192.png: is 192x192",
+      "ok": true,
+      "detail": "192x192"
+    },
+    {
+      "name": "icon-512.png: is 512x512",
+      "ok": true,
+      "detail": "512x512"
+    },
+    {
+      "name": "icon-maskable-512.png: is 512x512",
+      "ok": true,
+      "detail": "512x512"
+    },
+    {
+      "name": "og-image.png: is 1200x630",
+      "ok": true,
+      "detail": "1200x630"
+    },
+    {
+      "name": "manifest icons all exist",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest offers a maskable icon",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "emerald mark on dark bg: at least 3:1",
+      "ok": true,
+      "detail": "10.03"
+    },
+    {
+      "name": "emerald mark on dark surface: at least 3:1",
+      "ok": true,
+      "detail": "9.35"
+    },
+    {
+      "name": "deep mark on light bg: at least 3:1",
+      "ok": true,
+      "detail": "5.11"
+    },
+    {
+      "name": "deep mark on white: at least 3:1",
+      "ok": true,
+      "detail": "5.48"
+    },
+    {
+      "name": "mark on emerald tile: at least 3:1",
+      "ok": true,
+      "detail": "9.83"
+    },
+    {
+      "name": "name on dark bg: at least 4.5:1",
+      "ok": true,
+      "detail": "17.77"
+    },
+    {
+      "name": "name on light bg: at least 4.5:1",
+      "ok": true,
+      "detail": "17.17"
+    },
+    {
+      "name": "mark-emerald.svg: the tusks mirror on the center",
+      "ok": true,
+      "detail": "{\"box\":[2,9.141124725341797,60,52.8588752746582],\"left\":[9.467391014099121,15.906228065490723],\"right\":[38.626380920410156,15.906227111816406],\"book\":31.008371353149414,\"tusk\":31.966175079345703}"
+    },
+    {
+      "name": "mark-emerald.svg: stays inside the 64 unit grid",
+      "ok": true,
+      "detail": "[2,9.141124725341797,60,52.8588752746582]"
+    },
+    {
+      "name": "mark-emerald.svg: renders",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "mark-small-emerald.svg: the tusks mirror on the center",
+      "ok": true,
+      "detail": "{\"box\":[2,8.22912311553955,60,54.770877838134766],\"left\":[8,18.21576690673828],\"right\":[37.78423309326172,18.21576690673828],\"book\":31.000000953674316,\"tusk\":33.77803039550781}"
+    },
+    {
+      "name": "mark-small-emerald.svg: stays inside the 64 unit grid",
+      "ok": true,
+      "detail": "[2,8.22912311553955,60,54.770877838134766]"
+    },
+    {
+      "name": "mark-small-emerald.svg: renders",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "dark: sidebar shows the mark",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "dark: 24px uses the small cut",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "dark: sidebar names the product",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "dark: the mark follows the theme",
+      "ok": true,
+      "detail": "rgb(52, 211, 153)"
+    },
+    {
+      "name": "dark: decorative beside its name",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "light: sidebar shows the mark",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "light: 24px uses the small cut",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "light: sidebar names the product",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "light: the mark follows the theme",
+      "ok": true,
+      "detail": "rgb(4, 120, 87)"
+    },
+    {
+      "name": "light: decorative beside its name",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "no page errors",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "the live page title is the product name",
+      "ok": true,
+      "detail": "MemWal Skill Harness"
+    },
+    {
+      "name": "favicon, touch icon and manifest are linked",
+      "ok": true,
+      "detail": "/brand/favicon.svg,/brand/favicon-32.png,/brand/apple-touch-icon.png,/brand/site.webmanifest"
+    },
+    {
+      "name": "/brand/favicon.svg: serves",
+      "ok": true,
+      "detail": "200"
+    },
+    {
+      "name": "/brand/favicon-32.png: serves",
+      "ok": true,
+      "detail": "200"
+    },
+    {
+      "name": "/brand/apple-touch-icon.png: serves",
+      "ok": true,
+      "detail": "200"
+    },
+    {
+      "name": "/brand/site.webmanifest: serves",
+      "ok": true,
+      "detail": "200"
+    },
+    {
+      "name": "link preview image is an absolute URL",
+      "ok": true,
+      "detail": "https://memwal-skill-harness-production.up.railway.app/brand/og-image.png"
+    },
+    {
+      "name": "390px: top bar shows the mark",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "390px: alone in the bar it carries a name",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "390px: no overflow",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "390px: the space switcher keeps usable room",
+      "ok": true,
+      "detail": "226"
+    },
+    {
+      "name": "320px: top bar shows the mark",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "320px: alone in the bar it carries a name",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "320px: no overflow",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "320px: the space switcher keeps usable room",
+      "ok": true,
+      "detail": "156"
+    },
+    {
+      "name": "the logo sheet loads every file",
+      "ok": true,
+      "detail": ""
+    }
+  ]
+}

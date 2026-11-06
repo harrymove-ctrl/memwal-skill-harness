@@ -1,5 +1,6 @@
 export { AppShell, type AppShellProps } from "./AppShell";
 export { Button, type ButtonProps } from "./Button";
+export { LogoMark, type LogoMarkProps, PRODUCT_NAME } from "./Logo";
 export { type MemberRole, type ShellMember } from "./AccountMenu";
 export {
   LEGACY_REDIRECTS,

@@ -1,6 +1,6 @@
 import type { ReactNode } from "react";
-import { WalrusLogo3D } from "../components/ui/walrus-3d-icons";
 import { AccountMenu, type ShellMember, ThemeButton } from "./AccountMenu";
+import { LogoMark, PRODUCT_NAME } from "./Logo";
 import { PLACE_ICONS, PlaceLink } from "./PlaceLink";
 import { PLACES, PLACE_LABELS, type Place } from "./places";
 import { type ShellSpace, SpaceSwitcher } from "./SpaceSwitcher";
@@ -32,8 +32,8 @@ export function Sidebar(props: SidebarProps) {
   return (
     <aside className="cc-sidebar" data-testid="shell-sidebar">
       <div className="cc-brand">
-        <WalrusLogo3D size="sm" />
-        <span className="cc-truncate">Walrus Memory</span>
+        <LogoMark size={24} className="cc-brand__mark" />
+        <span className="cc-truncate">{PRODUCT_NAME}</span>
       </div>
 
       <SpaceSwitcher

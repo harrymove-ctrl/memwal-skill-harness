@@ -1,4 +1,5 @@
 import { AccountMenu, type ShellMember, ThemeButton } from "./AccountMenu";
+import { LogoMark, PRODUCT_NAME } from "./Logo";
 import { PLACE_ICONS, PlaceLink } from "./PlaceLink";
 import { PLACES, PLACE_LABELS, type Place } from "./places";
 import { type ShellSpace, SpaceSwitcher } from "./SpaceSwitcher";
@@ -20,6 +21,7 @@ export interface MobileTopBarProps {
 export function MobileTopBar(props: MobileTopBarProps) {
   return (
     <header className="cc-topbar" data-testid="shell-topbar">
+      <LogoMark size={24} title={PRODUCT_NAME} className="cc-brand__mark" />
       <div className="cc-topbar__space">
         <SpaceSwitcher
           space={props.space}
