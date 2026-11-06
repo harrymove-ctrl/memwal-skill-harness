@@ -1,0 +1,166 @@
+{
+  "total": 32,
+  "failed": 0,
+  "results": [
+    {
+      "name": "dark: plays on its own after mount",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "dark: the light visibly crosses the mark",
+      "ok": true,
+      "detail": "24182 changed pixels"
+    },
+    {
+      "name": "dark: the light stays inside the mark",
+      "ok": true,
+      "detail": "0 pixels outside"
+    },
+    {
+      "name": "dark: the mark returns to rest",
+      "ok": true,
+      "detail": "0 channels differ"
+    },
+    {
+      "name": "dark: hover plays it",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "dark: no errors after rapid replays",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "light: plays on its own after mount",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "light: the light visibly crosses the mark",
+      "ok": true,
+      "detail": "25751 changed pixels"
+    },
+    {
+      "name": "light: the light stays inside the mark",
+      "ok": true,
+      "detail": "0 pixels outside"
+    },
+    {
+      "name": "light: the mark returns to rest",
+      "ok": true,
+      "detail": "0 channels differ"
+    },
+    {
+      "name": "light: hover plays it",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "light: no errors after rapid replays",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "all seven sizes play and settle",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "glint keeps the small cut at 24px and under",
+      "ok": true,
+      "detail": "full,full,full,full,full,small,small"
+    },
+    {
+      "name": "desktop: the visible logo plays",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "desktop: the hidden logo stays idle and spends no WebGL",
+      "ok": true,
+      "detail": "idle"
+    },
+    {
+      "name": "desktop: moving to another place plays it again",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "desktop: no overflow",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "desktop: the canvas never takes a click",
+      "ok": true,
+      "detail": "none"
+    },
+    {
+      "name": "desktop: the canvas stays out of the accessibility tree",
+      "ok": true,
+      "detail": "true"
+    },
+    {
+      "name": "mobile: the visible logo plays",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "mobile: the hidden logo stays idle and spends no WebGL",
+      "ok": true,
+      "detail": "idle"
+    },
+    {
+      "name": "mobile: moving to another place plays it again",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "mobile: no overflow",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "mobile: the canvas never takes a click",
+      "ok": true,
+      "detail": "none"
+    },
+    {
+      "name": "mobile: the canvas stays out of the accessibility tree",
+      "ok": true,
+      "detail": "true"
+    },
+    {
+      "name": "reduced motion: nothing plays",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "reduced motion: Glimm is never downloaded",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "reduced motion: the plain mark still shows",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "no WebGL: it turns itself off",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "no WebGL: the plain mark still shows",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "no WebGL: no page errors",
+      "ok": true,
+      "detail": ""
+    }
+  ]
+}

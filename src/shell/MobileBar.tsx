@@ -6,6 +6,7 @@ import { type ShellSpace, SpaceSwitcher } from "./SpaceSwitcher";
 import type { Theme } from "./theme";
 
 export interface MobileTopBarProps {
+  place: Place | null;
   space: ShellSpace | null;
   spaces: ShellSpace[];
   onSwitchSpace: (name: string) => void;
@@ -21,7 +22,7 @@ export interface MobileTopBarProps {
 export function MobileTopBar(props: MobileTopBarProps) {
   return (
     <header className="cc-topbar" data-testid="shell-topbar">
-      <LogoMark size={24} title={PRODUCT_NAME} className="cc-brand__mark" />
+      <LogoMark size={24} title={PRODUCT_NAME} className="cc-brand__mark" glint glintKey={props.place} />
       <div className="cc-topbar__space">
         <SpaceSwitcher
           space={props.space}

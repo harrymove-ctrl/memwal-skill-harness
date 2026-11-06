@@ -45,6 +45,22 @@ import { LogoMark, PRODUCT_NAME } from "./shell";
 
 `LogoMark` takes its color from CSS `color`, so it follows the theme, and it switches to the small cut at 24px and under. Pass `title` only when no text beside it says the name.
 
+## The glint
+
+The logo can carry a moment of light: a [Glimm](https://glimm.dev) band that crosses the mark from left to right and fades away in about 1.4 seconds. It uses the same emerald, teal and cyan colors as the page sweep in `src/lib/glimmStudio.tsx`, so the two read as one light.
+
+```tsx
+<LogoMark size={24} className="cc-brand__mark" glint glintKey={place} />
+```
+
+It plays once on load, on hover, and whenever `glintKey` changes. The shell passes the current place, so it plays on each move between places.
+
+Glimm's shader runs on a canvas masked to the mark, and the plain mark stays drawn underneath. If someone prefers reduced motion, Glimm is never downloaded and nothing plays. Without WebGL the plain logo stays. Only a visible logo creates a WebGL context, because a page can keep just 16 of them.
+
+Use it for the logo in the app. Do not loop it, because the logo should catch the eye for a moment and then get out of the way. `glimm` is pinned to an exact version because the package is young and has one maintainer. Check its changelog before upgrading.
+
+To see it at every size, run `npm run dev` and open `http://localhost:5188/src/shell/preview/logo.html`.
+
 ## Color
 
 | Surface | Mark | Name | Contrast of the mark |

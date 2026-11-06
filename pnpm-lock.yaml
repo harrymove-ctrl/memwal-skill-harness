@@ -54,7 +54,7 @@ importers:
         specifier: ^14.6.0
         version: 14.6.0(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
       glimm:
-        specifier: ^0.4.0
+        specifier: 0.4.0
         version: 0.4.0(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
       lucide-react:
         specifier: ^0.511.0

@@ -32,7 +32,7 @@ export function Sidebar(props: SidebarProps) {
   return (
     <aside className="cc-sidebar" data-testid="shell-sidebar">
       <div className="cc-brand">
-        <LogoMark size={24} className="cc-brand__mark" />
+        <LogoMark size={24} className="cc-brand__mark" glint glintKey={props.place} />
         <span className="cc-truncate">{PRODUCT_NAME}</span>
       </div>
 

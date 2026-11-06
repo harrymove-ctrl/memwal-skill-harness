@@ -58,6 +58,7 @@ export function AppShell(props: AppShellProps) {
       />
 
       <MobileTopBar
+        place={props.place}
         space={props.space}
         spaces={props.spaces}
         onSwitchSpace={props.onSwitchSpace}

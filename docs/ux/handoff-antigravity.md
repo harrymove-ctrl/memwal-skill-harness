@@ -159,7 +159,7 @@ Both fetch their own data, so wiring adds no hooks to `App.tsx`. To see them alo
 import { LogoMark, PRODUCT_NAME } from "./shell";
 ```
 
-Replace `<WalrusLogo3D size="md" />` and `<WalrusLogo3D size="sm" />` in `src/App.tsx` (near lines 1321 and 1670) with `<LogoMark size={32} className="cc-brand__mark" />` and `<LogoMark size={24} className="cc-brand__mark" />`, then drop the import. `src/components/blocks/onboarding-7.tsx` needs the same swap. `AppShell` already draws the logo, so the header one goes away with the old header in step 3. Rules and files are in `docs/brand/README.md`.
+Replace `<WalrusLogo3D size="md" />` and `<WalrusLogo3D size="sm" />` in `src/App.tsx` (near lines 1321 and 1670) with `<LogoMark size={32} className="cc-brand__mark" />` and `<LogoMark size={24} className="cc-brand__mark" />`, then drop the import. `src/components/blocks/onboarding-7.tsx` needs the same swap. `AppShell` already draws the logo with a Glimm glint, so the header one goes away with the old header in step 3. To add the glint elsewhere, pass `glint`, and `glintKey` to replay it. It needs no `GlimmProvider` and works beside your page sweep. Rules and files are in `docs/brand/README.md`.
 
 ## Wired
 
