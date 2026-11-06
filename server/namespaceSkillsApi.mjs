@@ -9,6 +9,7 @@ import {
   setRuleState,
   upsertRule,
 } from "./memoryGateway.mjs";
+import { handleTeamRequest, requireWrite } from "./teamApi.mjs";
 
 function sendJson(res, statusCode, body) {
   res.statusCode = statusCode;
@@ -20,58 +21,9 @@ function sendJson(res, statusCode, body) {
   );
   res.setHeader(
     "Access-Control-Allow-Headers",
-    "Content-Type, Authorization, If-Match, X-API-Key, X-MemWal-Caller-Address, X-MemWal-Access-Role"
+    "Content-Type, Authorization, If-Match, X-API-Key"
   );
   res.end(JSON.stringify(body, null, 2));
-}
-
-const ALLOWED_NAMESPACE_PREFIXES = [
-  "0x25f797",
-  "0xbe908b",
-  "0x463ec4",
-  "0x649ea1",
-  "0x8a2572",
-  "@harrymove-ctrl",
-  "@mysten-dev",
-  "@teammate-dev",
-  "@teammate-qa",
-];
-
-function verifyWriteAllowlist(req, body = {}) {
-  const roleHeader = String(
-    req.headers["x-memwal-access-role"] || body.accessRole || ""
-  )
-    .trim()
-    .toLowerCase();
-  if (roleHeader === "read-only") {
-    return {
-      allowed: false,
-      error: "Read-only SEAL access cannot modify skills or team rules.",
-    };
-  }
-  const caller = String(
-    req.headers["x-memwal-caller-address"] ||
-      body.callerAddress ||
-      body.author ||
-      ""
-  )
-    .trim()
-    .toLowerCase();
-  if (!caller) {
-    return { allowed: true };
-  }
-  if (
-    caller.includes("unauthorized") ||
-    caller.includes("blocked") ||
-    (caller.startsWith("0x") &&
-      !ALLOWED_NAMESPACE_PREFIXES.some((p) => caller.startsWith(p)))
-  ) {
-    return {
-      allowed: false,
-      error: `Caller ${caller} is not in the namespace allowlist for bucket 217e53fc-36ff-4d1b-8834-04f69c2ef553.`,
-    };
-  }
-  return { allowed: true };
 }
 
 function readJsonBody(req) {
@@ -106,6 +58,8 @@ export async function handleNamespaceSkillsRequest(req, res) {
   const pathname = parsedUrl.pathname.replace(/\/+$/, "");
 
   try {
+    if (await handleTeamRequest(req, res, sendJson, readJsonBody)) return true;
+
     // Match /api/ns/:ns/skills
     const skillsListMatch = pathname.match(/^\/api\/ns\/([^/]+)\/skills$/);
     if (skillsListMatch) {
@@ -134,12 +88,9 @@ export async function handleNamespaceSkillsRequest(req, res) {
       }
 
       if (req.method === "PUT") {
-        const body = await readJsonBody(req);
-        const acl = verifyWriteAllowlist(req, body);
-        if (!acl.allowed) {
-          sendJson(res, 403, { ok: false, error: acl.error });
-          return true;
-        }
+        const access = await requireWrite(req, res, ns, sendJson);
+        if (!access) return true;
+        const body = { ...(await readJsonBody(req)), author: access.handle };
         const ifMatchHeader = req.headers["if-match"];
         const ifMatchRev =
           ifMatchHeader !== undefined
@@ -168,11 +119,8 @@ export async function handleNamespaceSkillsRequest(req, res) {
       }
 
       if (req.method === "DELETE") {
-        const acl = verifyWriteAllowlist(req, {});
-        if (!acl.allowed) {
-          sendJson(res, 403, { ok: false, error: acl.error });
-          return true;
-        }
+        const access = await requireWrite(req, res, ns, sendJson, { ownerOnly: true });
+        if (!access) return true;
         const removed = await deleteConsoleSkill(ns, skillId);
         sendJson(res, 200, { ok: true, ...removed });
         return true;
@@ -191,12 +139,9 @@ export async function handleNamespaceSkillsRequest(req, res) {
       }
 
       if (req.method === "POST") {
-        const body = await readJsonBody(req);
-        const acl = verifyWriteAllowlist(req, body);
-        if (!acl.allowed) {
-          sendJson(res, 403, { ok: false, error: acl.error });
-          return true;
-        }
+        const access = await requireWrite(req, res, ns, sendJson);
+        if (!access) return true;
+        const body = { ...(await readJsonBody(req)), author: access.handle };
         const saved = await upsertRule(ns, body);
         sendJson(res, 200, { ok: true, ...saved });
         return true;
@@ -210,12 +155,9 @@ export async function handleNamespaceSkillsRequest(req, res) {
     if (ruleStateMatch && req.method === "POST") {
       const ns = decodeURIComponent(ruleStateMatch[1]);
       const ruleId = decodeURIComponent(ruleStateMatch[2]);
+      const access = await requireWrite(req, res, ns, sendJson);
+      if (!access) return true;
       const body = await readJsonBody(req);
-      const acl = verifyWriteAllowlist(req, body);
-      if (!acl.allowed) {
-        sendJson(res, 403, { ok: false, error: acl.error });
-        return true;
-      }
       const nextState = String(body.state || "off").toLowerCase();
       const updated = await setRuleState(ns, ruleId, nextState);
       sendJson(res, 200, { ok: true, ...updated });
@@ -229,12 +171,9 @@ export async function handleNamespaceSkillsRequest(req, res) {
     if (ruleBakeMatch && req.method === "POST") {
       const ns = decodeURIComponent(ruleBakeMatch[1]);
       const ruleId = decodeURIComponent(ruleBakeMatch[2]);
+      const access = await requireWrite(req, res, ns, sendJson);
+      if (!access) return true;
       const body = await readJsonBody(req);
-      const acl = verifyWriteAllowlist(req, body);
-      if (!acl.allowed) {
-        sendJson(res, 403, { ok: false, error: acl.error });
-        return true;
-      }
       const rules = await listFoldedRules(ns);
       const targetRule = rules.find((r) => r.ruleId === ruleId);
       if (!targetRule) {
@@ -252,7 +191,7 @@ export async function handleNamespaceSkillsRequest(req, res) {
 
       const savedSkill = await putConsoleSkill(ns, skillId, {
         markdown: nextMd,
-        author: body.author || targetRule.author || "@harrymove-ctrl",
+        author: access.handle,
       });
       const updatedRule = await setRuleState(ns, ruleId, "off");
 

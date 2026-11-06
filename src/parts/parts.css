@@ -9,9 +9,10 @@
 
 .cc-card__head {
   display: flex;
+  flex-wrap: wrap;
   align-items: baseline;
   justify-content: space-between;
-  gap: 12px;
+  gap: 4px 12px;
   padding: 14px 16px 10px;
 }
 
@@ -23,7 +24,9 @@
 }
 
 .cc-card__meta {
-  flex: none;
+  flex: 0 1 auto;
+  min-width: 0;
+  overflow-wrap: anywhere;
   color: var(--cc-ink-2);
   font-size: 12px;
   line-height: 16px;
@@ -31,6 +34,10 @@
 
 .cc-card__body {
   padding: 0 16px 14px;
+}
+
+.cc-card__body:first-child {
+  padding-top: 14px;
 }
 
 .cc-divided > * + * {

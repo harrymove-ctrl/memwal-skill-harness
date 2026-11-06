@@ -1,5 +1,20 @@
 # Handoff to Antigravity: wiring the dark command center into `src/App.tsx`
 
+## Read this first (6 Nov 2026): step 3 is superseded
+
+**Do not wire the shell into `src/App.tsx`.** It already runs. `src/App.tsx` was not edited. `src/main.tsx` now renders `src/Root.tsx`, which mounts `src/CommandCenter.tsx` for every route, and the older app keeps only `/bento` and `?legacy=1`.
+
+| Before | Now |
+| :--- | :--- |
+| Step 3: wrap `App.tsx` in `AppShell` | Done in `src/CommandCenter.tsx`, including routes, redirects and dark before first paint |
+| `caller` and role headers identify a writer | Ignored by the server. Writes need a signed session cookie, so any write from `App.tsx` answers 401 unless the person signed in through the new sign in |
+| `verify-access` registers a new address | It no longer registers anyone, whatever `requestedRole` says. Joining takes an invite from `POST /api/ns/:ns/invites` |
+| `POST /api/tatum-memwal/acl` open to anyone | Owners only |
+
+The rest of this file records how the pieces were specified. Its "Ready to wire" props are still accurate for each place, and `src/CommandCenter.tsx` shows them in use. To change a screen, write under "Requests", or ask the owner who should make the change.
+
+## The original contract
+
 Antigravity owns `src/App.tsx` for the whole build (decided 3 Nov 2026). Claude builds every new screen as a component driven only by props, in new files, and never edits `App.tsx`. This file is the contract between the two: what Claude ships, and what Antigravity wires.
 
 Read first: `04-screens.md` (what each screen does), `05-design-system.md` (dark tokens), `07-build-plan.md` (steps, owners, days).
@@ -163,7 +178,9 @@ Replace `<WalrusLogo3D size="md" />` and `<WalrusLogo3D size="sm" />` in `src/Ap
 
 ## Wired
 
-Nothing yet.
+### 6 Nov 2026: everything, in `src/CommandCenter.tsx`
+
+Shell, Home, Live, Skills, Try it, Team, Agents, Landing, Sign in, Proof drawer and the logo. Verified by `node video/scripts/qa-app.mjs` against the real app on the dev server, reading real data and signing in with a throwaway key. Owner flows that write ran on the preview with sample data, because real writes reach Walrus mainnet.
 
 ## Requests
 
