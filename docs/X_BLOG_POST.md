@@ -1,5 +1,9 @@
 # Skillbook: Teach a Rule Once, and Every Coding Agent on Your Team Follows It
 
+![X Article Cover Banner (5:2 Ratio, 1500x600)](assets/skillbook-x-article-banner-5x2.png)
+
+![X Post / YouTube Cover Thumbnail (16:9 Ratio, 1920x1080)](assets/skillbook-x-cover-16x9.png)
+
 ![Cover GIF: Skillbook Animated Product Walkthrough](assets/skillbook-hero-demo.gif)
 
 1. **Live App**: https://memwal-skill-harness-production.up.railway.app
