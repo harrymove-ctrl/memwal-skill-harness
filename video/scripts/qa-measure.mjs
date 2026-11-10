@@ -50,7 +50,7 @@ export function measure() {
     );
   };
 
-  const shell = document.querySelector('[data-testid="app-shell"]');
+  const shell = document.querySelector('[data-testid="app-shell"], [data-testid="landing-view"]');
   const main = document.querySelector('[data-testid="shell-main"]');
   const contrast = [];
   const sizes = new Set();
@@ -89,7 +89,7 @@ export function measure() {
     .filter((el) => visible(el) && el.scrollWidth > el.clientWidth + 0.5)
     .map((el) => el.textContent);
 
-  const innerOverflow = [...shell.querySelectorAll(".cc-skillpane, .cc-library, .cc-doc, .cc-card, .cc-place")]
+  const innerOverflow = [...shell.querySelectorAll(".cc-skillpane, .cc-library, .cc-doc, .cc-card, .cc-place, .cc-proof__panel, .cc-proof__body")]
     .filter((el) => visible(el) && el.scrollWidth - el.clientWidth > 1)
     .map((el) => `${el.className}: ${el.scrollWidth - el.clientWidth}px`);
 
@@ -98,7 +98,7 @@ export function measure() {
     innerOverflow,
     docOverflow: document.documentElement.scrollWidth - innerWidth,
     bodyOverflow: document.body.scrollWidth - innerWidth,
-    mainOverflow: main.scrollWidth - main.clientWidth,
+    mainOverflow: main ? main.scrollWidth - main.clientWidth : 0,
     contrast,
     sizes: [...sizes],
     fonts,

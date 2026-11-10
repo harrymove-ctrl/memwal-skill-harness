@@ -41,11 +41,41 @@ const SCREENS = {
   "skills failed": "place=skills&fail=skills",
   "skills rules failed": "place=skills&skill=sample-review&fail=rules",
   "skills no rules": "place=skills&skill=sample-review&rules=empty",
+  "try idle": "place=try",
+  "try viewer": "place=try&role=Viewer",
+  "try no skills": "place=try&skills=empty",
+  "try failed": "place=try&fail=skills",
+  "team owner": "place=team",
+  "team editor": "place=team&role=Editor",
+  "team viewer": "place=team&role=Viewer",
+  "team signed out": "place=team&signedout=1",
+  "team stranger": "place=team&stranger=1",
+  "team long": "place=team&members=long",
+  "team unverified": "place=team&members=unverified",
+  "team empty": "place=team&members=empty",
+  "team failed": "place=team&fail=members",
+  "agents new": "place=agents&scene=new",
+  "agents live": "place=agents&scene=live",
+  "agents failed": "place=agents&fail=activity",
+  "proof open": "place=home&scene=progress&proof=1",
+  "proof no account": "place=home&scene=progress&proof=1&proofstate=noaccount",
+  "proof failed": "place=home&scene=progress&proof=1&fail=proof",
+  "signin open": "place=home&scene=progress&signin=1",
+  "landing": "place=landing",
+  "landing invited": "place=landing&invited=memwal-team-skills",
+  "landing invite failed": "place=landing&inviteerror=This%20invite%20is%20not%20valid%20or%20has%20expired.",
+  "state empty home": "place=home&state=empty",
+  "state empty team": "place=team&state=empty",
+  "state error team": "place=team&state=error",
+  "state offline team": "place=team&state=offline",
+  "state offline agents": "place=agents&state=offline",
+  "state offline try": "place=try&state=offline",
+  "state readonly team": "place=team&state=readonly",
 };
 
 const open = (page, query, theme = "dark") => page.goto(`${PREVIEW}?${query}&theme=${theme}`);
 const settled = (page) =>
-  page.waitForFunction(() => !document.querySelector('[data-testid="skeleton"], [data-testid="skills-loading"]') && document.querySelector('[data-testid="app-shell"]'));
+  page.waitForFunction(() => !document.querySelector('[data-testid="skeleton"], [data-testid="skills-loading"]') && (document.querySelector('[data-testid="app-shell"]') || document.querySelector('[data-testid="landing-view"]')));
 const id = (page, testid) => page.locator(`[data-testid="${testid}"]:visible`);
 const events = (page) => page.evaluate(() => window.__placeEvents.slice());
 const countOf = async (page, pattern) => (await events(page)).filter((event) => pattern.test(event)).length;
@@ -87,7 +117,7 @@ function checkScreen(label, m, width) {
         const primaries = await page.locator('.cc-page [data-variant="primary"]:visible').count();
         check(`${label}: at most one primary`, primaries <= 1, primaries);
         const text = await page.evaluate(() => {
-          const clone = document.querySelector('[data-testid="app-shell"]').cloneNode(true);
+          const clone = document.querySelector('[data-testid="app-shell"], [data-testid="landing-view"]').cloneNode(true);
           clone.querySelectorAll(".cc-doc").forEach((el) => el.remove());
           return clone.textContent;
         });

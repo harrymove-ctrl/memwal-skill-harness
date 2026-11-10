@@ -20,7 +20,7 @@
     {
       "name": "app-icon-dark.svg: under 40 KB",
       "ok": true,
-      "detail": "802"
+      "detail": "780"
     },
     {
       "name": "app-icon.svg: no live text or font dependency",
@@ -35,7 +35,7 @@
     {
       "name": "app-icon.svg: under 40 KB",
       "ok": true,
-      "detail": "802"
+      "detail": "780"
     },
     {
       "name": "favicon.svg: no live text or font dependency",
@@ -50,7 +50,7 @@
     {
       "name": "favicon.svg: under 40 KB",
       "ok": true,
-      "detail": "551"
+      "detail": "529"
     },
     {
       "name": "lockup-full-on-dark.svg: no live text or font dependency",
@@ -65,7 +65,7 @@
     {
       "name": "lockup-full-on-dark.svg: under 40 KB",
       "ok": true,
-      "detail": "9983"
+      "detail": "8325"
     },
     {
       "name": "lockup-full-on-light.svg: no live text or font dependency",
@@ -80,7 +80,7 @@
     {
       "name": "lockup-full-on-light.svg: under 40 KB",
       "ok": true,
-      "detail": "9983"
+      "detail": "8325"
     },
     {
       "name": "lockup-on-dark.svg: no live text or font dependency",
@@ -95,7 +95,7 @@
     {
       "name": "lockup-on-dark.svg: under 40 KB",
       "ok": true,
-      "detail": "6182"
+      "detail": "4153"
     },
     {
       "name": "lockup-on-light.svg: no live text or font dependency",
@@ -110,7 +110,7 @@
     {
       "name": "lockup-on-light.svg: under 40 KB",
       "ok": true,
-      "detail": "6182"
+      "detail": "4153"
     },
     {
       "name": "mark-deep.svg: no live text or font dependency",
@@ -125,7 +125,7 @@
     {
       "name": "mark-deep.svg: under 40 KB",
       "ok": true,
-      "detail": "688"
+      "detail": "666"
     },
     {
       "name": "mark-emerald.svg: no live text or font dependency",
@@ -140,7 +140,7 @@
     {
       "name": "mark-emerald.svg: under 40 KB",
       "ok": true,
-      "detail": "688"
+      "detail": "666"
     },
     {
       "name": "mark-ink.svg: no live text or font dependency",
@@ -155,7 +155,7 @@
     {
       "name": "mark-ink.svg: under 40 KB",
       "ok": true,
-      "detail": "688"
+      "detail": "666"
     },
     {
       "name": "mark-small-deep.svg: no live text or font dependency",
@@ -170,7 +170,7 @@
     {
       "name": "mark-small-deep.svg: under 40 KB",
       "ok": true,
-      "detail": "420"
+      "detail": "398"
     },
     {
       "name": "mark-small-emerald.svg: no live text or font dependency",
@@ -185,7 +185,7 @@
     {
       "name": "mark-small-emerald.svg: under 40 KB",
       "ok": true,
-      "detail": "420"
+      "detail": "398"
     },
     {
       "name": "mark-white.svg: no live text or font dependency",
@@ -200,7 +200,7 @@
     {
       "name": "mark-white.svg: under 40 KB",
       "ok": true,
-      "detail": "688"
+      "detail": "666"
     },
     {
       "name": "og-image.svg: no live text or font dependency",
@@ -215,7 +215,7 @@
     {
       "name": "og-image.svg: under 40 KB",
       "ok": true,
-      "detail": "33449"
+      "detail": "31791"
     },
     {
       "name": "favicon-16.png: is 16x16",
@@ -385,7 +385,7 @@
     {
       "name": "the live page title is the product name",
       "ok": true,
-      "detail": "MemWal Skill Harness"
+      "detail": "Skillbook"
     },
     {
       "name": "favicon, touch icon and manifest are linked",

@@ -1,5 +1,6 @@
-import { AlertTriangle, Bot, Check, CheckCircle2, MoreHorizontal, RefreshCw, XCircle } from "lucide-react";
+import { AlertTriangle, Check, CheckCircle2, MoreHorizontal, RefreshCw, XCircle } from "lucide-react";
 import { type FormEvent, type ReactNode, useEffect, useRef, useState } from "react";
+import { AgentBrandLogo, SignerOrb3D } from "../components/ui/walrus-3d-icons";
 import type { ActivityEvent } from "../hooks/activity";
 import type { Rule } from "../hooks/useRules";
 import { Button } from "../shell/Button";
@@ -132,9 +133,19 @@ export interface LastCheck {
   withRules: string;
   ruleText?: string;
   ruleAuthor?: string;
+  /** The plans were written by hand, not produced by a live model. The screen must say so. */
+  writtenExample?: boolean;
 }
 
-export function VerdictCard({ check, onTry }: { check: LastCheck | null; onTry?: () => void }) {
+export function VerdictCard({
+  check,
+  onTry,
+  title = "Last check",
+}: {
+  check: LastCheck | null;
+  onTry?: () => void;
+  title?: string;
+}) {
   if (!check) {
     return (
       <Card title="Last check" testId="verdict-empty">
@@ -147,7 +158,7 @@ export function VerdictCard({ check, onTry }: { check: LastCheck | null; onTry?:
   }
   return (
     <Card
-      title="Last check"
+      title={title}
       meta={check.task ? `${check.skillName}, ${check.task}` : check.skillName}
       testId="verdict"
     >
@@ -173,6 +184,9 @@ export function VerdictCard({ check, onTry }: { check: LastCheck | null; onTry?:
             {check.ruleAuthor && <div className="cc-meta">{plainHandle(check.ruleAuthor)}</div>}
           </div>
         )}
+        {check.writtenExample && (
+          <div className="cc-meta" data-testid="verdict-written">Written example, not a live model</div>
+        )}
       </div>
     </Card>
   );
@@ -182,12 +196,12 @@ export function ActivityRow({ event, now }: { event: ActivityEvent; now: number 
   return (
     <div className="cc-activity" data-testid="activity-row">
       {event.actorIsAgent ? (
-        <span className="cc-activity__glyph" aria-hidden>
-          <Bot size={16} strokeWidth={1.75} />
+        <span className="cc-activity__glyph cc-activity__glyph--orb" aria-hidden>
+          <AgentBrandLogo agent={event.actor} size={28} />
         </span>
       ) : (
-        <span className="cc-activity__glyph" data-person aria-hidden>
-          {event.actor.charAt(0).toUpperCase() || "?"}
+        <span className="cc-activity__glyph cc-activity__glyph--orb" data-person aria-hidden>
+          <SignerOrb3D handle={event.actor} size={28} online={false} />
         </span>
       )}
       <div className="cc-activity__text">

@@ -1,6 +1,12 @@
 # Logo
 
-The MemWal Skill Harness logo, and how to use it. Every file here is built by `node video/scripts/build-brand.mjs` from one source of geometry, `src/shell/logoPaths.ts`.
+The Skillbook logo, and how to use it. Every file here is built by `node video/scripts/build-brand.mjs` from one source of geometry, `src/shell/logoPaths.ts`.
+
+## The name
+
+**Skillbook**, because the product is a team's book of skills and the logo is an open book. It replaced "MemWal Skill Harness" on 2026-11-06 for two reasons. A harness is the runtime around a model, such as Claude Code or Cursor, and this product is the shared playbook those harnesses read, so our own vocabulary already told people not to use the word. MemWal is the old name of Walrus Memory.
+
+Only the display name changed. The repository, the package, the deployed URL, the `memwal-skill-harness/v1` schema id and every namespace keep their names. To change the name again, edit `PRODUCT_NAME` in `src/shell/Logo.tsx` and `NAME` in `video/scripts/build-brand.mjs`, run `scripts/brand/outline-name.py`, then rebuild the logo files.
 
 ## The idea
 

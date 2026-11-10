@@ -4,6 +4,17 @@ import "./lib/fonts";
 import { FILM_FRAMES, WalrusProductFilm } from "./WalrusProductFilm";
 import { PROMO_FRAMES, WalrusPromoVideo } from "./WalrusPromoVideo";
 import { REAL_FRAMES, WalrusPromoReal } from "./PromoReal";
+import { LOOP_SECONDS, SkillbookLoopScene } from "./scenes/SkillbookLoopScene";
+import { HOOD_SECONDS, SkillbookHoodScene } from "./scenes/SkillbookHoodScene";
+import { SKILLBOOK_FRAMES, SkillbookDemo } from "./SkillbookDemo";
+import {
+  LAUNCH_X_FRAMES,
+  SHOWCASE_FPS,
+  SHOWCASE_FRAMES,
+  SkillbookLaunchX,
+  SkillbookShowcase,
+} from "./SkillbookShowcase";
+import { MANIFESTO_SECONDS, SkillbookManifesto } from "./scenes/SkillbookManifesto";
 import { OriginCloudHookScene } from "./scenes/OriginCloudHookScene";
 import { MemWalLogoCollapseScene } from "./scenes/MemWalLogoCollapseScene";
 import { PromptLaptopDiveScene } from "./scenes/PromptLaptopDiveScene";
@@ -24,6 +35,24 @@ const HD = { fps: 30, width: 1920, height: 1080 } as const;
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      {/* Full 2:56 (176s) Skillbook Showcase Master + 0:44 X Launch Cut */}
+      <Composition
+        id="Skillbook-Showcase"
+        component={SkillbookShowcase}
+        durationInFrames={SHOWCASE_FRAMES}
+        fps={SHOWCASE_FPS}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="Skillbook-Launch-X"
+        component={SkillbookLaunchX}
+        durationInFrames={LAUNCH_X_FRAMES}
+        fps={SHOWCASE_FPS}
+        width={1920}
+        height={1080}
+      />
+
       {/* Master 80.00s (2400f) @snapcn + Real Product Film */}
       <Composition
         id="WalrusPromo"
@@ -31,6 +60,20 @@ export const RemotionRoot: React.FC = () => {
         durationInFrames={FILM_FRAMES}
         {...HD}
       />
+
+      {/* The 15 second Skillbook loop, one white ball through one world */}
+      <Composition
+        id="Skillbook-Loop"
+        component={SkillbookLoopScene}
+        durationInFrames={LOOP_SECONDS * 60}
+        fps={60}
+        width={1920}
+        height={1080}
+      />
+
+      <Composition id="Skillbook-Manifesto" component={SkillbookManifesto} durationInFrames={MANIFESTO_SECONDS * 60} fps={60} width={1920} height={1080} />
+      <Composition id="Skillbook-Hood" component={SkillbookHoodScene} durationInFrames={HOOD_SECONDS * 60 + 24} fps={60} width={1920} height={1080} />
+      <Composition id="Skillbook-Demo" component={SkillbookDemo} durationInFrames={SKILLBOOK_FRAMES} fps={60} width={1920} height={1080} />
 
       {/* Individual Scenes for Studio & Still QA */}
       <Composition

@@ -2,7 +2,9 @@
  * Dev only: open /src/places/preview/index.html on the dev server. It is not a
  * Rollup input, so it never reaches the production build.
  *
- * ?place=home|skills
+ * ?place=home|skills|try|team|agents|landing   &proof=1 opens Proof, &signin=1 opens Sign in
+ * ?state=loading|empty|error|offline|readonly   every screen state, on any place
+ * ?members=long|unverified|empty  ?addresult=clean|flagged|unchecked|invalid|exists  ?proofstate=noaccount
  * ?api=mock (default): sample data, nothing leaves the browser.
  * ?api=real: real reads from this dev server; every write is refused here, so
  *   the preview can never change a real space.
@@ -17,8 +19,19 @@ import "../../index.css";
 import { AppShell } from "../../shell/AppShell";
 import { PLACE_LABELS, type Place } from "../../shell/places";
 import { applyTheme, initialTheme, type Theme } from "../../shell/theme";
+import { useMembers } from "../../hooks/useMembers";
+import { useSession } from "../../hooks/useSession";
+import { useSkills } from "../../hooks/useSkills";
+import type { LastCheck } from "../../parts";
+import { ProofDrawer } from "../../parts/ProofDrawer";
+import { Button } from "../../shell/Button";
+import { AgentsPlace } from "../Agents";
 import { HomePlace } from "../Home";
+import { LandingPlace } from "../Landing";
+import { SignInDialog } from "../SignIn";
 import { SkillsPlace } from "../Skills";
+import { TeamPlace } from "../Team";
+import { TryItPlace } from "../TryIt";
 
 declare global {
   interface Window {
@@ -29,9 +42,21 @@ window.__placeEvents = [];
 const log = (event: string) => window.__placeEvents.push(event);
 
 const params = new URLSearchParams(window.location.search);
+const forced = params.get("state");
+if (forced === "empty") {
+  params.set("scene", "new");
+  params.set("skills", "empty");
+  params.set("rules", "empty");
+  params.set("members", "empty");
+}
+if (forced === "readonly") params.set("role", "Viewer");
+if (forced === "offline") Object.defineProperty(navigator, "onLine", { get: () => false });
 const scene = params.get("scene") ?? "progress";
 const fail = new Set((params.get("fail") ?? "").split(",").filter(Boolean));
-const delay = Number(params.get("delay") ?? 60);
+if (forced === "error" || forced === "offline") {
+  for (const area of ["activity", "rules", "skills", "members", "proof"]) fail.add(area);
+}
+const delay = forced === "loading" ? 100_000_000 : Number(params.get("delay") ?? 60);
 const real = params.get("api") === "real";
 
 const ago = (minutes: number) => new Date(Date.now() - minutes * 60_000).toISOString();
@@ -113,7 +138,9 @@ let mockSkills: MockSkill[] =
     ? []
     : params.get("skills") === "long"
       ? [skill(LONG, "A very long category name for the library column", 12), ...Array.from({ length: 40 }, (_, i) => skill(`sample-skill-${i}`, `Group ${i % 5}`))]
-      : [skill("sample-review", "Workflows", 4), skill("sample-qa", "Workflows", 2), skill("sample-rust", "Rust and relayer")];
+      : params.get("place") === "try"
+        ? [skill("sample-review", "Workflows", 4), skill("memwal-qa", "Workflows", 2), skill("sample-rust", "Rust and relayer")]
+        : [skill("sample-review", "Workflows", 4), skill("sample-qa", "Workflows", 2), skill("sample-rust", "Rust and relayer")];
 
 let mockRules: Record<string, unknown>[] =
   params.get("rules") === "empty" || scene === "new"
@@ -122,7 +149,48 @@ let mockRules: Record<string, unknown>[] =
         { ruleId: "r1", skillId: "sample-review", text: "Sample rule: run the checks before approving.", state: "on", author: "@teammate-qa", updatedAt: ago(60), rev: 1, blobId: "realBlobA" },
         { ruleId: "r2", skillId: "sample-review", text: "Sample rule: post in the channel before promoting.", state: "off", author: "@harrymove-ctrl", updatedAt: ago(4000), rev: 3, blobId: "realBlobB" },
         { ruleId: "r3", skillId: "sample-review", text: params.get("skills") === "long" ? LONG_RULE : "Sample rule waiting to sync.", state: "on", author: "@teammate-with-a-very-long-handle-name", updatedAt: ago(5), rev: 1, blobId: "z7BHX3brsgqcmDQXh2IzmoCj4g14XioezjkuIL1Fkk0" },
+        { ruleId: "r4", skillId: "memwal-qa", text: "Skip retired demo apps during QA and close their pull requests as not planned.", state: params.get("retired") === "off" ? "off" : "on", author: "@harrymove-ctrl", updatedAt: ago(90), rev: 1, blobId: "realBlobC" },
       ];
+
+const ROLE_WIRE = { Owner: "owner", Editor: "read-write", Viewer: "read-only" } as const;
+const addr = (byte: string) => `0x${byte.repeat(32)}`;
+const youAddress = addr("aa");
+type MockMember = { handle: string; suiAddress: string; role: string; addedAt: string; verification: string };
+let mockMembers: MockMember[] =
+  params.get("members") === "empty"
+    ? []
+    : [
+        { handle: "@harrymove-ctrl", suiAddress: youAddress, role: "owner", addedAt: ago(9000), verification: "owner" },
+        { handle: "@teammate-dev", suiAddress: addr("bb"), role: "read-write", addedAt: ago(7000), verification: params.get("members") === "unverified" ? "unknown" : "key" },
+        { handle: "@teammate-qa", suiAddress: addr("cc"), role: "read-only", addedAt: ago(5000), verification: params.get("members") === "unverified" ? "unknown" : "pending" },
+        ...(params.get("members") === "long"
+          ? [{ handle: "@a-teammate-with-an-extremely-long-handle-that-someone-really-did-choose-2026", suiAddress: addr("dd"), role: "read-only", addedAt: ago(100), verification: "pending" }]
+          : []),
+      ];
+let joinedInvite = 0;
+
+const PROOF = {
+  namespace: "sample-space",
+  bucket: { id: "217e53fc-36ff-4d1b-8834-04f69c2ef553", url: "https://console.example/bucket", files: [{ id: "file-sample-1", label: "sample-review" }, { id: "file-sample-2", label: LONG }] },
+  blobs: [
+    { id: "realBlobA", label: "Sample rule: run the checks before approving.", url: "https://walruscan.com/mainnet/blob/realBlobA" },
+    { id: "z7BHX3brsgqcmDQXh2IzmoCj4g14XioezjkuIL1Fkk0", label: "A placeholder that must never show", url: "https://walruscan.com/mainnet/blob/placeholder" },
+  ],
+  memoryCount: 61,
+  account: {
+    id: addr("46"),
+    url: "https://suiscan.xyz/mainnet/object/sample",
+    owner: youAddress,
+    active: true,
+    keys: [{ address: addr("bb"), label: "@teammate-dev, Relayer and Rust" }],
+  },
+  transactions: [
+    { digest: "5p7GMukmf64UtGoyv7UbpeEV3MRdW6aDrZgJ4R1f5Vq6", label: "Account created", ok: true, url: "https://suiscan.xyz/mainnet/tx/sample" },
+    { digest: "9q8FNvnjg75VuHpzw8VcqfeW4NSeX7EshKZ5S2g6Wr7T", label: "Keys added", ok: null, url: "https://suiscan.xyz/mainnet/tx/sample2" },
+  ],
+  source: "Tatum Sui gRPC gateway",
+  readAt: new Date().toISOString(),
+};
 
 let conflictSent = false;
 
@@ -154,6 +222,52 @@ window.fetch = async (input, init) => {
     });
   });
 
+  if (url.pathname === "/api/auth/session") {
+    return json({ ok: true, address: params.get("signedout") ? null : youAddress });
+  }
+
+  if (url.pathname.endsWith("/proof")) {
+    if (fail.has("proof")) return json({ ok: false }, 500);
+    return json({ ok: true, ...PROOF, account: params.get("proofstate") === "noaccount" ? null : PROOF.account });
+  }
+
+  if (url.pathname.endsWith("/invites")) {
+    return fail.has("invite") ? json({ ok: false }, 500) : json({ ok: true, role: "read-only", token: `sample-token-${(joinedInvite += 1)}`, expiresAt: Date.now() + 1000 });
+  }
+
+  const memberMatch = url.pathname.match(/\/members\/([^/]+)(\/role)?$/);
+  if (memberMatch && memberMatch[1] !== "check") {
+    if (fail.has("member")) return json({ ok: false, error: "A space needs at least one owner." }, 409);
+    const target = decodeURIComponent(memberMatch[1]!);
+    if (method === "DELETE") mockMembers = mockMembers.filter((item) => item.suiAddress !== target);
+    else {
+      const next = JSON.parse(String(init?.body ?? "{}")).role;
+      mockMembers = mockMembers.map((item) => (item.suiAddress === target ? { ...item, role: next } : item));
+    }
+    return json({ ok: true, members: mockMembers });
+  }
+
+  if (url.pathname.endsWith("/members")) {
+    if (method === "GET") {
+      if (fail.has("members")) return json({ ok: false }, 500);
+      const role = (params.get("role") ?? "Owner") as keyof typeof ROLE_WIRE;
+      return json({
+        ok: true,
+        members: mockMembers,
+        you: params.get("signedout") ? null : params.get("stranger") ? { address: addr("ee"), handle: null, role: null } : { address: youAddress, handle: "@harrymove-ctrl", role: ROLE_WIRE[role] ?? "owner" },
+        accountRead: params.get("members") !== "unverified",
+      });
+    }
+    const body = JSON.parse(String(init?.body ?? "{}"));
+    const result = params.get("addresult") ?? "clean";
+    if (result === "flagged") return json({ ok: false, code: "flagged", error: "flagged" }, 409);
+    if (result === "invalid") return json({ ok: false, code: "invalid", error: "invalid" }, 400);
+    if (result === "exists") return json({ ok: false, code: "exists", error: "exists" }, 409);
+    if (result === "unchecked" && !body.acceptUnchecked) return json({ ok: false, code: "unchecked", error: "unchecked" }, 409);
+    mockMembers = [...mockMembers, { handle: "new-teammate.sui", suiAddress: addr("ff"), role: body.role, addedAt: new Date().toISOString(), verification: "pending" }];
+    return json({ ok: true, members: mockMembers, check: { verdict: result === "unchecked" ? "unknown" : "clean", address: addr("ff") } });
+  }
+
   if (url.pathname.endsWith("/activity")) {
     return fail.has("activity") ? json({ ok: false }, 500) : json({ ok: true, receipts: activityFor() });
   }
@@ -173,7 +287,11 @@ window.fetch = async (input, init) => {
   }
 
   if (url.pathname.endsWith("/rules")) {
-    if (method === "GET") return fail.has("rules") ? json({ ok: false }, 500) : json({ ok: true, rules: mockRules });
+    if (method === "GET") {
+      if (fail.has("rules")) return json({ ok: false }, 500);
+      const only = url.searchParams.get("skill");
+      return json({ ok: true, rules: only ? mockRules.filter((rule) => rule.skillId === only) : mockRules });
+    }
     if (fail.has("add")) return json({ ok: false, error: "boom" }, 500);
     const body = JSON.parse(String(init?.body ?? "{}"));
     const rule = {
@@ -221,6 +339,57 @@ window.fetch = async (input, init) => {
 
 const REAL_SPACE = "memwal-team-skills";
 
+function TryPreview({ namespace }: { namespace: string }) {
+  const skills = useSkills(namespace);
+  const [, setCheck] = useState<LastCheck | null>(null);
+  return (
+    <TryItPlace
+      namespace={namespace}
+      skills={skills.skills}
+      skillsStatus={skills.status}
+      onRetrySkills={skills.refresh}
+      initialSkillId={params.get("skill")}
+      onOpenSkill={(id) => log(`open:${id}`)}
+      onResult={(check) => {
+        setCheck(check);
+        log(`check:${check.withRules}`);
+      }}
+      onImport={() => log("import")}
+    />
+  );
+}
+
+function TeamPreview({ namespace }: { namespace: string }) {
+  const members = useMembers(namespace);
+  return (
+    <TeamPlace
+      namespace={namespace}
+      state={members}
+      inviteUrl={(token) => `${window.location.origin}/join?ns=${namespace}&invite=${token}`}
+      onSignIn={() => log("sign-in")}
+    />
+  );
+}
+
+function LandingPreview() {
+  const session = useSession();
+  const [signIn, setSignIn] = useState(Boolean(params.get("signin")));
+  const [proof, setProof] = useState(Boolean(params.get("proof")));
+  return (
+    <>
+      <LandingPlace
+        onTryDemo={() => log("demo")}
+        onSignIn={() => setSignIn(true)}
+        onShowProof={() => setProof(true)}
+        invitedTo={params.get("invited")}
+        inviteError={params.get("inviteerror")}
+      />
+      {signIn && <SignInDialog session={session} onClose={() => setSignIn(false)} />}
+      {proof && <ProofDrawer namespace="sample-space" onClose={() => setProof(false)} />}
+    </>
+  );
+}
+
 function Preview() {
   const role = (params.get("role") ?? "Owner") as "Owner" | "Editor" | "Viewer";
   const readOnly = role === "Viewer";
@@ -228,6 +397,9 @@ function Preview() {
   const [place, setPlace] = useState<Place>((params.get("place") as Place) ?? "home");
   const [selected, setSelected] = useState<string | null>(params.get("skill"));
   const [theme, setTheme] = useState<Theme>(initialTheme);
+  const [proofOpen, setProofOpen] = useState(Boolean(params.get("proof")));
+  const signInSession = useSession();
+  const [signInOpen, setSignInOpen] = useState(Boolean(params.get("signin")));
 
   const memberCount = useMemo(() => {
     if (real) return 1;
@@ -241,8 +413,10 @@ function Preview() {
       space={{ name: namespace, skillCount: 19 }}
       spaces={[{ name: namespace, skillCount: 19 }]}
       onSwitchSpace={() => undefined}
-      member={{ handle: "harrymove-ctrl", role }}
+      member={params.get("signedout") ? null : { handle: "harrymove-ctrl", role }}
       onSignOut={() => undefined}
+      onSignIn={() => setSignInOpen(true)}
+      toolbar={place === "home" ? <Button onClick={() => setProofOpen(true)} data-testid="open-proof">Proof</Button> : undefined}
       theme={theme}
       onToggleTheme={() =>
         setTheme((value) => {
@@ -290,9 +464,15 @@ function Preview() {
           onConnect={() => log("connect")}
           onTry={() => log("try")}
         />
+      ) : place === "try" ? (
+        <TryPreview namespace={namespace} />
+      ) : place === "team" ? (
+        <TeamPreview namespace={namespace} />
       ) : (
-        <div className="cc-place">{PLACE_LABELS[place]} ships in a later step.</div>
+        <AgentsPlace namespace={namespace} accountId={addr("46")} serverUrl="https://relayer.example" origin={window.location.origin} />
       )}
+      {proofOpen && <ProofDrawer namespace={namespace} onClose={() => setProofOpen(false)} />}
+      {signInOpen && <SignInDialog session={signInSession} onClose={() => setSignInOpen(false)} />}
     </AppShell>
   );
 }
@@ -301,6 +481,6 @@ applyTheme(initialTheme());
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <Preview />
+    {params.get("place") === "landing" ? <LandingPreview /> : <Preview />}
   </StrictMode>,
 );

@@ -1,4 +1,5 @@
 import { LogIn, LogOut, Moon, Sun } from "lucide-react";
+import { SignerOrb3D } from "../components/ui/walrus-3d-icons";
 import type { Theme } from "./theme";
 import { useMenu } from "./useMenu";
 
@@ -15,11 +16,6 @@ export function displayHandle(handle: string): { text: string; isAddress: boolea
     return { text: `${handle.slice(0, 6)}…${handle.slice(-4)}`, isAddress: true };
   }
   return { text: handle, isAddress: false };
-}
-
-function initial(handle: string, isAddress: boolean): string {
-  if (isAddress) return "0x";
-  return handle.replace(/^@/, "").charAt(0).toUpperCase() || "?";
 }
 
 export interface AccountMenuProps {
@@ -52,8 +48,8 @@ export function AccountMenu({ member, onSignOut, onSignIn, compact, side }: Acco
 
   const { text, isAddress } = displayHandle(member.handle);
   const avatar = (
-    <span className="cc-avatar" aria-hidden>
-      {initial(member.handle, isAddress)}
+    <span className="cc-avatar cc-avatar--orb" aria-hidden>
+      <SignerOrb3D handle={member.handle} size={26} online />
     </span>
   );
 

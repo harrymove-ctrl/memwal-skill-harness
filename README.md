@@ -1,40 +1,34 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="public/brand/lockup-full-on-dark.svg">
-  <img src="public/brand/lockup-full-on-light.svg" alt="MemWal Skill Harness" height="56">
+  <img src="public/brand/lockup-full-on-light.svg" alt="Skillbook" height="56">
 </picture>
 
-# MemWal Skill Harness — Namespace Skill Graph & Memory Trajectory Eval
+# Skillbook
 
-Built for **Walrus × Tatum: Total Recall ("Smart Agents for Real Life")**.
+Teach a rule once, and every coding agent on your team follows it.
 
-Instead of sharing static `.zip` / `.tar.gz` skill bundles whenever team workflows evolve, **MemWal Skill Harness** hosts your team's **`SKILL.md` skills** and **living Flow Memories (`[FLOW:<skill>]`)** inside a shared **Walrus Memory Namespace Folder** (`memwal-team-skills`, `design-skills`, etc.) accessed via a shared **Account ID + Delegate Key** and the existing **`@mysten-incubation/memwal-mcp`** server.
+Built by Harry Phan (`phanhoangvinhhien@gmail.com`) for the Walrus and Tatum Total Recall Hackathon (Track 2: Smart Agents for Real Life and Tatum AI Builder Bonus Track).
 
----
+1. Live App: https://memwal-skill-harness-production.up.railway.app
+2. Demo Video (YouTube, 2:56): https://youtu.be/65Ky7_SXOZ0
+3. Tatum AI Builder App: https://dashboard.tatum.io/ai-builder/skillbook-mcp-rust-pattern-analyz-31177f?productId=6a228877df9fc562405f2e04&chat=ses_e3b4143bbffejlA8wivSsQKoJW
+4. Submission Blog Post: [docs/SUBMISSION_BLOG_POST.md](docs/SUBMISSION_BLOG_POST.md)
+5. Submission Form Copy Blocks: [docs/SUBMISSION_FORM.md](docs/SUBMISSION_FORM.md)
 
-## Key Features
+![Skillbook Architecture](docs/assets/skillbook-stack-diagram-dark.png)
 
-1. **Namespace as a Skill Folder + Interactive 2D Knowledge Graph**:
-   - Pre-loaded with **`memwal-team-skills`** (14 `SKILL.md` skills including `memwal-skill-hub`, `memwal-qa`, `memwal-review`, `memwal-dev-wallet`, `walm-ticket`, `gh-issue-fixed`, `rust-*`, plus `rules/GEMINI.md`) and **`design-skills`** (10 UI/SwiftUI craft skills).
-   - Visualizes the **Namespace Hub → Category Clusters → Skill Nodes (`[SKILL:id]`) → Cross-Skill Dependencies → Orbiting Flow Memory Blobs (`[FLOW:id]`)**.
-2. **DeepSeek-Style Memory Trajectory Eval Harness**:
-   - Step-by-step expandable pipeline:
-     1. `STEP 1 · SKILL FETCH` — Loads base `SKILL.md` from the namespace.
-     2. `STEP 2 · WALRUS RECALL` — Recalls attached `[FLOW:<skill>]` blobs (encrypted via Seal on Walrus) with similarity scores, `blob_id`, and author Delegate Key.
-     3. `STEP 3 · <think> TRACE` — Shows how the agent resolves conflicts between stale base `SKILL.md` lines and newer team Flow Memories (`newest-wins`).
-     4. `STEP 4 · COLD vs. WALRUS RECALL A/B VERDICT` — Side-by-side comparison proving why static skills fail and Walrus Flow Memory succeeds.
-     5. `STEP 5 · + TEACH SKILL` — 1-click writeback that commits a new `[FLOW:<skill>]` node to Walrus Memory via Delegate Key, spawns the node in the 2D Graph, and updates the compiled `SKILL.md`.
-3. **Zero Custom MCP Server — Reuses `@mysten-incubation/memwal-mcp`**:
-   - Generates a ready-to-paste `.mcp.json` configured with `MEMWAL_ACCOUNT_ID`, `MEMWAL_PRIVATE_KEY` (delegate key), `MEMWAL_NAMESPACE`, and `MEMWAL_SERVER_URL` (`dev` or `prod`).
-   - Ships with the **`memwal-skill-hub`** bootstrap skill (`skills/memwal-skill-hub/SKILL.md`) so Claude Code, Antigravity, Cursor, and Gemini CLI can pull compiled `SKILL.md` files and push `[FLOW:<skill>]` updates directly through `memwal_recall` and `memwal_remember`.
+## How Skillbook Works
 
----
+1. Check a Skill Before Release (`/try`): Draft a rule from a real bug fix, test it against a real prompt in `/try` (or in Tatum AI Builder), and inspect the before-and-after code diff before publishing it to the team.
+2. Shared Rulebook on Walrus Mainnet (`/home`): Stores 20 full `SKILL.md` playbooks, 12 active engineering rules, and live recall logs (`98+` blobs) on Walrus Mainnet. Connected agents recall the active rules in 38 milliseconds, and every revision has a verifiable Walruscan blob receipt.
+3. Universal Agent Connections (`/agents`): Connect Claude Code, Cursor, Codex, and Antigravity with one terminal MCP command while keeping `$MEMWAL_PRIVATE_KEY` on your machine, or connect Tatum AI Builder via `/api/tatum-memwal/recall`.
+4. Sui Sign-In and Tatum Mainnet Verification (`/team`): Sign in with Slush Wallet or Google (`@mysten/enoki` Sui Mainnet zkLogin). Skillbook verifies the `MemWalAccount` on Sui Mainnet via Tatum RPC, screens member addresses with Tatum v3 Security, and caches live SUI/USD rates from Tatum v4 Data API for 30 minutes.
 
 ## Quick Start
 
 ```bash
-cd /Volumes/Dev/memwal-skill-harness
 pnpm install
 pnpm dev
 ```
 
-Open **http://localhost:5188** in your browser.
+Open `http://localhost:5188` in your browser.

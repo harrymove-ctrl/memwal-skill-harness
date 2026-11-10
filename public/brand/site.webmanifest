@@ -1,6 +1,6 @@
 {
-  "name": "MemWal Skill Harness",
-  "short_name": "Skill Harness",
+  "name": "Skillbook",
+  "short_name": "Skillbook",
   "description": "Your team's playbook for coding agents: teach a rule once, and every teammate's agent follows it.",
   "start_url": "/",
   "display": "standalone",

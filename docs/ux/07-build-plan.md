@@ -73,21 +73,49 @@ git commit -m "Baseline before the dark command center shell"
 
 Check `git status` afterwards: no `.env*`, `*.mp4`, `*.wav` or `out/` files should be staged. A secret scan of every file that would be tracked found none on 3 Nov.
 
-## Open questions to settle before Step 8
+## Open questions, settled on 6 Nov
 
-1. **Which protocol Tatum's Sui gateway speaks.** Sui's JSON-RPC was switched off in 2026 and the app reads Sui over gRPC. Confirm whether Tatum's Sui mainnet gateway serves gRPC (or GraphQL) before building member verification on it, and what its rate limits are.
-2. **Where agent recalls are logged (checked 4 Nov: nothing logs them).** The newest 40 memories in the real space hold no `[AGENT_LOG]` entries, and the code only writes `LEARN_RULE`, `CREATE_NAMESPACE` and `TASK_EXECUTION`. Without a recall event, the checklist never finishes and Live never appears. The screens read this format: `[AGENT_LOG:RECALL] [agent:claude-code] [author:@handle] [target:memwal-qa] [rules:2]`. The `memwal-skill-hub` skill must tell agents to write it after each recall.
+1. **Which protocol Tatum's Sui gateway speaks.** Native gRPC, at `sui-mainnet-grpc.gateway.tatum.io`, with the key in an `x-api-key` header. It answers `application/grpc`, so the SDK's default gRPC-web transport fails with "unexpected response content type". `server/tatumSuiGateway.mjs` gives `SuiGrpcClient` a small unary transport over `node:http2`, with no new dependency. The gateway rate limits within about three quick calls, so calls run one at a time, 450ms apart, retry once and are cached for 30 minutes. A read of the real account, a balance, a SuiNS name and a transaction were all confirmed through it.
+2. **Where agent recalls are logged.** Nothing logged them. Now there are three ways, all in the format the screens read: the Agents place gives each agent an instruction to paste, `POST /api/ns/:ns/recalls` lets a member's tool log one, and `POST /api/tatum-memwal/recall` logs when the caller is a member and names its agent. Each log is a paid mainnet write, so the server writes at most one per agent and skill every five minutes. The `memwal-skill-hub` skill still needs the text below, and changing it is the owner's call: the local copy is write protected for agents, and the team copy is a mainnet write.
 
-## Problems found on 4 Nov while reading the real API
+Add this to `memwal-skill-hub`, after the step that calls `memwal_recall`:
 
-| Problem | Where | Why it matters | State |
+```text
+After you recall team rules, save one memory with memwal_remember:
+[AGENT_LOG:RECALL] [agent:<your agent id>] [author:@<your handle>] [target:<skill name>] [rules:<how many rules you used>]
+Save it once per skill per task. Agent ids are claude-code, cursor, codex, antigravity and tatum-ai. Never put secrets, code or customer data in it.
+```
+
+## Problems found while reading the real API
+
+| Problem | Where | Why it matters | State on 6 Nov |
 | :--- | :--- | :--- | :--- |
-| Anyone can write when no caller is sent | `verifyWriteAllowlist` in `server/namespaceSkillsApi.mjs` returns allowed for an empty caller, and the caller and role are plain headers | A stranger can change or delete skills and rules on the deployed app, and spend its mainnet funds | Open; needs signed requests |
-| Skill delete has the same gap, and rule state and rule write to SKILL.md had no check at all | Same file | A Viewer could change rules through the API | State and write to SKILL.md now check, with a test; the empty caller gap above still applies |
-| Rule reads never come from Walrus | `listFoldedRules` in `server/memoryGateway.mjs` reads `/tmp/memwal-ns-rules-state-v1.json` plus seeds | A redeploy forgets new rules and switches, which contradicts "team rules live in Walrus Memory" and step 7's "survive reload" past a redeploy | Open; needs a rebuild from Walrus on cold start |
-| Writes report failure after 1.8 seconds | The `Promise.race` timeout in `upsertRule` and `setRuleState` | The rule keeps a placeholder blob id, so the UI says "not on Walrus yet" even when the write may still land | Open |
-| Placeholder blob ids look like proof | `DEFAULT_BLOBS` in `server/consoleGateway.mjs`, the literal in `memoryGateway.mjs` | The Proof drawer must not present these as evidence. `isRealBlobId` in `src/hooks/activity.ts` already filters them | Screens handled; step 11 must use it |
-| Test data sits in the real space | `e2e-rule-*`, `rule-memwal-qa-*` and repeated switches | The store cannot delete. Activity hides `e2e-` ids and folds repeats, but other test rules still show | Use a clean demo space for the video |
+| Anyone can write when no caller is sent, and the caller and role are plain headers | `verifyWriteAllowlist` in `server/namespaceSkillsApi.mjs` | A stranger can change or delete skills and rules, and spend mainnet funds | Fixed. A wallet signs a one time message, and `server/auth.mjs` sets an HttpOnly session cookie. Roles come from the member list and the chain. The headers are ignored |
+| Anyone could add themselves as an Owner | `POST /api/tatum-memwal/acl` had no check | Full takeover of a space's member list | Fixed. Owners only. **The live list should still be checked for anyone added this way** |
+| Anyone could register by asking, even for write access | `POST /api/tatum-memwal/verify-access` | Spec says nobody is auto registered | Fixed. Joining takes an invite signed by the server, made by an owner, good for 7 days |
+| Anyone could spend funds through the bridge | `/remember`, `/create-collection`, `/chat`, and the MCP write tools | Paid mainnet writes with no identity | Fixed. These need a member who can write, or `MEMWAL_BRIDGE_API_KEY` |
+| The address check passes when Tatum is down | `screenSuiAddressCached` in `server/tatumMemwalApi.mjs` | An outage reads as "valid" | Fixed for Team: `screenAddress` in the new gateway returns unknown, and adding then takes a stated choice. The old function remains for the older MCP tool |
+| Rule reads never come from Walrus | `listFoldedRules` in `server/memoryGateway.mjs` | A redeploy forgets new rules and switches | Fixed. The first read rebuilds from Walrus Memory, waiting at most 3 seconds and finishing in the background. It reads the newest 100 matches, so a very long history may not come back whole |
+| Writes report failure after 1.8 seconds, and job ids were stored as blob ids | `upsertRule` and `setRuleState` | A job id is not proof, and a slow write looked failed | Fixed. `writeEvent` waits for the stored result, and records the real blob id whenever it lands |
+| Placeholder blob ids look like proof | `DEFAULT_BLOBS` in `server/consoleGateway.mjs`, the literal in `memoryGateway.mjs` | They must not be presented as evidence | Fixed. The Proof drawer filters them on the server and in the browser |
+| Test data sits in the real space | `e2e-rule-*`, `rule-memwal-qa-*` and repeated switches | The store cannot delete | Open. Set `VITE_DEMO_NAMESPACE` to a clean space for the video |
+| The member list disagrees with the chain | The list says `@harrymove-ctrl` at `0x649e…4be1` is the owner; the account's on-chain owner is `0x8a25…e124`, listed as `@mysten-dev` | Team shows the first as Pending. The on-chain owner is always treated as an owner | Open; the owner must decide which address is theirs |
+| Reads are public, including decrypted recall | Every GET, and `POST /api/tatum-memwal/recall` | The server decrypts for anyone who asks, which the "SEAL protected" wording does not suggest | Open; the demo depends on it |
+| `/tatum-api` adds the Tatum key for anyone | `server.mjs`, `vite.config.ts` | Anyone can spend Tatum credits through it | Open |
+| Google sign in cannot prove identity | `connectEnokiGoogleZkLogin` signs with a throwaway key, and `/enoki-api/v1/zklogin/session` takes a typed email | The session check refuses both, so the new sign in offers wallets only | Open; needs a real zkLogin proof flow |
+| `/api/tatum-memwal/sponsor` | `server/tatumMemwalApi.mjs` | It spends sponsored gas | Not reviewed |
+
+## What was built differently on 6 Nov
+
+Steps 3 and 8 to 12 are built, and the wiring went a different way from the table above. `src/App.tsx` was not edited. `src/Root.tsx` now mounts `src/CommandCenter.tsx`, which holds routing, session and data for every place, and the older app keeps only `/bento` and `?legacy=1`.
+
+| Planned | What shipped | Why |
+| :--- | :--- | :--- |
+| Try it runs a live agent, with a Recorded fallback | Plans are written examples, labelled on every screen. The rules and the switch between plans are real: turning the rule off in Skills changes the result | No model key exists in this project. The older screen showed the same kind of text with no label |
+| Editable task text | The task is shown, not typed | Editing it could not change a written example, so a field would mislead |
+| Real agent logos | A plain icon and the agent's name | No licensed logo files exist here |
+| Agent disconnect, New space | Not built | Disconnect means removing a key on chain; it was first on the cut list. New space is a mainnet write |
+| `?state=` on every route | On the preview only | A production page should not pretend to be broken for anyone with the link |
 
 ## Risks
 

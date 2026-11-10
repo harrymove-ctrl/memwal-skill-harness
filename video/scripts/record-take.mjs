@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Records the real Walrus Memory skill harness (dev server on :5188) for the promo video.
+// Records the real Skillbook app (dev server on :5188) for the promo video.
 //   pnpm dev                      # in the repo root, one terminal
 //   node scripts/record-take.mjs  # in video/, another terminal (not inside the Claude Code sandbox)
 // Writes public/take/take.mp4 (1920 x 1080, 30 fps) and src/take/beats.json:

@@ -1,6 +1,6 @@
 {
   "total": 966,
-  "failed": 0,
+  "failed": 1,
   "results": [
     {
       "name": "normal dark 1280x800: no page overflow",
@@ -4424,8 +4424,8 @@
     },
     {
       "name": "light tokens match 05-design-system.md",
-      "ok": true,
-      "detail": "[]"
+      "ok": false,
+      "detail": "[[\"--cc-bg\",\"#f7f7f4\"],[\"--cc-surface\",\"#ffffff\"],[\"--cc-surface-2\",\"#f1f2ee\"]]"
     },
     {
       "name": "long menu shell-space-trigger 1280x800: on screen",
@@ -4810,7 +4810,7 @@
     {
       "name": "the live app still renders with its old tokens",
       "ok": true,
-      "detail": "paper #f8f8f7"
+      "detail": "paper #090a0d"
     },
     {
       "name": "real app with the main.tsx line: nothing stored",

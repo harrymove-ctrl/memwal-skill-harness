@@ -283,6 +283,7 @@ export async function connectEnokiGoogleZkLogin(): Promise<{
   address: string;
   nonce?: string;
   maxEpoch?: number;
+  jwt?: string;
 }> {
   ensureEnokiRegistered();
 
@@ -345,6 +346,7 @@ export async function connectEnokiGoogleZkLogin(): Promise<{
   const buildZkWalletResult = (resolved: {
     address: string;
     publicKey?: string;
+    jwt?: string;
   }) => {
     const pubKeyBytes = resolved.publicKey
       ? fromBase64(resolved.publicKey)
@@ -393,6 +395,7 @@ export async function connectEnokiGoogleZkLogin(): Promise<{
       address: resolved.address,
       nonce: nonceData.nonce,
       maxEpoch: nonceData.maxEpoch,
+      jwt: resolved.jwt,
     };
   };
 
@@ -408,12 +411,16 @@ export async function connectEnokiGoogleZkLogin(): Promise<{
       }),
     });
     const fallbackJson = (await fallbackRes.json()) as {
+      jwt?: string;
       data?: { address: string; publicKey?: string };
     };
     if (!fallbackJson?.data?.address) {
       throw new Error("Could not initialize Enoki zkLogin session.");
     }
-    return buildZkWalletResult(fallbackJson.data);
+    return buildZkWalletResult({
+      ...fallbackJson.data,
+      jwt: fallbackJson.jwt,
+    });
   }
 
   const redirectUri = `${window.location.origin}/`;
@@ -438,6 +445,7 @@ export async function connectEnokiGoogleZkLogin(): Promise<{
   const resolvedAccount = await new Promise<{
     address: string;
     publicKey?: string;
+    jwt?: string;
   }>((resolve, reject) => {
     let settled = false;
     let channel: BroadcastChannel | null = null;
@@ -448,6 +456,7 @@ export async function connectEnokiGoogleZkLogin(): Promise<{
         type?: string;
         address?: string;
         publicKey?: string;
+        jwt?: string;
       };
       if (
         candidate.type === "ENOKI_ZKLOGIN_CALLBACK" &&
@@ -463,6 +472,7 @@ export async function connectEnokiGoogleZkLogin(): Promise<{
         resolve({
           address: candidate.address,
           publicKey: candidate.publicKey,
+          jwt: candidate.jwt,
         });
         return true;
       }
@@ -546,7 +556,10 @@ export async function connectEnokiGoogleZkLogin(): Promise<{
           data?: { address: string; publicKey?: string };
         };
         if (zkJson?.data?.address) {
-          resolve(zkJson.data);
+          resolve({
+            ...zkJson.data,
+            jwt,
+          });
         } else {
           reject(new Error("Failed to resolve Sui zkLogin address from JWT."));
         }

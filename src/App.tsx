@@ -1646,7 +1646,8 @@ export function App() {
     <GlimmWorkspaceProvider isDark={isDark}>
       <GlimmNavBridge sweepRef={glimmSweepRef} />
     <div className="relative isolate min-h-screen bg-[#f8f9fa] text-[var(--ink)] transition-colors dark:bg-[#090b0a]">
-      {/* Subtle top radial studio glow (replaces noisy dot shader) */}
+      <FullscreenShaderBackground isDark={isDark} />
+      {/* Subtle top radial studio glow */}
       <div className="pointer-events-none fixed inset-x-0 top-0 -z-10 h-64 bg-[radial-gradient(60%_100%_at_50%_0%,rgba(16,185,129,0.08),transparent)] dark:bg-[radial-gradient(60%_100%_at_50%_0%,rgba(16,185,129,0.12),transparent)]" />
 
       {/* ====================================================================

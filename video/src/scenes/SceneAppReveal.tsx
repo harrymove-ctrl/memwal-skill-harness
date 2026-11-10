@@ -21,7 +21,7 @@ import { SNAP_CN_UI } from "@/lib/brand-tokens";
 import { textWidth } from "@/lib/fonts";
 
 /**
- * App Reveal for the Walrus Memory skill harness.
+ * App Reveal for the Skillbook.
  *
  * The mark holds the frame alone, shrinks into the header of a card that
  * builds around it, then the camera dives past the card, rolls, and backs off

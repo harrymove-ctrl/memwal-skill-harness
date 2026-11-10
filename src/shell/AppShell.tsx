@@ -1,4 +1,5 @@
 import type { ReactNode } from "react";
+import { FullscreenShaderBackground } from "../components/react-bits/fullscreen-shader-background";
 import type { ShellMember } from "./AccountMenu";
 import { MobileBar, MobileTopBar } from "./MobileBar";
 import type { Place } from "./places";
@@ -38,6 +39,8 @@ export interface AppShellProps {
 export function AppShell(props: AppShellProps) {
   return (
     <div className="cc-shell" data-testid="app-shell">
+      <FullscreenShaderBackground isDark={props.theme === "dark"} place={props.place} />
+
       <a className="cc-skip" href="#cc-main">
         Skip to content
       </a>

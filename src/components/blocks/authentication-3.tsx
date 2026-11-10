@@ -241,7 +241,7 @@ export default function Authentication3({
               </span>
               <div>
                 <span className={cx(typeLabel, text1, "block")}>
-                  Walrus Memory · Team Skill Harness
+                  Walrus Memory · Skillbook
                 </span>
                 <span className="block font-mono text-[11px] text-neutral-900/60 dark:text-neutral-100/60">
                   Sui Mainnet · SEAL v0 · {config.serverUrl.replace("https://", "")}

@@ -6,19 +6,24 @@
  * src/index.css while both designs live side by side.
  */
 :root {
-  --cc-bg: #f7f7f4;
-  --cc-surface: #ffffff;
-  --cc-surface-2: #f1f2ee;
+  --cc-bg: #f1f2ee;
+  --cc-surface: #f7f7f4;
+  --cc-surface-2: #ffffff;
   --cc-raised: #ffffff;
-  --cc-line: rgba(20, 20, 19, 0.08);
+  --cc-line: rgba(20, 20, 19, 0.09);
   --cc-ink: #141413;
   --cc-ink-2: #52525b;
   --cc-ink-3: #6b6b74;
   --cc-accent: #047857;
   --cc-on-accent: #ffffff;
-  --cc-accent-soft: rgba(4, 120, 87, 0.1);
+  --cc-accent-soft: rgba(4, 120, 87, 0.08);
+  --cc-accent-line: rgba(4, 120, 87, 0.32);
   --cc-warn: #a84e07;
+  --cc-warn-soft: rgba(168, 78, 7, 0.08);
+  --cc-warn-line: rgba(168, 78, 7, 0.26);
   --cc-danger: #dc2626;
+  --cc-danger-soft: rgba(220, 38, 38, 0.06);
+  --cc-danger-line: rgba(220, 38, 38, 0.24);
   --cc-shadow-float: 0 8px 24px -8px rgba(20, 20, 19, 0.18);
 
   --cc-radius-sm: 8px;
@@ -39,8 +44,13 @@
   --cc-ink-3: #8f9996;
   --cc-accent: #34d399;
   --cc-on-accent: #04140d;
-  --cc-accent-soft: rgba(52, 211, 153, 0.14);
+  --cc-accent-soft: rgba(52, 211, 153, 0.1);
+  --cc-accent-line: rgba(52, 211, 153, 0.3);
   --cc-warn: #f59e0b;
+  --cc-warn-soft: rgba(245, 158, 11, 0.1);
+  --cc-warn-line: rgba(245, 158, 11, 0.3);
   --cc-danger: #f87171;
+  --cc-danger-soft: rgba(248, 113, 113, 0.1);
+  --cc-danger-line: rgba(248, 113, 113, 0.3);
   --cc-shadow-float: 0 12px 32px -8px rgba(0, 0, 0, 0.6);
 }

@@ -1,3 +1,4 @@
+import { AgentBrandLogo } from "../components/ui/walrus-3d-icons";
 import type { ActivityEvent, LiveSummary } from "../hooks/activity";
 import { ActivityRow, Card, Notice } from "../parts";
 import { agoLabel, plural } from "../shell/copy";
@@ -109,6 +110,7 @@ export function Live({ events, summary, stale, onRetry, onReopenChecklist, now }
           <div className="cc-divided">
             {summary.agents.map((agent) => (
               <div key={agent.name} className="cc-agent" data-testid="live-agent">
+                <AgentBrandLogo agent={agent.name} size={26} />
                 <div className="cc-agent__text">
                   <div style={{ fontWeight: 600 }}>{agent.name}</div>
                   <div className="cc-meta">{agentLine(agent, now)}</div>

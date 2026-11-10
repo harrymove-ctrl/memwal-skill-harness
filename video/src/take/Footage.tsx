@@ -179,7 +179,9 @@ export const Footage: React.FC<{
   tilt?: number;
   /** Frames to fade in from white (out of the Prompt Roll wash). */
   fromWhite?: number;
-}> = ({ from, rate, frames, camera, callouts = [], tilt = 9, fromWhite = 0 }) => {
+  src?: string;
+  background?: string;
+}> = ({ from, rate, frames, camera, callouts = [], tilt = 9, fromWhite = 0, src = "take/take.mp4", background = "#f5f6f1" }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const t = from + (frame / fps) * rate;
@@ -202,7 +204,7 @@ export const Footage: React.FC<{
   const white = fromWhite > 0 ? interpolate(frame, [0, fromWhite], [1, 0], { ...clamp, easing: Easing.out(Easing.quad) }) : 0;
 
   return (
-    <AbsoluteFill style={{ backgroundColor: "#f5f6f1", overflow: "hidden" }}>
+    <AbsoluteFill style={{ backgroundColor: background, overflow: "hidden" }}>
       <AbsoluteFill style={{ perspective: PERSPECTIVE }}>
         <AbsoluteFill
           style={{
@@ -221,7 +223,7 @@ export const Footage: React.FC<{
             }}
           >
             <OffthreadVideo
-              src={staticFile("take/take.mp4")}
+              src={staticFile(src)}
               trimBefore={Math.round(from * fps)}
               playbackRate={rate}
               muted

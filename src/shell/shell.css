@@ -1,6 +1,8 @@
 /* Layout and controls for the app shell. Values come from tokens.css. */
 
 .cc-shell {
+  position: relative;
+  isolation: isolate;
   display: grid;
   grid-template-columns: 232px minmax(0, 1fr);
   height: 100vh;
@@ -11,6 +13,57 @@
   font-size: 14px;
   line-height: 20px;
   -webkit-font-smoothing: antialiased;
+}
+
+/* Multi-layer ambient aurora & blueprint grid overlay inside FullscreenShaderBackground */
+
+.cc-ambient-aurora {
+  position: absolute;
+  inset: -12%;
+  pointer-events: none;
+  background:
+    radial-gradient(46% 38% at 78% 18%, rgba(16, 185, 129, 0.16), transparent 72%),
+    radial-gradient(38% 34% at 24% 82%, rgba(0, 229, 214, 0.11), transparent 74%),
+    radial-gradient(32% 28% at 62% 54%, rgba(31, 200, 255, 0.08), transparent 70%);
+  filter: blur(28px);
+  animation: cc-aurora-drift 16s ease-in-out infinite alternate;
+}
+
+.dark .cc-ambient-aurora {
+  background:
+    radial-gradient(48% 40% at 78% 18%, rgba(52, 211, 153, 0.22), transparent 72%),
+    radial-gradient(40% 36% at 24% 82%, rgba(0, 229, 214, 0.15), transparent 74%),
+    radial-gradient(34% 30% at 62% 52%, rgba(31, 200, 255, 0.11), transparent 70%);
+}
+
+.cc-ambient-grid {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    radial-gradient(circle at 1px 1px, rgba(4, 120, 87, 0.14) 1px, transparent 0);
+  background-size: 24px 24px;
+  mask-image: radial-gradient(ellipse 80% 70% at 76% 24%, #000 15%, transparent 78%);
+  -webkit-mask-image: radial-gradient(ellipse 80% 70% at 76% 24%, #000 15%, transparent 78%);
+  opacity: 0.55;
+}
+
+.dark .cc-ambient-grid {
+  background-image:
+    radial-gradient(circle at 1px 1px, rgba(52, 211, 153, 0.18) 1px, transparent 0);
+  opacity: 0.65;
+}
+
+@keyframes cc-aurora-drift {
+  0% {
+    transform: translate3d(-2%, -1.5%, 0) scale(1);
+  }
+  50% {
+    transform: translate3d(2.5%, 2%, 0) scale(1.05);
+  }
+  100% {
+    transform: translate3d(-1.5%, 3%, 0) scale(0.98);
+  }
 }
 
 .cc-shell :where(a, button):focus-visible,
@@ -54,13 +107,21 @@
 /* Sidebar */
 
 .cc-sidebar {
+  position: relative;
+  z-index: 2;
   display: flex;
   flex-direction: column;
   gap: 12px;
   min-height: 0;
   padding: 12px;
   border-right: 1px solid var(--cc-line);
-  background: var(--cc-bg);
+  background: rgba(241, 242, 238, 0.76);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+.dark .cc-sidebar {
+  background: rgba(11, 15, 14, 0.72);
 }
 
 .cc-brand {
@@ -319,14 +380,19 @@
   flex: none;
   align-items: center;
   justify-content: center;
-  width: 24px;
-  height: 24px;
+  width: 26px;
+  height: 26px;
   border-radius: 999px;
   background: var(--cc-surface-2);
   box-shadow: inset 0 0 0 1px var(--cc-line);
   color: var(--cc-ink);
   font-size: 12px;
   font-weight: 600;
+}
+
+.cc-avatar--orb {
+  background: transparent;
+  box-shadow: none;
 }
 
 .cc-signin {
@@ -397,11 +463,17 @@
 /* Page */
 
 .cc-page {
+  position: relative;
+  z-index: 1;
   display: flex;
   flex-direction: column;
   min-width: 0;
   min-height: 0;
-  background: var(--cc-surface);
+  background: rgba(247, 247, 244, 0.54);
+}
+
+.dark .cc-page {
+  background: rgba(18, 24, 22, 0.38);
 }
 
 .cc-titlebar {
@@ -413,6 +485,13 @@
   min-height: 48px;
   padding: 8px 24px;
   border-bottom: 1px solid var(--cc-line);
+  background: rgba(247, 247, 244, 0.62);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.dark .cc-titlebar {
+  background: rgba(18, 24, 22, 0.52);
 }
 
 .cc-titlebar__title {
@@ -460,12 +539,19 @@
 
   .cc-topbar {
     position: relative;
+    z-index: 2;
     display: flex;
     align-items: center;
     gap: 4px;
     padding: 8px 16px;
     border-bottom: 1px solid var(--cc-line);
-    background: var(--cc-bg);
+    background: rgba(241, 242, 238, 0.82);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+  }
+
+  .dark .cc-topbar {
+    background: rgba(11, 15, 14, 0.8);
   }
 
   .cc-topbar .cc-brand__mark {
@@ -533,11 +619,19 @@
   }
 
   .cc-bottombar {
+    position: relative;
+    z-index: 2;
     display: grid;
     grid-template-columns: repeat(5, minmax(0, 1fr));
     padding: 4px 4px calc(4px + env(safe-area-inset-bottom));
     border-top: 1px solid var(--cc-line);
-    background: var(--cc-bg);
+    background: rgba(241, 242, 238, 0.86);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+  }
+
+  .dark .cc-bottombar {
+    background: rgba(11, 15, 14, 0.84);
   }
 
   .cc-tab {
@@ -584,5 +678,9 @@
 @media (prefers-reduced-motion: reduce) {
   .cc-nav__item {
     transition: none;
+  }
+
+  .cc-ambient-aurora {
+    animation: none;
   }
 }

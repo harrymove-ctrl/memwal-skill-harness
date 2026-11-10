@@ -2,7 +2,7 @@
 
 ## The product in one sentence
 
-**MemWal Skill Harness is your team's playbook for coding agents: teach a rule once, and every teammate's agent follows it.**
+**Skillbook is your team's playbook for coding agents: teach a rule once, and every teammate's agent follows it.**
 
 The SKILL.md files live in a Walrus Console bucket. The team rules live in Walrus Memory. Access is checked on Sui, and member and transaction checks read the chain through Tatum.
 

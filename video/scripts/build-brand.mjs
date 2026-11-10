@@ -50,7 +50,7 @@ function lockup(word, markColor, inkColor) {
 }
 
 const files = {};
-const NAME = "MemWal Skill Harness";
+const NAME = "Skillbook";
 
 // The mark, for any surface.
 files["mark-emerald.svg"] = doc(64, 64, fills(MARK_PATHS, COLOR.emerald), NAME);
@@ -94,7 +94,7 @@ writeFileSync(
   `${JSON.stringify(
     {
       name: NAME,
-      short_name: "Skill Harness",
+      short_name: "Skillbook",
       description: "Your team's playbook for coding agents: teach a rule once, and every teammate's agent follows it.",
       start_url: "/",
       display: "standalone",

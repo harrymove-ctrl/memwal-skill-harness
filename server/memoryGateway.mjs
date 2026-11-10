@@ -4,7 +4,7 @@ import fs from "node:fs";
 
 const STATE_CACHE_PATH = "/tmp/memwal-ns-rules-state-v1.json";
 
-const SEEDED_RULES_BY_NAMESPACE = {
+export const SEEDED_RULES_BY_NAMESPACE = {
   "memwal-team-skills": [
     {
       ruleId: "flow-ui-ux-minimal-zones",
@@ -77,17 +77,17 @@ const SEEDED_RULES_BY_NAMESPACE = {
       updatedAt: "2026-11-05T05:01:00Z",
     },
     {
-      ruleId: "flow-qa-retired-demos",
-      skillId: "memwal-qa",
+      ruleId: "flow-rust-newtype-ids",
+      skillId: "rust-patterns",
       namespace: "memwal-team-skills",
-      text: "Skip retired demo apps (chatbot, noter, researcher) during QA and close their PRs as not planned.",
-      rationale: "Only the main Dashboard and Playground app (apps/app) is actively maintained.",
+      text: "Wrap Walrus BlobId and Sui ObjectId in distinct newtype structs so they can never be swapped in function arguments.",
+      rationale: "Enforces compile-time type safety across storage and settlement calls.",
       severity: "hard-rule",
       state: "on",
       rev: 1,
       author: "@harrymove-ctrl",
       memoryBlobId: "z7BHX3brsgqcmDQXh2IzmoCj4g14XioezjkuIL1Fkk0",
-      linkedSkills: ["memwal-review", "walm-ticket"],
+      linkedSkills: ["rust-async-patterns", "rust-best-practices"],
       updatedAt: "2026-10-27T10:15:00Z",
     },
     {
@@ -105,11 +105,11 @@ const SEEDED_RULES_BY_NAMESPACE = {
       updatedAt: "2026-10-26T18:40:00Z",
     },
     {
-      ruleId: "flow-review-staging-retired",
+      ruleId: "flow-review-live-roundtrip",
       skillId: "memwal-review",
       namespace: "memwal-team-skills",
-      text: "Use only dev and production environments. Staging is retired, so promote directly from dev to main.",
-      rationale: "Keeps release verification focused on the two active environments.",
+      text: "Verify /version, container deploy logs, and a live signed recall roundtrip before signing off a release.",
+      rationale: "Catches auth and serialization regressions that HTTP 200 health checks miss.",
       severity: "workflow-update",
       state: "on",
       rev: 1,
@@ -447,15 +447,142 @@ export function foldRuleEvents(events, namespace) {
   return Array.from(byId.values()).filter((r) => r.state !== "deleted");
 }
 
+const hydrations = new Map();
+const HYDRATE_WAIT_MS = 3000;
+const HYDRATE_RETRY_MS = 60 * 1000;
+
+function eventKey(event) {
+  return `${event.kind}:${event.ruleId}:${event.rev}`;
+}
+
+/** Merges recalled events into the local list, oldest first, so the newest event wins the fold. */
+export function mergeRecalledEvents(local, recalled) {
+  const seen = new Set(local.map(eventKey));
+  const added = [];
+  for (const event of recalled) {
+    if (!event?.ruleId || event.ruleId.startsWith("e2e-") || seen.has(eventKey(event))) continue;
+    seen.add(eventKey(event));
+    added.push(event);
+  }
+  if (added.length === 0) return { events: local, added: 0 };
+  const time = (event) => Date.parse(event.updatedAt) || 0;
+  const events = [...local, ...added]
+    .map((event, index) => ({ event, index }))
+    .sort((a, b) => time(a.event) - time(b.event) || a.index - b.index)
+    .map(({ event }) => event);
+  return { events, added: added.length };
+}
+
+/** Reads this space's rule events back from Walrus Memory once per server run. */
+function hydrateFromWalrus(ns) {
+  if (hydrations.has(ns)) return hydrations.get(ns);
+  const run = (async () => {
+    const client = createMemWal(ns);
+    if (!client) return;
+    const res = await client.recall("[RULE: [RULE_STATE: [FLOW: team rule", {
+      namespace: ns,
+      limit: 100,
+      sort: "recent",
+    });
+    const rows = Array.isArray(res?.results) ? res.results : [];
+    const recalled = rows
+      .map((row) =>
+        parseRuleMemoryEvent(row.text, { blobId: row.blob_id, id: row.id, createdAt: row.created_at })
+      )
+      .filter(Boolean);
+    const { events, added } = mergeRecalledEvents(getNamespaceEvents(ns), recalled);
+    if (added > 0) {
+      eventStoreByNs[ns] = events;
+      saveEventsToDisk(eventStoreByNs);
+    }
+  })().catch(() => {
+    setTimeout(() => hydrations.delete(ns), HYDRATE_RETRY_MS).unref?.();
+  });
+  hydrations.set(ns, run);
+  return run;
+}
+
 export async function listFoldedRules(namespace, skillFilter = "") {
   const ns = String(namespace || "memwal-team-skills").trim();
+  // A slow relayer must not hold up the page; the rebuild finishes in the background.
+  await Promise.race([
+    hydrateFromWalrus(ns),
+    new Promise((resolve) => setTimeout(resolve, HYDRATE_WAIT_MS).unref?.()),
+  ]);
   const localEvents = [...getNamespaceEvents(ns)];
 
-  const folded = foldRuleEvents(localEvents, ns);
+  const LEGACY_HOUSEKEEPING = /\b(staging is retired|retired demo apps|apps\/chatbot)\b|^123$/i;
+  const seenPerSkill = new Set();
+  const folded = foldRuleEvents(localEvents, ns)
+    .map((r) => {
+      const clean = String(r.text || "").replace(/^Rule:\s*/i, "").trim();
+      return { ...r, text: clean, rule: clean };
+    })
+    .filter((r) => {
+      if (!r.text || LEGACY_HOUSEKEEPING.test(r.text)) return false;
+      const key = `${r.skillId}::${r.text.toLowerCase()}`;
+      if (seenPerSkill.has(key)) return false;
+      seenPerSkill.add(key);
+      return true;
+    });
+
   if (skillFilter) {
     return folded.filter((r) => r.skillId === skillFilter);
   }
   return folded;
+}
+
+const WRITE_WAIT_MS = 1800;
+const JOB_TIMEOUT_MS = 5 * 60 * 1000;
+
+/**
+ * Writes one event to Walrus Memory. The relayer accepts a write first and stores it later, and
+ * only the stored result has a blob id; a job id is not proof. This waits briefly for a fast
+ * answer, and when the write lands after that, it records the real blob id on the event then.
+ * Resolves to the blob id, or null while it is still on its way.
+ */
+export async function writeEvent(client, wireText, namespace, event) {
+  const write = (async () => {
+    const res = await client.remember(wireText, { namespace });
+    const direct = res?.blob_id || res?.blobId;
+    if (direct) return direct;
+    if (!res?.job_id) return null;
+    const stored = await client.waitForRememberJob(res.job_id, { timeoutMs: JOB_TIMEOUT_MS });
+    return stored?.blob_id || stored?.blobId || null;
+  })()
+    .then((blob) => {
+      if (blob) {
+        event.memoryBlobId = blob;
+        saveEventsToDisk(eventStoreByNs);
+      }
+      return blob;
+    })
+    .catch(() => null);
+  return Promise.race([
+    write,
+    new Promise((resolve) => setTimeout(() => resolve(null), WRITE_WAIT_MS).unref?.()),
+  ]);
+}
+
+/** How many memories this space holds on mainnet. */
+export async function readMemoryCount(namespace) {
+  const client = createMemWal(namespace);
+  if (!client) return null;
+  const page = await client.listNamespaces({ limit: 50 });
+  const found = (page?.namespaces ?? []).find((item) => item.name === namespace);
+  return found ? Number(found.memory_count || 0) : 0;
+}
+
+/** Stores one recall log line. Resolves to whether the relayer accepted it. */
+export async function rememberRecallLog(namespace, line) {
+  const client = createMemWal(namespace);
+  if (!client) return false;
+  try {
+    await client.remember(line, { namespace });
+    return true;
+  } catch {
+    return false;
+  }
 }
 
 export async function upsertRule(namespace, input) {
@@ -514,17 +641,11 @@ export async function upsertRule(namespace, input) {
   if (client) {
     try {
       const wireText = `[RULE:${ruleId}] [skill:${skillId}] [state:${state}] [rev:${nextRev}] [author:${author}] [severity:${severity}]\n${JSON.stringify(payloadObj)}`;
-      const res = await Promise.race([
-        client.remember(wireText, { namespace: ns }),
-        new Promise((_, reject) =>
-          setTimeout(() => reject(new Error("relayer timeout")), 1800)
-        ),
-      ]);
-      memoryBlobId =
-        res?.blob_id || res?.blobId || res?.id || res?.job_id || memoryBlobId;
-      event.memoryBlobId = memoryBlobId;
-      saveEventsToDisk(eventStoreByNs);
-      syncedToWalrus = true;
+      const blob = await writeEvent(client, wireText, ns, event);
+      if (blob) {
+        memoryBlobId = blob;
+        syncedToWalrus = true;
+      }
     } catch {
       // keep local event fold resilient if relayer times out
     }
@@ -572,17 +693,11 @@ export async function setRuleState(namespace, ruleId, nextState) {
         rev: nextRev,
         updatedAt: nowIso,
       })}`;
-      const res = await Promise.race([
-        client.remember(wireText, { namespace: ns }),
-        new Promise((_, reject) =>
-          setTimeout(() => reject(new Error("relayer timeout")), 1800)
-        ),
-      ]);
-      memoryBlobId =
-        res?.blob_id || res?.blobId || res?.id || res?.job_id || memoryBlobId;
-      stateEvent.memoryBlobId = memoryBlobId;
-      saveEventsToDisk(eventStoreByNs);
-      syncedToWalrus = true;
+      const blob = await writeEvent(client, wireText, ns, stateEvent);
+      if (blob) {
+        memoryBlobId = blob;
+        syncedToWalrus = true;
+      }
     } catch {
       // keep local event fold resilient
     }

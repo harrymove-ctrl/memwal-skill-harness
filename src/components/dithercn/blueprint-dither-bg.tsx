@@ -17,7 +17,7 @@ const MODE_INDEX: Record<BlueprintDitherMode, number> = {
 };
 
 /**
- * Custom GLSL field built on DitherShader for MemWal Skill Harness:
+ * Custom GLSL field built on DitherShader for Skillbook:
  * - Mode 0 ("contours"): Topographic elevation lines with 5th-line index emphasis
  *   and gentle hillshade.
  * - Mode 1 ("glow"): Corner/edge dithered spotlight with drifting FBM clouds.

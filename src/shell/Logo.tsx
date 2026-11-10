@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { MARK_PATHS, MARK_SMALL_PATHS } from "./logoPaths";
 
-export const PRODUCT_NAME = "Skill Harness";
+export const PRODUCT_NAME = "Skillbook";
 
 /** The same colors as the page sweep (WALRUS_BRAND_PALETTE), so both read as one light. */
 const GLINT_COLORS = ["#10b981", "#00e5d6", "#1fc8ff"];

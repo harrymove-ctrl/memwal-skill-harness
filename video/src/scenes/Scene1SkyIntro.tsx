@@ -112,7 +112,7 @@ export const Scene1SkyIntro: React.FC = () => {
               lineHeight: 1.2,
             }}
           >
-            WALRUS MEMORY · SKILL HARNESS
+            WALRUS MEMORY · SKILLBOOK
           </span>
         </div>
 

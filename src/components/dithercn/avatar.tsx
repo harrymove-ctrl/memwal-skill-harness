@@ -118,11 +118,14 @@ const discTone = (x: number, y: number) => {
 };
 
 /** The disc behind a face, in cells, as one SVG path. */
-const discPath = (face: AvatarFace) => {
+const discPath = (face: AvatarFace, phase = 0) => {
   let d = "";
   for (let y = 0; y < VIEW; y += 1) {
     for (let x = 0; x < VIEW; x += 1) {
-      if (!faceNear(face, x, y) && isInked("bayer4", x, y, discTone(x, y))) {
+      if (
+        !faceNear(face, x, y) &&
+        isInked("bayer4", x + phase * 2, y + phase, discTone(x, y) * (phase ? 1.15 : 1))
+      ) {
         d += `M${x} ${y}h1v1h-1z`;
       }
     }
@@ -171,6 +174,8 @@ interface FacePaths {
   blocks: readonly { opacity: number; d: string }[];
   /** The lit disc behind it. */
   disc: string;
+  /** Phase-shifted secondary dither disc for animated shimmer. */
+  discPulse: string;
 }
 
 const pathCache = new Map<string, FacePaths>();
@@ -202,7 +207,8 @@ const facePaths = (value: string, fill: FillVariant): FacePaths => {
   }
   const paths = {
     blocks: [...groups].map(([opacity, d]) => ({ d, opacity })),
-    disc: discPath(face),
+    disc: discPath(face, 0),
+    discPulse: discPath(face, 1),
   };
   pathCache.set(key, paths);
   return paths;
@@ -291,7 +297,7 @@ export const Avatar = ({
       data-status={status}
       {...props}
       className={cn(
-        "relative inline-flex shrink-0 select-none",
+        "cc-dither-avatar relative inline-flex shrink-0 select-none",
         shape === "circle" ? "rounded-full" : "rounded-[22%]",
         className
       )}
@@ -302,15 +308,38 @@ export const Avatar = ({
         viewBox={`0 0 ${VIEW} ${VIEW}`}
         shapeRendering="crispEdges"
         className={cn(
-          "size-full",
+          "cc-dither-avatar__svg size-full",
           shape === "circle" ? "rounded-full" : "rounded-[22%]"
         )}
         style={bloomStyle(tint, bloom)}
       >
-        <path d={paths.disc} style={{ fill: ink, opacity: 0.6 }} />
-        {paths.blocks.map(({ d, opacity }) => (
-          <path key={opacity} d={d} style={{ fill: ink, opacity }} />
-        ))}
+        <path
+          d={paths.disc}
+          className="cc-dither-avatar__disc"
+          style={{ fill: ink, opacity: 0.62 }}
+        />
+        <path
+          d={paths.discPulse}
+          className="cc-dither-avatar__pulse"
+          style={{ fill: ink, opacity: 0.22 }}
+        />
+        <g className="cc-dither-avatar__face">
+          {paths.blocks.map(({ d, opacity }) => (
+            <path key={opacity} d={d} style={{ fill: ink, opacity }} />
+          ))}
+        </g>
+        <circle
+          cx={VIEW / 2}
+          cy={VIEW / 2}
+          r={VIEW / 2 - 1}
+          fill="none"
+          stroke={ink}
+          strokeWidth="1.15"
+          strokeDasharray="16 84"
+          strokeLinecap="round"
+          className="cc-dither-avatar__rim"
+          style={{ opacity: 0.55, transformOrigin: "50% 50%" }}
+        />
       </svg>
       {status === undefined ? null : (
         <span

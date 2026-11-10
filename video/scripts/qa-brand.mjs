@@ -47,7 +47,7 @@ check("every documented file exists", [
 for (const file of SVGS) {
   const svg = readFileSync(join(BRAND, file), "utf8");
   check(`${file}: no live text or font dependency`, !/<text|font-family|<image|href=/.test(svg));
-  check(`${file}: has an accessible name`, /<title>MemWal Skill Harness<\/title>/.test(svg));
+  check(`${file}: has an accessible name`, /<title>Skillbook<\/title>/.test(svg));
   check(`${file}: under 40 KB`, svg.length < 40_000, svg.length);
 }
 for (const [file, w, h] of [
@@ -110,7 +110,7 @@ const browser = await chromium.launch();
     const sidebar = page.locator('[data-testid="shell-sidebar"] [data-testid="logo-mark"]');
     check(`${theme}: sidebar shows the mark`, await sidebar.isVisible());
     check(`${theme}: 24px uses the small cut`, (await sidebar.getAttribute("data-cut")) === "small");
-    check(`${theme}: sidebar names the product`, (await page.locator(".cc-brand:visible").textContent()).trim() === "Skill Harness");
+    check(`${theme}: sidebar names the product`, (await page.locator(".cc-brand:visible").textContent()).trim() === "Skillbook");
     const color = await sidebar.evaluate((el) => getComputedStyle(el).color);
     check(`${theme}: the mark follows the theme`, color === (theme === "dark" ? "rgb(52, 211, 153)" : "rgb(4, 120, 87)"), color);
     check(`${theme}: decorative beside its name`, (await sidebar.getAttribute("aria-hidden")) === "true");
@@ -121,7 +121,7 @@ const browser = await chromium.launch();
   // Tab tags on the real entry page, and each one resolves.
   await page.goto(`${ORIGIN}/`);
   await page.waitForSelector("#root *");
-  check("the live page title is the product name", (await page.title()) === "MemWal Skill Harness", await page.title());
+  check("the live page title is the product name", (await page.title()) === "Skillbook", await page.title());
   const links = await page.evaluate(() =>
     [...document.querySelectorAll('link[rel="icon"], link[rel="apple-touch-icon"], link[rel="manifest"]')].map((el) => el.getAttribute("href")),
   );
@@ -143,7 +143,7 @@ for (const width of [390, 320]) {
   await page.waitForSelector('[data-testid="app-shell"]');
   const mark = page.locator('[data-testid="shell-topbar"] [data-testid="logo-mark"]');
   check(`${width}px: top bar shows the mark`, await mark.isVisible());
-  check(`${width}px: alone in the bar it carries a name`, (await mark.getAttribute("aria-label")) === "Skill Harness");
+  check(`${width}px: alone in the bar it carries a name`, (await mark.getAttribute("aria-label")) === "Skillbook");
   const overflow = await page.evaluate(() => document.documentElement.scrollWidth - innerWidth);
   check(`${width}px: no overflow`, overflow <= 0, overflow);
   const space = await page.locator('[data-testid="shell-space-trigger"]:visible').boundingBox();
