@@ -7,9 +7,11 @@ Tatum AI Builder App: https://dashboard.tatum.io/ai-builder/skillbook-mcp-rust-p
 GitHub Repository: https://github.com/harrymove-ctrl/memwal-skill-harness
 Demo Video (YouTube): https://youtu.be/65Ky7_SXOZ0
 
-![Skillbook System Architecture across 5 Coding Agents, Walrus Mainnet, Sui, and Tatum (Light Theme)](assets/skillbook-stack-diagram.png)
+![Skillbook Animated Product Walkthrough (GIF)](assets/skillbook-hero-demo.gif)
 
 ![Skillbook System Architecture across 5 Coding Agents, Walrus Mainnet, Sui, and Tatum (Dark Theme)](assets/skillbook-stack-diagram-dark.png)
+
+![Skillbook System Architecture across 5 Coding Agents, Walrus Mainnet, Sui, and Tatum (Light Theme)](assets/skillbook-stack-diagram.png)
 
 ## 1. Why Coding Agents Keep Repeating Yesterday's Bugs
 
@@ -54,6 +56,8 @@ sequenceDiagram
 ```
 
 Here is how that workflow looks across the live application:
+
+![Skillbook /try Animated Demo: Testing Before vs After Code Diff and Inspecting Walruscan Proof (GIF)](assets/skillbook-try-diff.gif)
 
 ![Skillbook /home: 12 Active Team Rules, 1-Click On/Off Toggles, and Live Agent Recall Stream](assets/after-avatars-home-desktop.png)
 
@@ -125,6 +129,8 @@ For local harnesses running on a developer's laptop (Claude Code, Cursor, Codex,
 For cloud builders like Tatum AI Builder (`https://dashboard.tatum.io/ai-builder`), pasting a raw private key into a web preview would expose write access. Instead, Skillbook provides an OpenAPI-documented bridge (`/api/tatum-memwal/recall`, `/api/tatum-memwal/mcp`, and `/api/tatum-memwal/openapi.json`) that strips internal storage prefixes and returns clean rule titles, rationales, Walruscan links, Tatum security status, and before-and-after code examples.
 
 Here is the live execution inside Tatum AI Builder (`Skillbook MCP Rust Pattern Analyzer`):
+
+![Tatum AI Builder Animated Live Execution: Connecting to Skillbook Walrus Bridge and Rendering 12 Rules (GIF)](assets/skillbook-tatum-ai-builder.gif)
 
 ![Step 1: Prompting Tatum AI Builder to Connect to Skillbook's Live Recall Bridge on Railway](assets/tatum-ai-01-prompt.png)
 

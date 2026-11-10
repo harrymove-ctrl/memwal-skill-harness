@@ -13,9 +13,14 @@ Built by Harry Phan (`phanhoangvinhhien@gmail.com`) for the Walrus and Tatum Tot
 2. Demo Video (YouTube, 2:56): https://youtu.be/65Ky7_SXOZ0
 3. Tatum AI Builder App: https://dashboard.tatum.io/ai-builder/skillbook-mcp-rust-pattern-analyz-31177f?productId=6a228877df9fc562405f2e04&chat=ses_e3b4143bbffejlA8wivSsQKoJW
 4. Submission Blog Post: [docs/SUBMISSION_BLOG_POST.md](docs/SUBMISSION_BLOG_POST.md)
-5. Submission Form Copy Blocks: [docs/SUBMISSION_FORM.md](docs/SUBMISSION_FORM.md)
+5. X Article Blog Post: [docs/X_BLOG_POST.md](docs/X_BLOG_POST.md)
+6. Submission Form Copy Blocks: [docs/SUBMISSION_FORM.md](docs/SUBMISSION_FORM.md)
+
+![Skillbook Animated Product Walkthrough](docs/assets/skillbook-hero-demo.gif)
 
 ![Skillbook Architecture](docs/assets/skillbook-stack-diagram-dark.png)
+
+![Skillbook Running Live Inside Tatum AI Builder](docs/assets/skillbook-tatum-ai-builder.gif)
 
 ## How Skillbook Works
 
